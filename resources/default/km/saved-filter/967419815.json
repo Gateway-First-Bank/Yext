@@ -1,0 +1,21 @@
+{
+  "$id": "967419815",
+  "$schema": "https://schema.yext.com/config/km/saved-filter/v1",
+  "name": "Active locations but marked as closed",
+  "filter": {
+    "entityField": [
+      {
+        "fieldId": "closed",
+        "searchBool": "TRUE"
+      }
+    ],
+    "labels": [
+      {
+        "labelId": [
+          "139381"
+        ],
+        "type": "NOT_INCLUDES"
+      }
+    ]
+  }
+}

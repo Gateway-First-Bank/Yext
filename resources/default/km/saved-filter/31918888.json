@@ -1,0 +1,19 @@
+{
+  "$id": "31918888",
+  "$schema": "https://schema.yext.com/config/km/saved-filter/v1",
+  "name": "Answers - LOs",
+  "filter": {
+    "entityField": [
+      {
+        "fieldId": "c_activeOnAnswers",
+        "searchBool": "TRUE"
+      }
+    ],
+    "inFolders": [
+      "281736"
+    ],
+    "notInFolders": [
+      "286458"
+    ]
+  }
+}

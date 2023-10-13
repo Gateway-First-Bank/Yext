@@ -1,0 +1,378 @@
+{
+  "$id": "arrive-decree-estate-4d7d4",
+  "$schema": "https://schema.yext.com/config/pages/page-builder-template/v1",
+  "PageSetType": "TEMPLATE",
+  "Name": "Gateway Answers",
+  "EntityTypeName": "location",
+  "PageSetConfig": {
+    "Analytics": {
+      "Cookies": {
+        "Script": "",
+        "Status": "ALWAYS_ON"
+      },
+      "Pixel": {
+        "Script": "",
+        "Status": "ALWAYS_ON"
+      }
+    },
+    "ContentMapping": {
+      "ModuleMappings": [
+        {
+          "ContentMapEntries": [
+            {
+              "ExternalEntityId": "",
+              "ImageUrl": "https://a.mktgcdn.com/p/__ML9wkNG2C5E0ijkuEdAWJz5EZ2pupxOhcM7JD4wmQ/300x68.png",
+              "InputType": "CONSTANT",
+              "Sink": "logo"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "logoUrl"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "CONSTANT",
+              "Sink": "link1Text",
+              "StringValue": "PERSONAL BANKING"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "CONSTANT",
+              "Sink": "link1Url",
+              "StringValue": "https://www.gatewayfirst.com/#_"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "CONSTANT",
+              "Sink": "link2Text",
+              "StringValue": "BUSINESS BANKING"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "CONSTANT",
+              "Sink": "link2Url",
+              "StringValue": "https://www.gatewayfirst.com/"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "CONSTANT",
+              "Sink": "link3Text",
+              "StringValue": "ABOUT US"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "CONSTANT",
+              "Sink": "link3Url",
+              "StringValue": "https://www.gatewayfirst.com/ABOUT-US"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "CONSTANT",
+              "Sink": "link4Text",
+              "StringValue": "RESOURCES"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "CONSTANT",
+              "Sink": "link4Url",
+              "StringValue": "https://www.gatewayfirst.com/"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "CONSTANT",
+              "Sink": "link5Text",
+              "StringValue": "MORTGAGE"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "CONSTANT",
+              "Sink": "link5Url",
+              "StringValue": "https://www.gatewayfirst.com/mortgage"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "CONSTANT",
+              "Sink": "link6Text",
+              "StringValue": ""
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "CONSTANT",
+              "Sink": "link6Url",
+              "StringValue": ""
+            }
+          ],
+          "DefaultScss": ".module-navbar {\n\tpadding: 0;\n}\n\n.module-navbar .navbar-brand img {\n\theight: 50px; //height of the logo\n}\n\n.nav-link {\n    margin: 0 15px;\n}\n",
+          "Js": "",
+          "ListParamEntries": [],
+          "ModuleId": "HHKmT_5gkS",
+          "Scss": ".navbar {\n   background: #FFFFFF;\n}\n\n.module-navbar {\n\tpadding: 0;\n}\n\n.module-navbar .navbar-brand img {\n\theight: 50px; //height of the logo\n}\n\n.nav-item {\n    font-weight: 400;\n    color: #000000;\n    font-size: 16px;\n    padding-left: 30px;\n    paddiing-right: 30px;\n    padding-top: 28px;\n    padding-bottom: 20px;\n}\n\n.nav-link {\n    margin: 0 15px;\n}\n\n.nav-item:hover {\n    color:#E65400;\n}\n"
+        },
+        {
+          "ContentMapEntries": [
+            {
+              "ExternalEntityId": "",
+              "InputType": "CONSTANT",
+              "Sink": "caption",
+              "StringValue": "©Copyright 2020 Gateway First Bank. All rights reserved."
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "CONSTANT",
+              "Sink": "link1Text",
+              "StringValue": "Make a Mortgage Payment"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "CONSTANT",
+              "Sink": "link1Url",
+              "StringValue": "https://www.gatewayloan.com/my-account/"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "CONSTANT",
+              "Sink": "link2Text",
+              "StringValue": "Fraud \u0026 Cybersecurity"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "CONSTANT",
+              "Sink": "link2Url",
+              "StringValue": "https://www.gatewayfirst.com/RESOURCES/Fraud-and-Cybersecurity"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "CONSTANT",
+              "Sink": "link3Text",
+              "StringValue": "Today\u0027s Rates"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "CONSTANT",
+              "Sink": "link3Url",
+              "StringValue": "https://www.gatewayfirst.com/PERSONAL-BANKING/Rates"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "CONSTANT",
+              "Sink": "link4Text",
+              "StringValue": "Contact Us"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "CONSTANT",
+              "Sink": "link4Url",
+              "StringValue": "https://www.gatewayfirst.com/ABOUT-US/Contact-Us"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "CONSTANT",
+              "Sink": "link5Text",
+              "StringValue": "Privacy Statement"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "CONSTANT",
+              "Sink": "link5Url",
+              "StringValue": "https://www.gatewayfirst.com/Privacy"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "CONSTANT",
+              "Sink": "link6Text",
+              "StringValue": "Terms of Use"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "CONSTANT",
+              "Sink": "link6Url",
+              "StringValue": "https://www.gatewayfirst.com/Terms-of-Use"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "CONSTANT",
+              "Sink": "link7Text",
+              "StringValue": "Careers"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "CONSTANT",
+              "Sink": "link7Url",
+              "StringValue": "https://careers.gatewayfirst.com/"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "SelectedField": [
+                "facebookPageUrl"
+              ],
+              "Sink": "facebook"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "youtube"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "pinterest"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "linkedin"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "SelectedField": [
+                "twitterHandle"
+              ],
+              "Sink": "twitterHandle"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "SelectedField": [
+                "instagramHandle"
+              ],
+              "Sink": "instagramHandle"
+            }
+          ],
+          "DefaultScss": "$background-color: #e9ecef;\n$link-color: #212529;\n$mobile-breakpoint: 768px;\n\nbackground-color: $background-color;\npadding: 2rem 0;\n\n.footer-links {\n    display: flex;\n    justify-content: start;\n    padding-left: 0rem;\n\n    .footer-link {\n        padding: 0rem .5rem;\n        text-decoration: underline;\n        color: $link-color;\n\n        \u0026:first-child {\n            padding-left: 0px;\n        }\n\n        \u0026:hover {\n            text-decoration: none;\n        }\n    }\n}\n\n.col:empty {\n    display: none;\n}\n\n.caption-text {\n    padding-top: 1rem;\n    justify-content: start;\n}\n\n@media (max-width: $mobile-breakpoint) {\n    text-align: center;\n\n    .caption-text {\n        justify-content: center;\n    }\n\n    .footer-links {\n        flex-direction: column;\n        align-items: center;\n\n        .footer-link {\n            padding: 0.5rem 0rem;\n        }\n    }\n}\n\n.social-icon {\n    align-items: center;\n    display: flex;\n    justify-content: center;\n    height: 45px;\n    width: 45px;\n\n    .icon-img {\n        filter: invert(1); // make it black\n    }\n}",
+          "Js": "",
+          "ListParamEntries": [],
+          "ModuleId": "uJ5mTRhm-I",
+          "Scss": "$background-color: #57585c;\n$link-color: #E0E0E0;\n$mobile-breakpoint: 768px;\n\nbackground-color: $background-color;\npadding: 2rem 0;\n\n.footer-links {\n    display: flex;\n    justify-content: start;\n    padding-left: 0rem;\n\n    .footer-link {\n        padding: 0rem .5rem;\n        text-decoration: underline;\n        color: $link-color;\n\n        \u0026:first-child {\n            padding-left: 0px;\n        }\n\n        \u0026:hover {\n            text-decoration: none;\n        }\n    }\n}\n\n.col:empty {\n    display: none;\n}\n\n.caption-text {\n    padding-top: 1rem;\n    justify-content: start;\n    color: #E0E0E0;\n}\n\n@media (max-width: $mobile-breakpoint) {\n    text-align: center;\n\n    .caption-text {\n        justify-content: center;\n    }\n\n    .footer-links {\n        flex-direction: column;\n        align-items: center;\n\n        .footer-link {\n            padding: 0.5rem 0rem;\n        }\n    }\n}\n\n.social-icon {\n    align-items: center;\n    display: flex;\n    justify-content: center;\n    height: 45px;\n    width: 45px;\n\n    .icon-img {\n        filter: invert(1); // make it black\n    }\n}"
+        },
+        {
+          "ContentMapEntries": [
+            {
+              "ExternalEntityId": "",
+              "InputType": "CONSTANT",
+              "Sink": "html",
+              "StringValue": "\u003cdiv id\u003d\"answers-container\"\u003e\u003c/div\u003e\n\u003cscript src\u003d\"https://answers-gatewayfirst.pagescdn.com/answers.js\"\u003e\u003c/script\u003e"
+            }
+          ],
+          "DefaultScss": "",
+          "Js": "",
+          "ListParamEntries": [],
+          "ModuleId": "JHckK_aQ2E",
+          "Scss": ""
+        }
+      ],
+      "ThemeMapping": {
+        "ContentMapEntries": [
+          {
+            "ExternalEntityId": "",
+            "InputType": "",
+            "SelectedField": [
+              "name"
+            ],
+            "Sink": "pageTitle"
+          },
+          {
+            "ExternalEntityId": "",
+            "InputType": "",
+            "SelectedField": [
+              "description"
+            ],
+            "Sink": "metaDescription"
+          },
+          {
+            "ExternalEntityId": "",
+            "InputType": "",
+            "Sink": "metaKeywords"
+          },
+          {
+            "ExternalEntityId": "",
+            "InputType": "",
+            "Sink": "conversionTracking",
+            "StringValue": ""
+          }
+        ],
+        "DefaultScss": "$web-font-path: \"https://fonts.googleapis.com/css?family\u003dSource+Sans+Pro:300,400,700\" !default;\r\n@import url($web-font-path);\r\n\r\n\r\n$white:    #fff !default;\r\n$gray-100: #f8f9fa !default;\r\n$gray-200: #e9ecef !default;\r\n$gray-300: #dee2e6 !default;\r\n$gray-400: #ced4da !default;\r\n$gray-500: #adb5bd !default;\r\n$gray-600: #868e96 !default;\r\n$gray-700: #495057 !default;\r\n$gray-800: #373a3c !default;\r\n$gray-900: #212529 !default;\r\n$black:    #000 !default;\r\n\r\n$blue:    #2780E3 !default;\r\n$indigo:  #6610f2 !default;\r\n$purple:  #613d7c !default;\r\n$pink:    #e83e8c !default;\r\n$red:     #FF0039 !default;\r\n$orange:  #f0ad4e !default;\r\n$yellow:  #FF7518 !default;\r\n$green:   #3FB618 !default;\r\n$teal:    #20c997 !default;\r\n$cyan:    #9954BB !default;\r\n\r\n$primary:       $blue !default;\r\n$secondary:     $gray-800 !default;\r\n$success:       $green !default;\r\n$info:          $cyan !default;\r\n$warning:       $yellow !default;\r\n$danger:        $red !default;\r\n$light:         $gray-100 !default;\r\n$dark:          $gray-800 !default;\r\n\r\n// Options\r\n\r\n$enable-rounded: false !default;\r\n\r\n// Body\r\n\r\n$body-color:    $gray-800 !default;\r\n\r\n// Fonts\r\n\r\n$font-family-sans-serif: \"Segoe UI\", \"Source Sans Pro\", Calibri, Candara, Arial, sans-serif !default;\r\n\r\n$font-size-base: 0.9375rem !default;\r\n\r\n$headings-font-weight:   300 !default;\r\n\r\n// Navbar\r\n\r\n$navbar-dark-hover-color:           rgba($white,1) !default;\r\n\r\n$navbar-light-hover-color:          rgba($black,.9) !default;\r\n\r\n// Alerts\r\n\r\n$alert-border-width:                0 !default;\r\n\r\n// Progress bars\r\n\r\n$progress-height:               0.5rem !default;\r\n\r\n@import \"bootstrap\";\r\n\r\n\r\nbody {\r\n  -webkit-font-smoothing: antialiased;\r\n}\r\n\r\n",
+        "Js": "",
+        "Scss": "$web-font-path: \"https://fonts.googleapis.com/css?family\u003dSource+Sans+Pro:300,400,700\" !default;\r\n@import url($web-font-path);\r\n\r\n\r\n$white:    #fff !default;\r\n$gray-100: #f8f9fa !default;\r\n$gray-200: #e9ecef !default;\r\n$gray-300: #dee2e6 !default;\r\n$gray-400: #ced4da !default;\r\n$gray-500: #adb5bd !default;\r\n$gray-600: #868e96 !default;\r\n$gray-700: #495057 !default;\r\n$gray-800: #373a3c !default;\r\n$gray-900: #212529 !default;\r\n$black:    #000 !default;\r\n\r\n$blue:    #2780E3 !default;\r\n$indigo:  #6610f2 !default;\r\n$purple:  #613d7c !default;\r\n$pink:    #e83e8c !default;\r\n$red:     #FF0039 !default;\r\n$orange:  #f0ad4e !default;\r\n$yellow:  #FF7518 !default;\r\n$green:   #3FB618 !default;\r\n$teal:    #20c997 !default;\r\n$cyan:    #9954BB !default;\r\n\r\n$primary:       $blue !default;\r\n$secondary:     $gray-800 !default;\r\n$success:       $green !default;\r\n$info:          $cyan !default;\r\n$warning:       $yellow !default;\r\n$danger:        $red !default;\r\n$light:         $gray-100 !default;\r\n$dark:          $gray-800 !default;\r\n\r\n// Options\r\n\r\n$enable-rounded: false !default;\r\n\r\n// Body\r\n\r\n$body-color:    $gray-800 !default;\r\n\r\n// Fonts\r\n\r\n$font-family-sans-serif: \"Segoe UI\", \"Source Sans Pro\", Calibri, Candara, Arial, sans-serif !default;\r\n\r\n$font-size-base: 0.9375rem !default;\r\n\r\n$headings-font-weight:   300 !default;\r\n\r\n// Navbar\r\n\r\n$navbar-dark-hover-color:           rgba($white,1) !default;\r\n\r\n$navbar-light-hover-color:          rgba($black,.9) !default;\r\n\r\n// Alerts\r\n\r\n$alert-border-width:                0 !default;\r\n\r\n// Progress bars\r\n\r\n$progress-height:               0.5rem !default;\r\n\r\n@import \"bootstrap\";\r\n\r\n\r\nbody {\r\n  -webkit-font-smoothing: antialiased;\r\n}\r\n\r\n"
+      }
+    },
+    "DesignParameterConfig": {
+      "BodyFont": {
+        "Alignment": "",
+        "Color": "",
+        "FontFamily": "",
+        "FontWeight": 0,
+        "LineHeight": 0,
+        "TextScale": "",
+        "TextTransform": "",
+        "Uppercase": false
+      },
+      "Buttons": {
+        "Font": {
+          "Alignment": "",
+          "Color": "",
+          "FontFamily": "",
+          "FontWeight": 0,
+          "LineHeight": 0,
+          "TextScale": "",
+          "TextTransform": "",
+          "Uppercase": false
+        },
+        "LetterSpacing": "",
+        "Padding": "",
+        "Radius": 0,
+        "Rounded": false,
+        "Uppercase": false
+      },
+      "Colors": {
+        "Background": "",
+        "Primary": "",
+        "Secondary": ""
+      },
+      "HeaderFont": {
+        "Alignment": "",
+        "Color": "",
+        "FontFamily": "",
+        "FontWeight": 0,
+        "LineHeight": 0,
+        "TextScale": "",
+        "TextTransform": "",
+        "Uppercase": false
+      },
+      "Other": {
+        "MaxWidth": 0,
+        "SectionSpacing": "",
+        "Spacer": 0
+      }
+    },
+    "FooterHtml": "",
+    "HeaderHtml": "",
+    "ModuleInstances": [
+      {
+        "DisplayNameOverride": "",
+        "Id": "HHKmT_5gkS",
+        "Module": "nav_bar",
+        "Version": 42
+      },
+      {
+        "DisplayNameOverride": "",
+        "Id": "JHckK_aQ2E",
+        "Module": "html",
+        "Version": 13
+      },
+      {
+        "DisplayNameOverride": "",
+        "Id": "uJ5mTRhm-I",
+        "Module": "footer",
+        "Version": 51
+      }
+    ],
+    "Path": "",
+    "Schema": "",
+    "TemplateConfig": {},
+    "Theme": "cosmo",
+    "ThemeVersion": 17
+  }
+}

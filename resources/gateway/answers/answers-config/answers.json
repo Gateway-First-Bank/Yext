@@ -1,0 +1,165 @@
+{
+  "$schema": "https://schema.yext.com/config/answers/answers-config/v1",
+  "$id": "gateway_answers",
+  "name": "Gateway Answers",
+  "supportedLocales": [],
+  "countryRestrictions": [],
+  "verticals": {
+    "Branches": {
+      "entityTypes": [
+        "location"
+      ],
+      "name": "Branches",
+      "savedSearchId": "31913489",
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "builtin.location": {
+          "nlpFilter": true
+        }
+      },
+      "sortBys": [],
+      "source": "YEXT",
+      "verticalIntents": {
+        "blacklistedIntents": [],
+        "boostingIntents": []
+      }
+    },
+    "FAQs": {
+      "entityTypes": [
+        "faq"
+      ],
+      "name": "FAQs",
+      "searchableFields": {
+        "c_answersKeywords": {
+          "nlpFilter": true
+        },
+        "name": {
+          "textSearch": true
+        }
+      },
+      "sortBys": [],
+      "source": "YEXT",
+      "verticalIntents": {
+        "blacklistedIntents": [],
+        "boostingIntents": []
+      }
+    },
+    "Loan_Officers": {
+      "entityTypes": [
+        "location"
+      ],
+      "name": "Loan Officers",
+      "savedSearchId": "31918888",
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "builtin.location": {
+          "nlpFilter": true
+        },
+        "c_answersFirstName": {
+          "nlpFilter": true
+        },
+        "c_answersKeywords": {
+          "nlpFilter": true
+        },
+        "c_answersLastName": {
+          "nlpFilter": true
+        },
+        "name": {
+          "nlpFilter": true
+        }
+      },
+      "sortBys": [],
+      "source": "YEXT",
+      "verticalIntents": {
+        "blacklistedIntents": [],
+        "boostingIntents": [
+          {
+            "boost": 50,
+            "phrase": "mortgage officers"
+          },
+          {
+            "boost": 50,
+            "phrase": "mortgage officer"
+          },
+          {
+            "boost": 50,
+            "phrase": "loan officer"
+          },
+          {
+            "boost": 50,
+            "phrase": "loan officers"
+          },
+          {
+            "boost": 50,
+            "phrase": "lo"
+          },
+          {
+            "boost": 50,
+            "phrase": "mlo"
+          },
+          {
+            "boost": 50,
+            "phrase": "mlos"
+          }
+        ]
+      }
+    },
+    "links": {
+      "apiKey": "AIzaSyCEzQfbHFq3nqinD29QgmS-fIFtx0AzFqw",
+      "baseScore": -50,
+      "cx": "017907380905824220375:qnrzcox76vs",
+      "name": "Links",
+      "semanticVerticalIntents": [],
+      "siteRestricted": false,
+      "source": "GOOGLE_CSE",
+      "useSynonyms": "ALL_SYNONYMS"
+    }
+  },
+  "autocomplete": {
+    "disablePopularQueries": false,
+    "hardcodedPrompts": [
+      "Branch near me",
+      "Loan officer near me"
+    ]
+  },
+  "synonyms": {
+    "oneWay": [],
+    "synonymSet": [
+      [
+        "location",
+        "locations",
+        "branch",
+        "branches",
+        "bank",
+        "banks"
+      ],
+      [
+        "mortgage loan officer",
+        "mortgage loan officers",
+        "mortgage loan originator",
+        "mortgage loan originators",
+        "mlo",
+        "loan officer",
+        "loan officers"
+      ],
+      [
+        "relief",
+        "forebearance",
+        "online forebearance enrollment"
+      ],
+      [
+        "covid",
+        "covid-19",
+        "covid19",
+        "coronavirus"
+      ]
+    ],
+    "normalization": []
+  },
+  "localizations": {},
+  "additionalSearchablePlaces": []
+}

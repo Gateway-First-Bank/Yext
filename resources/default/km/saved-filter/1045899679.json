@@ -1,0 +1,13 @@
+{
+  "$id": "1045899679",
+  "$schema": "https://schema.yext.com/config/km/saved-filter/v1",
+  "name": "Active LOs",
+  "filter": {
+    "inFolders": [
+      "281736"
+    ],
+    "notInFolders": [
+      "286458"
+    ]
+  }
+}

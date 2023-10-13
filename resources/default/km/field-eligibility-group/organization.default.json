@@ -1,0 +1,11 @@
+{
+  "$id": "organization.default",
+  "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
+  "name": "Organization-default",
+  "entityType": "organization",
+  "fields": [
+    "c_employeeID",
+    "c_exemptFromETL"
+  ],
+  "required": []
+}

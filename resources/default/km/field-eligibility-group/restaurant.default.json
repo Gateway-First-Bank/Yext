@@ -1,0 +1,12 @@
+{
+  "$id": "restaurant.default",
+  "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
+  "name": "Restaurant-default",
+  "entityType": "restaurant",
+  "fields": [
+    "c_employeeID",
+    "c_exemptFromETL",
+    "c_googleUTM"
+  ],
+  "required": []
+}

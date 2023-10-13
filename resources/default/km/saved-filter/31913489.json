@@ -1,0 +1,16 @@
+{
+  "$id": "31913489",
+  "$schema": "https://schema.yext.com/config/km/saved-filter/v1",
+  "name": "Answers - Locations",
+  "filter": {
+    "entityField": [
+      {
+        "fieldId": "c_activeOnAnswers",
+        "searchBool": "TRUE"
+      }
+    ],
+    "inFolders": [
+      "281735"
+    ]
+  }
+}

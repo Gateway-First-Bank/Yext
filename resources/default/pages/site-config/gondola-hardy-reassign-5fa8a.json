@@ -1,0 +1,11 @@
+{
+  "$id": "gondola-hardy-reassign-5fa8a",
+  "$schema": "https://schema.yext.com/config/pages/site-config/v1",
+  "siteName": "Unassigned Page Builder Templates",
+  "features": [
+    {
+      "featureType": "SELF_SERVE_PAGE_SET",
+      "feature": "arrive-decree-estate-4d7d4"
+    }
+  ]
+}

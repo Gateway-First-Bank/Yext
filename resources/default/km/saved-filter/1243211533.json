@@ -1,0 +1,25 @@
+{
+  "$id": "1243211533",
+  "$schema": "https://schema.yext.com/config/km/saved-filter/v1",
+  "name": "Mis-named active entities",
+  "filter": {
+    "entityField": [
+      {
+        "fieldId": "name",
+        "text": {
+          "search": [
+            "gateway"
+          ],
+          "type": "DOES_NOT_CONTAIN"
+        }
+      }
+    ],
+    "inFolders": [
+      "281736",
+      "281735"
+    ],
+    "notInFolders": [
+      "286458"
+    ]
+  }
+}

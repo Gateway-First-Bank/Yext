@@ -1,0 +1,6 @@
+{
+  "$id": "385918",
+  "$schema": "https://schema.yext.com/config/km/entity-folder/v1",
+  "name": "Bankers",
+  "parent": "yext/root"
+}

@@ -1,0 +1,22 @@
+{
+  "$id": "location.default",
+  "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
+  "name": "Location-default",
+  "entityType": "location",
+  "fields": [
+    "c_activeOnAnswers",
+    "c_answersFirstName",
+    "c_answersKeywords",
+    "c_answersLastName",
+    "c_answersName",
+    "c_ctas",
+    "c_employeeID",
+    "c_exemptFromETL",
+    "c_googleUTM",
+    "c_nMLS",
+    "c_relatedLoanOfficers",
+    "c_relatedLocation",
+    "c_title"
+  ],
+  "required": []
+}

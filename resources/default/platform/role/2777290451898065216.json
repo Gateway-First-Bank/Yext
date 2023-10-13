@@ -1,0 +1,33 @@
+{
+  "$id": "2777290451898065216",
+  "$schema": "https://schema.yext.com/config/platform/role/v1",
+  "name": "LO Assistant User - Reviews",
+  "description": "User Role for LO Assistants",
+  "permissionIds": [
+    11257,
+    117,
+    24,
+    263,
+    268,
+    295,
+    296,
+    308,
+    310,
+    366,
+    367,
+    368,
+    372,
+    373,
+    374,
+    375,
+    502,
+    503,
+    504,
+    512,
+    523,
+    524,
+    553,
+    6
+  ],
+  "availableToSubAccounts": false
+}

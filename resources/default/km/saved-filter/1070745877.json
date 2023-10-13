@@ -1,0 +1,26 @@
+{
+  "$id": "1070745877",
+  "$schema": "https://schema.yext.com/config/km/saved-filter/v1",
+  "name": "Locations missing a description",
+  "filter": {
+    "entityField": [
+      {
+        "fieldId": "description",
+        "text": {
+          "search": [
+            "gateway"
+          ],
+          "type": "DOES_NOT_CONTAIN"
+        }
+      }
+    ],
+    "labels": [
+      {
+        "labelId": [
+          "139381"
+        ],
+        "type": "NOT_INCLUDES"
+      }
+    ]
+  }
+}
