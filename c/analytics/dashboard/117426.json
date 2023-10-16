@@ -1,0 +1,41 @@
+{
+  "$id": "c_117426",
+  "$schema": "https://schema.yext.com/config/analytics/dashboard/v1",
+  "name": "Yext Example Dashboard",
+  "insights": [
+    {
+      "insight": "TOTAL-LISTINGS-CLICKS-TABLE",
+      "x": 0,
+      "y": 0,
+      "width": 2,
+      "height": 1
+    },
+    {
+      "insight": "TOTAL-LISTINGS-IMPRESSIONS-TABLE",
+      "x": 2,
+      "y": 0,
+      "width": 2,
+      "height": 1
+    },
+    {
+      "insight": "GOOGLE-CUSTOMER-ACTIONS",
+      "x": 4,
+      "y": 0,
+      "width": 2,
+      "height": 1
+    },
+    {
+      "insight": "SEARCHES-BY-DAY",
+      "x": 0,
+      "y": 1,
+      "width": 2,
+      "height": 1
+    }
+  ],
+  "filters": [
+    {
+      "filter": "yext/date",
+      "in": "WEEKS_12"
+    }
+  ]
+}
