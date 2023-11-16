@@ -11,7 +11,7 @@ The custom typescript functions live here:
     - splitAndCleanAddress
 
 
-## gatewayFunctions
+## gatewayFunctions plug-in
 
 **function lookupAddress :** This function is used by the Loan Officer connector to retrieve the address information for their corresponding mortgage center. It depends on a Yext API connection.
 
@@ -19,6 +19,6 @@ The custom typescript functions live here:
 
 **function checkDateDifference :** returns a boolean if the closed date of an entity is past X days so that the license field can be set to false. (used to reclaim licenses by the license connector)
 
-## splitAndCleanAddress
+## splitAndCleanAddress plug-in
 
 This is a yext function pulled from their sample repo. It normalizes addresses and splits addresses to 2 lines when an address line 1 contains suite, appt., etc.
