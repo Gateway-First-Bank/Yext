@@ -3,7 +3,6 @@
   "$schema": "https://schema.yext.com/config/km/entity-template/v2",
   "content": {
     "c_googleUTM": "?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
-    "categories": null,
     "description": "At Gateway, we weave the knowledge and expertise of our local mortgage professionals together with state-of-the-art technology and the powerful resources of a national company to make your homebuying experience easy, reliable, and fast. Gateway’s focus on strengthening families through homeownership drives our commitment to the communities we serve. Visit www.GatewayLoan.com to learn more.",
     "facebookCallToAction": {
       "type": "LEARN_MORE",
@@ -11,29 +10,15 @@
     },
     "facebookCoverPhoto": {
       "height": 360,
+      "sourceUrl": "http://a.mktgcdn.com/p/epYKKNxNwyjry_BWUBHFEvOIaDKhVpWWecVZ6zKPFVg/820x360.png",
       "thumbnails": [
         {
           "height": 360,
-          "url": "http://a.mktgcdn.com/p/epYKKNxNwyjry_BWUBHFEvOIaDKhVpWWecVZ6zKPFVg/820x360.png",
+          "url": "http://a.mktgcdn.com/p-sandbox/9f-qb9VwofS7e-v04ypvfEAs19mY4tk8S9oN3WAMZOs/820x360.png",
           "width": 820
-        },
-        {
-          "height": 272,
-          "url": "http://a.mktgcdn.com/p/epYKKNxNwyjry_BWUBHFEvOIaDKhVpWWecVZ6zKPFVg/619x272.png",
-          "width": 619
-        },
-        {
-          "height": 263,
-          "url": "http://a.mktgcdn.com/p/epYKKNxNwyjry_BWUBHFEvOIaDKhVpWWecVZ6zKPFVg/600x263.png",
-          "width": 600
-        },
-        {
-          "height": 86,
-          "url": "http://a.mktgcdn.com/p/epYKKNxNwyjry_BWUBHFEvOIaDKhVpWWecVZ6zKPFVg/196x86.png",
-          "width": 196
         }
       ],
-      "url": "http://a.mktgcdn.com/p/epYKKNxNwyjry_BWUBHFEvOIaDKhVpWWecVZ6zKPFVg/820x360.png",
+      "url": "http://a.mktgcdn.com/p-sandbox/9f-qb9VwofS7e-v04ypvfEAs19mY4tk8S9oN3WAMZOs/820x360.png",
       "width": 820
     },
     "facebookLinkedAccount": null,
@@ -41,24 +26,15 @@
     "facebookParentPageId": "141088722606932",
     "facebookProfilePhoto": {
       "height": 1080,
+      "sourceUrl": "http://a.mktgcdn.com/p/REVdgEFvtTDRndMvX6Kv_TE7Uv_TRnXuaF9C31PRU_Y/1080x1080.png",
       "thumbnails": [
         {
-          "height": 619,
-          "url": "http://a.mktgcdn.com/p/REVdgEFvtTDRndMvX6Kv_TE7Uv_TRnXuaF9C31PRU_Y/619x619.png",
-          "width": 619
-        },
-        {
-          "height": 450,
-          "url": "http://a.mktgcdn.com/p/REVdgEFvtTDRndMvX6Kv_TE7Uv_TRnXuaF9C31PRU_Y/450x450.png",
-          "width": 450
-        },
-        {
-          "height": 196,
-          "url": "http://a.mktgcdn.com/p/REVdgEFvtTDRndMvX6Kv_TE7Uv_TRnXuaF9C31PRU_Y/196x196.png",
-          "width": 196
+          "height": 1080,
+          "url": "http://a.mktgcdn.com/p-sandbox/REVdgEFvtTDRndMvX6Kv_TE7Uv_TRnXuaF9C31PRU_Y/1080x1080.png",
+          "width": 1080
         }
       ],
-      "url": "http://a.mktgcdn.com/p/REVdgEFvtTDRndMvX6Kv_TE7Uv_TRnXuaF9C31PRU_Y/1080x1080.png",
+      "url": "http://a.mktgcdn.com/p-sandbox/REVdgEFvtTDRndMvX6Kv_TE7Uv_TRnXuaF9C31PRU_Y/1080x1080.png",
       "width": 1080
     },
     "featuredMessage": {

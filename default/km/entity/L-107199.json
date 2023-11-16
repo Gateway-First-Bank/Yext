@@ -1,0 +1,93 @@
+{
+  "$id": "L-107199",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "address": {
+      "city": "Westminster",
+      "countryCode": "US",
+      "line1": "1499 W. 120th Ave.",
+      "line2": "Ste. 120",
+      "postalCode": "80234",
+      "region": "CO"
+    },
+    "c_Licensed": true,
+    "c_answersFirstName": "Michael",
+    "c_answersLastName": "Bass",
+    "c_eTLClosedDate": "2023-11-04",
+    "c_googleUTM": "?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
+    "c_nMLS": "1153504",
+    "c_title": "Loan Originator",
+    "categoryIds": [
+      "1718"
+    ],
+    "closed": true,
+    "facebookParentPageId": "141088722606932",
+    "facebookVanityUrl": "GatewayMortgage[[c_answersFirstName]][[c_answersLastName]]",
+    "googleAccountId": "106465598282274804591",
+    "hours": {
+      "friday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "monday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "saturday": {
+        "isClosed": true
+      },
+      "sunday": {
+        "isClosed": true
+      },
+      "thursday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "tuesday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "wednesday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      }
+    },
+    "mainPhone": "+17202597549",
+    "mobilePhone": "+18172533325",
+    "name": "Michael Bass",
+    "photoGallery": [
+      {
+        "image": {
+          "url": "http://a.mktgcdn.com/p-sandbox/ByL52_cpGnvPlMxPBm28ZIT9uMML9qk3_JsOJU2Yul8/400x400.png"
+        }
+      }
+    ],
+    "timezone": "America/Denver"
+  },
+  "entityType": "location",
+  "folder": "inactive",
+  "labels": [
+    "139381"
+  ]
+}

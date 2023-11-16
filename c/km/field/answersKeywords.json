@@ -1,6 +1,7 @@
 {
   "$id": "c_answersKeywords",
   "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "",
   "displayName": "Answers Keywords",
   "group": "GROUP1",
   "localization": "PRIMARY_ONLY",

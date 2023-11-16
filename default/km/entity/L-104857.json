@@ -1,0 +1,94 @@
+{
+  "$id": "L-104857",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "address": {
+      "city": "Glendale",
+      "countryCode": "US",
+      "line1": "17235 N. 75th Ave.",
+      "line2": "Ste. D-135",
+      "postalCode": "85308",
+      "region": "AZ"
+    },
+    "c_Licensed": true,
+    "c_answersFirstName": "Lorena",
+    "c_answersLastName": "Sandoval",
+    "c_eTLClosedDate": "2023-11-04",
+    "c_googleUTM": "?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
+    "c_nMLS": "200914",
+    "c_title": "Loan Originator",
+    "categoryIds": [
+      "1718"
+    ],
+    "closed": true,
+    "facebookParentPageId": "141088722606932",
+    "facebookVanityUrl": "GatewayMortgage[[c_answersFirstName]][[c_answersLastName]]",
+    "fax": "+16027530774",
+    "googleAccountId": "106465598282274804591",
+    "hours": {
+      "friday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "monday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "saturday": {
+        "isClosed": true
+      },
+      "sunday": {
+        "isClosed": true
+      },
+      "thursday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "tuesday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "wednesday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      }
+    },
+    "mainPhone": "+16027530772",
+    "mobilePhone": "+16023804722",
+    "name": "Lorena Sandoval",
+    "photoGallery": [
+      {
+        "image": {
+          "url": "http://a.mktgcdn.com/p-sandbox/ByL52_cpGnvPlMxPBm28ZIT9uMML9qk3_JsOJU2Yul8/400x400.png"
+        }
+      }
+    ],
+    "timezone": "America/Phoenix"
+  },
+  "entityType": "location",
+  "folder": "inactive",
+  "labels": [
+    "139381"
+  ]
+}

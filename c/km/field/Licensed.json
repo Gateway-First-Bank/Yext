@@ -1,0 +1,12 @@
+{
+  "$id": "c_Licensed",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "Used to automatically add/remove licenses by the ETL and Automatic License Assignment",
+  "displayName": "Licensed",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "booleanType": {}
+  },
+  "typeId": "boolean"
+}

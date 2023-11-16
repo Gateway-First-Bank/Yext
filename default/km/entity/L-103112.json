@@ -1,0 +1,94 @@
+{
+  "$id": "L-103112",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "address": {
+      "city": "Dallas",
+      "countryCode": "US",
+      "line1": "18583 Dallas Pkwy",
+      "line2": "Ste. 250",
+      "postalCode": "75287",
+      "region": "TX"
+    },
+    "c_Licensed": true,
+    "c_answersFirstName": "Victor",
+    "c_answersLastName": "Carranza",
+    "c_eTLClosedDate": "2023-11-08",
+    "c_googleUTM": "?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
+    "c_nMLS": "1001430",
+    "c_title": "Loan Originator Consumer Direct",
+    "categoryIds": [
+      "1718"
+    ],
+    "closed": true,
+    "facebookParentPageId": "141088722606932",
+    "facebookVanityUrl": "GatewayMortgage[[c_answersFirstName]][[c_answersLastName]]",
+    "fax": "+19723722604",
+    "googleAccountId": "106465598282274804591",
+    "hours": {
+      "friday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "monday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "saturday": {
+        "isClosed": true
+      },
+      "sunday": {
+        "isClosed": true
+      },
+      "thursday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "tuesday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "wednesday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      }
+    },
+    "mainPhone": "+19723722603",
+    "mobilePhone": "+14692670526",
+    "name": "Victor Carranza",
+    "photoGallery": [
+      {
+        "image": {
+          "url": "http://a.mktgcdn.com/p-sandbox/ByL52_cpGnvPlMxPBm28ZIT9uMML9qk3_JsOJU2Yul8/400x400.png"
+        }
+      }
+    ],
+    "timezone": "America/Chicago"
+  },
+  "entityType": "location",
+  "folder": "inactive",
+  "labels": [
+    "139381"
+  ]
+}

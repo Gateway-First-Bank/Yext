@@ -1,0 +1,2866 @@
+{
+  "$id": "LoanOfficerUpdate",
+  "$schema": "https://schema.yext.com/config/km/connector/v4",
+  "displayName": "LoanOfficerUpdate",
+  "entityTypes": [
+    "location"
+  ],
+  "source": {
+    "sourceConfig": {
+      "ftpConfig": {
+        "protocol": "SFTP",
+        "host": "s-6e3385770a6946b9a.server.transfer.us-east-1.amazonaws.com",
+        "port": 22,
+        "username": "gw-yext-connector",
+        "credential": {
+          "sshPrivateKey": "${{km/connector.LoanOfficerUpdate.ssh_private_key}}"
+        },
+        "fileLocation": {
+          "exactFilePath": "LOwebsiteExport.csv"
+        },
+        "dataFormat": "CSV",
+        "config": {
+          "csv": {
+            "columnDelimiter": ",",
+            "hasHeader": true
+          }
+        }
+      }
+    },
+    "selectors": [
+      {
+        "type": "COLUMN",
+        "header": "__id",
+        "column": {
+          "header": "__id"
+        }
+      },
+      {
+        "type": "COLUMN",
+        "header": "|__type",
+        "column": {
+          "header": "|__type"
+        }
+      },
+      {
+        "type": "COLUMN",
+        "header": "|__nmls_id",
+        "column": {
+          "header": "|__nmls_id"
+        }
+      },
+      {
+        "type": "COLUMN",
+        "header": "|__user_id",
+        "column": {
+          "header": "|__user_id"
+        }
+      },
+      {
+        "type": "COLUMN",
+        "header": "|__name",
+        "column": {
+          "header": "|__name"
+        }
+      },
+      {
+        "type": "COLUMN",
+        "header": "|__title",
+        "column": {
+          "header": "|__title"
+        }
+      },
+      {
+        "type": "COLUMN",
+        "header": "|__address1",
+        "column": {
+          "header": "|__address1"
+        }
+      },
+      {
+        "type": "COLUMN",
+        "header": "|__address2",
+        "column": {
+          "header": "|__address2"
+        }
+      },
+      {
+        "type": "COLUMN",
+        "header": "|__city",
+        "column": {
+          "header": "|__city"
+        }
+      },
+      {
+        "type": "COLUMN",
+        "header": "|__state",
+        "column": {
+          "header": "|__state"
+        }
+      },
+      {
+        "type": "COLUMN",
+        "header": "|__zip",
+        "column": {
+          "header": "|__zip"
+        }
+      },
+      {
+        "type": "COLUMN",
+        "header": "|__fax",
+        "column": {
+          "header": "|__fax"
+        }
+      },
+      {
+        "type": "COLUMN",
+        "header": "|__phone",
+        "column": {
+          "header": "|__phone"
+        }
+      },
+      {
+        "type": "COLUMN",
+        "header": "|__direct_phone",
+        "column": {
+          "header": "|__direct_phone"
+        }
+      },
+      {
+        "type": "COLUMN",
+        "header": "|__cell_phone",
+        "column": {
+          "header": "|__cell_phone"
+        }
+      },
+      {
+        "type": "COLUMN",
+        "header": "|__email",
+        "column": {
+          "header": "|__email"
+        }
+      },
+      {
+        "type": "COLUMN",
+        "header": "|__Primary_MtgCtr",
+        "column": {
+          "header": "|__Primary_MtgCtr"
+        }
+      }
+    ]
+  },
+  "transforms": [
+    {
+      "findAndReplace": {
+        "inputHeaders": {
+          "headers": [
+            "__id"
+          ]
+        },
+        "valueToFind": {
+          "regex": "^(\\w+)$"
+        },
+        "replacement": "L-$1"
+      }
+    },
+    {
+      "mergeColumns": {
+        "inputHeaders": [
+          "|__name"
+        ],
+        "newColumnHeader": "website",
+        "delimiter": ""
+      }
+    },
+    {
+      "fixCapitalization": {
+        "inputHeaders": {
+          "headers": [
+            "website"
+          ]
+        },
+        "cleanOption": "ALL_LOWER"
+      }
+    },
+    {
+      "findAndReplace": {
+        "inputHeaders": {
+          "headers": [
+            "website"
+          ]
+        },
+        "valueToFind": {
+          "plainText": {
+            "value": " ",
+            "ignoreCase": false
+          }
+        },
+        "replacement": "-"
+      }
+    },
+    {
+      "findAndReplace": {
+        "inputHeaders": {
+          "headers": [
+            "website"
+          ]
+        },
+        "valueToFind": {
+          "plainText": {
+            "value": "---",
+            "ignoreCase": false
+          }
+        },
+        "replacement": "-"
+      }
+    },
+    {
+      "findAndReplace": {
+        "inputHeaders": {
+          "headers": [
+            "website"
+          ]
+        },
+        "valueToFind": {
+          "plainText": {
+            "value": "\u0027",
+            "ignoreCase": false
+          }
+        },
+        "replacement": ""
+      }
+    },
+    {
+      "findAndReplace": {
+        "inputHeaders": {
+          "headers": [
+            "website"
+          ]
+        },
+        "valueToFind": {
+          "plainText": {
+            "value": ",",
+            "ignoreCase": false
+          }
+        },
+        "replacement": ""
+      }
+    },
+    {
+      "addColumn": {
+        "newColumnHeader": "website-prefix",
+        "columnValue": "https://www.gatewayfirst.com/locations-atms/"
+      }
+    },
+    {
+      "mergeColumns": {
+        "inputHeaders": [
+          "website-prefix",
+          "website"
+        ],
+        "newColumnHeader": "landing-page-url",
+        "delimiter": ""
+      }
+    },
+    {
+      "addColumn": {
+        "newColumnHeader": "Folder",
+        "columnValue": "Loan Officers"
+      }
+    },
+    {
+      "checkEntityExistence": {
+        "inputHeader": "__id",
+        "newColumnHeader": "exists"
+      }
+    },
+    {
+      "addColumn": {
+        "newColumnHeader": "Name Suffix",
+        "columnValue": " - Gateway Mortgage"
+      }
+    },
+    {
+      "mergeColumns": {
+        "inputHeaders": [
+          "|__name",
+          "Name Suffix"
+        ],
+        "newColumnHeader": "Geomodifier-name",
+        "delimiter": ""
+      }
+    },
+    {
+      "splitColumn": {
+        "inputHeader": "|__name",
+        "newColumnHeaders": [
+          "first_name",
+          "last_name"
+        ],
+        "delimiter": " "
+      }
+    },
+    {
+      "findAndReplace": {
+        "inputHeaders": {
+          "headers": [
+            "last_name"
+          ]
+        },
+        "valueToFind": {
+          "regex": "/^\\w+/"
+        },
+        "replacement": "$1"
+      }
+    },
+    {
+      "addColumn": {
+        "newColumnHeader": "label",
+        "columnValue": "Action: Add"
+      },
+      "conditionalExecution": {
+        "clause": {
+          "boolOperator": "AND",
+          "conditions": [
+            {
+              "inputColumn": "exists",
+              "comparator": "DOES_NOT_EQUAL",
+              "comparisonValue": "true"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "functionOnARow": {
+        "plugin": "gatewayFunctions",
+        "function": "lookupAddress",
+        "inputMappings": [
+          {
+            "functionKey": "mortgageCenter",
+            "columnHeader": "|__Primary_MtgCtr"
+          }
+        ],
+        "outputMappings": [
+          {
+            "functionKey": "address1",
+            "columnHeader": "|__address1"
+          },
+          {
+            "functionKey": "address2",
+            "columnHeader": "|__address2"
+          },
+          {
+            "functionKey": "city",
+            "columnHeader": "|__city"
+          },
+          {
+            "functionKey": "state",
+            "columnHeader": "|__state"
+          },
+          {
+            "functionKey": "zip",
+            "columnHeader": "|__zip"
+          }
+        ],
+        "dropUnspecifiedOutputColumns": false
+      }
+    },
+    {
+      "applyTemplateFields": {
+        "template": "mLOTemplate",
+        "fieldHeaderMappings": [
+          {
+            "fieldId": "logo",
+            "subfieldPath": [
+              {
+                "name": "clickthroughUrl"
+              }
+            ],
+            "columnHeader": "Business Logo \u003e clickthroughUrl"
+          },
+          {
+            "fieldId": "logo",
+            "subfieldPath": [
+              {
+                "name": "description"
+              }
+            ],
+            "columnHeader": "Business Logo \u003e description"
+          },
+          {
+            "fieldId": "logo",
+            "subfieldPath": [
+              {
+                "name": "details"
+              }
+            ],
+            "columnHeader": "Business Logo \u003e details"
+          },
+          {
+            "fieldId": "logo",
+            "subfieldPath": [
+              {
+                "name": "image"
+              },
+              {
+                "name": "alternateText"
+              }
+            ],
+            "columnHeader": "Business Logo \u003e image \u003e alternateText"
+          },
+          {
+            "fieldId": "logo",
+            "subfieldPath": [
+              {
+                "name": "image"
+              },
+              {
+                "name": "url"
+              }
+            ],
+            "columnHeader": "Business Logo \u003e image \u003e url"
+          },
+          {
+            "fieldId": "categories",
+            "subfieldPath": [
+              {
+                "name": "bing"
+              }
+            ],
+            "columnHeader": "Categories \u003e Bing"
+          },
+          {
+            "fieldId": "categories",
+            "subfieldPath": [
+              {
+                "name": "facebookPlaceTopics"
+              }
+            ],
+            "columnHeader": "Categories \u003e Facebook Place Topics"
+          },
+          {
+            "fieldId": "categories",
+            "subfieldPath": [
+              {
+                "name": "googleBusinessProfile"
+              }
+            ],
+            "columnHeader": "Categories \u003e Google Business Profile"
+          },
+          {
+            "fieldId": "categories",
+            "subfieldPath": [
+              {
+                "name": "tripAdvisorListings"
+              }
+            ],
+            "columnHeader": "Categories \u003e TripAdvisor Listings"
+          },
+          {
+            "fieldId": "categories",
+            "subfieldPath": [
+              {
+                "name": "yext"
+              }
+            ],
+            "columnHeader": "Categories \u003e Yext"
+          },
+          {
+            "fieldId": "description",
+            "subfieldPath": [],
+            "columnHeader": "Description"
+          },
+          {
+            "fieldId": "facebookAbout",
+            "subfieldPath": [],
+            "columnHeader": "Facebook About"
+          },
+          {
+            "fieldId": "facebookCallToAction",
+            "subfieldPath": [
+              {
+                "name": "type"
+              }
+            ],
+            "columnHeader": "Facebook Call-to-Action \u003e Type"
+          },
+          {
+            "fieldId": "facebookCallToAction",
+            "subfieldPath": [
+              {
+                "name": "value"
+              }
+            ],
+            "columnHeader": "Facebook Call-to-Action \u003e Value"
+          },
+          {
+            "fieldId": "facebookCoverPhoto",
+            "subfieldPath": [
+              {
+                "name": "alternateText"
+              }
+            ],
+            "columnHeader": "Facebook Cover Photo \u003e alternateText"
+          },
+          {
+            "fieldId": "facebookCoverPhoto",
+            "subfieldPath": [
+              {
+                "name": "url"
+              }
+            ],
+            "columnHeader": "Facebook Cover Photo \u003e url"
+          },
+          {
+            "fieldId": "facebookParentPageId",
+            "subfieldPath": [],
+            "columnHeader": "Facebook Parent Page ID"
+          },
+          {
+            "fieldId": "facebookProfilePhoto",
+            "subfieldPath": [
+              {
+                "name": "alternateText"
+              }
+            ],
+            "columnHeader": "Facebook Profile Picture \u003e alternateText"
+          },
+          {
+            "fieldId": "facebookProfilePhoto",
+            "subfieldPath": [
+              {
+                "name": "url"
+              }
+            ],
+            "columnHeader": "Facebook Profile Picture \u003e url"
+          },
+          {
+            "fieldId": "facebookVanityUrl",
+            "subfieldPath": [],
+            "columnHeader": "Facebook Username"
+          },
+          {
+            "fieldId": "featuredMessage",
+            "subfieldPath": [
+              {
+                "name": "description"
+              }
+            ],
+            "columnHeader": "Featured Message \u003e Description"
+          },
+          {
+            "fieldId": "featuredMessage",
+            "subfieldPath": [
+              {
+                "name": "url"
+              }
+            ],
+            "columnHeader": "Featured Message \u003e URL"
+          },
+          {
+            "fieldId": "googleAccountId",
+            "subfieldPath": [],
+            "columnHeader": "Google Account ID"
+          },
+          {
+            "fieldId": "c_googleUTM",
+            "subfieldPath": [],
+            "columnHeader": "Google UTM"
+          },
+          {
+            "fieldId": "googleWebsiteOverride",
+            "subfieldPath": [],
+            "columnHeader": "Google Website Override"
+          },
+          {
+            "fieldId": "hours",
+            "subfieldPath": [
+              {
+                "name": "friday"
+              },
+              {
+                "name": "isClosed"
+              }
+            ],
+            "columnHeader": "Hours \u003e Friday \u003e Is Closed"
+          },
+          {
+            "fieldId": "hours",
+            "subfieldPath": [
+              {
+                "name": "friday"
+              },
+              {
+                "name": "openIntervals"
+              },
+              {
+                "name": "end"
+              }
+            ],
+            "columnHeader": "Hours \u003e Friday \u003e Open Intervals \u003e End"
+          },
+          {
+            "fieldId": "hours",
+            "subfieldPath": [
+              {
+                "name": "friday"
+              },
+              {
+                "name": "openIntervals"
+              },
+              {
+                "name": "start"
+              }
+            ],
+            "columnHeader": "Hours \u003e Friday \u003e Open Intervals \u003e Start"
+          },
+          {
+            "fieldId": "hours",
+            "subfieldPath": [
+              {
+                "name": "holidayHours"
+              },
+              {
+                "name": "date"
+              }
+            ],
+            "columnHeader": "Hours \u003e Holiday Hours \u003e Date"
+          },
+          {
+            "fieldId": "hours",
+            "subfieldPath": [
+              {
+                "name": "holidayHours"
+              },
+              {
+                "name": "isClosed"
+              }
+            ],
+            "columnHeader": "Hours \u003e Holiday Hours \u003e Is Closed"
+          },
+          {
+            "fieldId": "hours",
+            "subfieldPath": [
+              {
+                "name": "holidayHours"
+              },
+              {
+                "name": "isRegularHours"
+              }
+            ],
+            "columnHeader": "Hours \u003e Holiday Hours \u003e Is Regular Hours"
+          },
+          {
+            "fieldId": "hours",
+            "subfieldPath": [
+              {
+                "name": "holidayHours"
+              },
+              {
+                "name": "openIntervals"
+              },
+              {
+                "name": "end"
+              }
+            ],
+            "columnHeader": "Hours \u003e Holiday Hours \u003e Open Intervals \u003e End"
+          },
+          {
+            "fieldId": "hours",
+            "subfieldPath": [
+              {
+                "name": "holidayHours"
+              },
+              {
+                "name": "openIntervals"
+              },
+              {
+                "name": "start"
+              }
+            ],
+            "columnHeader": "Hours \u003e Holiday Hours \u003e Open Intervals \u003e Start"
+          },
+          {
+            "fieldId": "hours",
+            "subfieldPath": [
+              {
+                "name": "monday"
+              },
+              {
+                "name": "isClosed"
+              }
+            ],
+            "columnHeader": "Hours \u003e Monday \u003e Is Closed"
+          },
+          {
+            "fieldId": "hours",
+            "subfieldPath": [
+              {
+                "name": "monday"
+              },
+              {
+                "name": "openIntervals"
+              },
+              {
+                "name": "end"
+              }
+            ],
+            "columnHeader": "Hours \u003e Monday \u003e Open Intervals \u003e End"
+          },
+          {
+            "fieldId": "hours",
+            "subfieldPath": [
+              {
+                "name": "monday"
+              },
+              {
+                "name": "openIntervals"
+              },
+              {
+                "name": "start"
+              }
+            ],
+            "columnHeader": "Hours \u003e Monday \u003e Open Intervals \u003e Start"
+          },
+          {
+            "fieldId": "hours",
+            "subfieldPath": [
+              {
+                "name": "reopenDate"
+              }
+            ],
+            "columnHeader": "Hours \u003e Reopen Date"
+          },
+          {
+            "fieldId": "hours",
+            "subfieldPath": [
+              {
+                "name": "saturday"
+              },
+              {
+                "name": "isClosed"
+              }
+            ],
+            "columnHeader": "Hours \u003e Saturday \u003e Is Closed"
+          },
+          {
+            "fieldId": "hours",
+            "subfieldPath": [
+              {
+                "name": "saturday"
+              },
+              {
+                "name": "openIntervals"
+              },
+              {
+                "name": "end"
+              }
+            ],
+            "columnHeader": "Hours \u003e Saturday \u003e Open Intervals \u003e End"
+          },
+          {
+            "fieldId": "hours",
+            "subfieldPath": [
+              {
+                "name": "saturday"
+              },
+              {
+                "name": "openIntervals"
+              },
+              {
+                "name": "start"
+              }
+            ],
+            "columnHeader": "Hours \u003e Saturday \u003e Open Intervals \u003e Start"
+          },
+          {
+            "fieldId": "hours",
+            "subfieldPath": [
+              {
+                "name": "sunday"
+              },
+              {
+                "name": "isClosed"
+              }
+            ],
+            "columnHeader": "Hours \u003e Sunday \u003e Is Closed"
+          },
+          {
+            "fieldId": "hours",
+            "subfieldPath": [
+              {
+                "name": "sunday"
+              },
+              {
+                "name": "openIntervals"
+              },
+              {
+                "name": "end"
+              }
+            ],
+            "columnHeader": "Hours \u003e Sunday \u003e Open Intervals \u003e End"
+          },
+          {
+            "fieldId": "hours",
+            "subfieldPath": [
+              {
+                "name": "sunday"
+              },
+              {
+                "name": "openIntervals"
+              },
+              {
+                "name": "start"
+              }
+            ],
+            "columnHeader": "Hours \u003e Sunday \u003e Open Intervals \u003e Start"
+          },
+          {
+            "fieldId": "hours",
+            "subfieldPath": [
+              {
+                "name": "thursday"
+              },
+              {
+                "name": "isClosed"
+              }
+            ],
+            "columnHeader": "Hours \u003e Thursday \u003e Is Closed"
+          },
+          {
+            "fieldId": "hours",
+            "subfieldPath": [
+              {
+                "name": "thursday"
+              },
+              {
+                "name": "openIntervals"
+              },
+              {
+                "name": "end"
+              }
+            ],
+            "columnHeader": "Hours \u003e Thursday \u003e Open Intervals \u003e End"
+          },
+          {
+            "fieldId": "hours",
+            "subfieldPath": [
+              {
+                "name": "thursday"
+              },
+              {
+                "name": "openIntervals"
+              },
+              {
+                "name": "start"
+              }
+            ],
+            "columnHeader": "Hours \u003e Thursday \u003e Open Intervals \u003e Start"
+          },
+          {
+            "fieldId": "hours",
+            "subfieldPath": [
+              {
+                "name": "tuesday"
+              },
+              {
+                "name": "isClosed"
+              }
+            ],
+            "columnHeader": "Hours \u003e Tuesday \u003e Is Closed"
+          },
+          {
+            "fieldId": "hours",
+            "subfieldPath": [
+              {
+                "name": "tuesday"
+              },
+              {
+                "name": "openIntervals"
+              },
+              {
+                "name": "end"
+              }
+            ],
+            "columnHeader": "Hours \u003e Tuesday \u003e Open Intervals \u003e End"
+          },
+          {
+            "fieldId": "hours",
+            "subfieldPath": [
+              {
+                "name": "tuesday"
+              },
+              {
+                "name": "openIntervals"
+              },
+              {
+                "name": "start"
+              }
+            ],
+            "columnHeader": "Hours \u003e Tuesday \u003e Open Intervals \u003e Start"
+          },
+          {
+            "fieldId": "hours",
+            "subfieldPath": [
+              {
+                "name": "wednesday"
+              },
+              {
+                "name": "isClosed"
+              }
+            ],
+            "columnHeader": "Hours \u003e Wednesday \u003e Is Closed"
+          },
+          {
+            "fieldId": "hours",
+            "subfieldPath": [
+              {
+                "name": "wednesday"
+              },
+              {
+                "name": "openIntervals"
+              },
+              {
+                "name": "end"
+              }
+            ],
+            "columnHeader": "Hours \u003e Wednesday \u003e Open Intervals \u003e End"
+          },
+          {
+            "fieldId": "hours",
+            "subfieldPath": [
+              {
+                "name": "wednesday"
+              },
+              {
+                "name": "openIntervals"
+              },
+              {
+                "name": "start"
+              }
+            ],
+            "columnHeader": "Hours \u003e Wednesday \u003e Open Intervals \u003e Start"
+          },
+          {
+            "fieldId": "impressum",
+            "subfieldPath": [],
+            "columnHeader": "Impressum"
+          },
+          {
+            "fieldId": "photoGallery",
+            "subfieldPath": [
+              {
+                "name": "clickthroughUrl"
+              }
+            ],
+            "columnHeader": "Photo Gallery \u003e clickthroughUrl"
+          },
+          {
+            "fieldId": "photoGallery",
+            "subfieldPath": [
+              {
+                "name": "description"
+              }
+            ],
+            "columnHeader": "Photo Gallery \u003e description"
+          },
+          {
+            "fieldId": "photoGallery",
+            "subfieldPath": [
+              {
+                "name": "details"
+              }
+            ],
+            "columnHeader": "Photo Gallery \u003e details"
+          },
+          {
+            "fieldId": "photoGallery",
+            "subfieldPath": [
+              {
+                "name": "image"
+              },
+              {
+                "name": "alternateText"
+              }
+            ],
+            "columnHeader": "Photo Gallery \u003e image \u003e alternateText"
+          },
+          {
+            "fieldId": "photoGallery",
+            "subfieldPath": [
+              {
+                "name": "image"
+              },
+              {
+                "name": "url"
+              }
+            ],
+            "columnHeader": "Photo Gallery \u003e image \u003e url"
+          }
+        ]
+      },
+      "conditionalExecution": {
+        "clause": {
+          "boolOperator": "AND",
+          "conditions": [
+            {
+              "inputColumn": "exists",
+              "comparator": "DOES_NOT_EQUAL",
+              "comparisonValue": "true"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "addColumn": {
+        "newColumnHeader": "Licensed",
+        "columnValue": "true"
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "header": "Facebook Cover Photo \u003e alternateText",
+      "field": "facebookCoverPhoto",
+      "subfieldPath": [
+        {
+          "name": "alternateText"
+        }
+      ],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "Hours \u003e Saturday \u003e Open Intervals \u003e End",
+      "field": "hours",
+      "subfieldPath": [
+        {
+          "name": "saturday"
+        },
+        {
+          "name": "openIntervals"
+        },
+        {
+          "name": "end"
+        }
+      ],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "Photo Gallery \u003e clickthroughUrl",
+      "field": "photoGallery",
+      "subfieldPath": [
+        {
+          "name": "clickthroughUrl"
+        }
+      ],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "|__nmls_id",
+      "field": "c_nMLS",
+      "subfieldPath": [],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "Hours \u003e Friday \u003e Open Intervals \u003e Start",
+      "field": "hours",
+      "subfieldPath": [
+        {
+          "name": "friday"
+        },
+        {
+          "name": "openIntervals"
+        },
+        {
+          "name": "start"
+        }
+      ],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "Hours \u003e Tuesday \u003e Open Intervals \u003e End",
+      "field": "hours",
+      "subfieldPath": [
+        {
+          "name": "tuesday"
+        },
+        {
+          "name": "openIntervals"
+        },
+        {
+          "name": "end"
+        }
+      ],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "Photo Gallery \u003e image \u003e alternateText",
+      "field": "photoGallery",
+      "subfieldPath": [
+        {
+          "name": "image"
+        },
+        {
+          "name": "alternateText"
+        }
+      ],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "Facebook About",
+      "field": "facebookAbout",
+      "subfieldPath": [],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "Geomodifier-name",
+      "field": "name",
+      "subfieldPath": [],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "|__cell_phone",
+      "field": "mobilePhone",
+      "subfieldPath": [],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "Hours \u003e Thursday \u003e Open Intervals \u003e End",
+      "field": "hours",
+      "subfieldPath": [
+        {
+          "name": "thursday"
+        },
+        {
+          "name": "openIntervals"
+        },
+        {
+          "name": "end"
+        }
+      ],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "Categories \u003e Google Business Profile",
+      "field": "categories",
+      "subfieldPath": [
+        {
+          "name": "googleBusinessProfile"
+        }
+      ],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "Hours \u003e Thursday \u003e Open Intervals \u003e Start",
+      "field": "hours",
+      "subfieldPath": [
+        {
+          "name": "thursday"
+        },
+        {
+          "name": "openIntervals"
+        },
+        {
+          "name": "start"
+        }
+      ],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "Licensed",
+      "field": "c_Licensed",
+      "subfieldPath": [],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "Business Logo \u003e details",
+      "field": "logo",
+      "subfieldPath": [
+        {
+          "name": "details"
+        }
+      ],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "Hours \u003e Friday \u003e Is Closed",
+      "field": "hours",
+      "subfieldPath": [
+        {
+          "name": "friday"
+        },
+        {
+          "name": "isClosed"
+        }
+      ],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "|__state",
+      "field": "address",
+      "subfieldPath": [
+        {
+          "name": "region"
+        }
+      ],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "Categories \u003e Bing",
+      "field": "categories",
+      "subfieldPath": [
+        {
+          "name": "bing"
+        }
+      ],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "Hours \u003e Monday \u003e Open Intervals \u003e Start",
+      "field": "hours",
+      "subfieldPath": [
+        {
+          "name": "monday"
+        },
+        {
+          "name": "openIntervals"
+        },
+        {
+          "name": "start"
+        }
+      ],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "|__email",
+      "field": "emails",
+      "subfieldPath": [],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "landing-page-url",
+      "field": "websiteUrl",
+      "subfieldPath": [
+        {
+          "name": "url"
+        }
+      ],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "Hours \u003e Monday \u003e Is Closed",
+      "field": "hours",
+      "subfieldPath": [
+        {
+          "name": "monday"
+        },
+        {
+          "name": "isClosed"
+        }
+      ],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "Hours \u003e Monday \u003e Open Intervals \u003e End",
+      "field": "hours",
+      "subfieldPath": [
+        {
+          "name": "monday"
+        },
+        {
+          "name": "openIntervals"
+        },
+        {
+          "name": "end"
+        }
+      ],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "Photo Gallery \u003e details",
+      "field": "photoGallery",
+      "subfieldPath": [
+        {
+          "name": "details"
+        }
+      ],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "Featured Message \u003e Description",
+      "field": "featuredMessage",
+      "subfieldPath": [
+        {
+          "name": "description"
+        }
+      ],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "Categories \u003e TripAdvisor Listings",
+      "field": "categories",
+      "subfieldPath": [
+        {
+          "name": "tripAdvisorListings"
+        }
+      ],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "Hours \u003e Sunday \u003e Open Intervals \u003e End",
+      "field": "hours",
+      "subfieldPath": [
+        {
+          "name": "sunday"
+        },
+        {
+          "name": "openIntervals"
+        },
+        {
+          "name": "end"
+        }
+      ],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "Google Account ID",
+      "field": "googleAccountId",
+      "subfieldPath": [],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "Photo Gallery \u003e description",
+      "field": "photoGallery",
+      "subfieldPath": [
+        {
+          "name": "description"
+        }
+      ],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "Hours \u003e Saturday \u003e Is Closed",
+      "field": "hours",
+      "subfieldPath": [
+        {
+          "name": "saturday"
+        },
+        {
+          "name": "isClosed"
+        }
+      ],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "Categories \u003e Yext",
+      "field": "categories",
+      "subfieldPath": [
+        {
+          "name": "yext"
+        }
+      ],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "Photo Gallery \u003e image \u003e url",
+      "field": "photoGallery",
+      "subfieldPath": [
+        {
+          "name": "image"
+        },
+        {
+          "name": "url"
+        }
+      ],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "Hours \u003e Tuesday \u003e Open Intervals \u003e Start",
+      "field": "hours",
+      "subfieldPath": [
+        {
+          "name": "tuesday"
+        },
+        {
+          "name": "openIntervals"
+        },
+        {
+          "name": "start"
+        }
+      ],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "Hours \u003e Thursday \u003e Is Closed",
+      "field": "hours",
+      "subfieldPath": [
+        {
+          "name": "thursday"
+        },
+        {
+          "name": "isClosed"
+        }
+      ],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "Impressum",
+      "field": "impressum",
+      "subfieldPath": [],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "|__fax",
+      "field": "fax",
+      "subfieldPath": [],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "Hours \u003e Friday \u003e Open Intervals \u003e End",
+      "field": "hours",
+      "subfieldPath": [
+        {
+          "name": "friday"
+        },
+        {
+          "name": "openIntervals"
+        },
+        {
+          "name": "end"
+        }
+      ],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "Description",
+      "field": "description",
+      "subfieldPath": [],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "|__zip",
+      "field": "address",
+      "subfieldPath": [
+        {
+          "name": "postalCode"
+        }
+      ],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "Business Logo \u003e description",
+      "field": "logo",
+      "subfieldPath": [
+        {
+          "name": "description"
+        }
+      ],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "Featured Message \u003e URL",
+      "field": "featuredMessage",
+      "subfieldPath": [
+        {
+          "name": "url"
+        }
+      ],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "Facebook Parent Page ID",
+      "field": "facebookParentPageId",
+      "subfieldPath": [],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "Hours \u003e Wednesday \u003e Open Intervals \u003e Start",
+      "field": "hours",
+      "subfieldPath": [
+        {
+          "name": "wednesday"
+        },
+        {
+          "name": "openIntervals"
+        },
+        {
+          "name": "start"
+        }
+      ],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "Business Logo \u003e clickthroughUrl",
+      "field": "logo",
+      "subfieldPath": [
+        {
+          "name": "clickthroughUrl"
+        }
+      ],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "Hours \u003e Wednesday \u003e Is Closed",
+      "field": "hours",
+      "subfieldPath": [
+        {
+          "name": "wednesday"
+        },
+        {
+          "name": "isClosed"
+        }
+      ],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "Hours \u003e Sunday \u003e Is Closed",
+      "field": "hours",
+      "subfieldPath": [
+        {
+          "name": "sunday"
+        },
+        {
+          "name": "isClosed"
+        }
+      ],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "Hours \u003e Wednesday \u003e Open Intervals \u003e End",
+      "field": "hours",
+      "subfieldPath": [
+        {
+          "name": "wednesday"
+        },
+        {
+          "name": "openIntervals"
+        },
+        {
+          "name": "end"
+        }
+      ],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "Folder",
+      "field": "folder",
+      "subfieldPath": [],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "|__city",
+      "field": "address",
+      "subfieldPath": [
+        {
+          "name": "city"
+        }
+      ],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "|__title",
+      "field": "c_title",
+      "subfieldPath": [],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "|__address1",
+      "field": "address",
+      "subfieldPath": [
+        {
+          "name": "line1"
+        }
+      ],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "|__address2",
+      "field": "address",
+      "subfieldPath": [
+        {
+          "name": "line2"
+        }
+      ],
+      "clearValueIfBlank": true
+    },
+    {
+      "header": "__id",
+      "field": "entityId",
+      "subfieldPath": [],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "Facebook Profile Picture \u003e url",
+      "field": "facebookProfilePhoto",
+      "subfieldPath": [
+        {
+          "name": "url"
+        }
+      ],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "Facebook Call-to-Action \u003e Value",
+      "field": "facebookCallToAction",
+      "subfieldPath": [
+        {
+          "name": "value"
+        }
+      ],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "first_name",
+      "field": "c_answersFirstName",
+      "subfieldPath": [],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "Hours \u003e Sunday \u003e Open Intervals \u003e Start",
+      "field": "hours",
+      "subfieldPath": [
+        {
+          "name": "sunday"
+        },
+        {
+          "name": "openIntervals"
+        },
+        {
+          "name": "start"
+        }
+      ],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "Facebook Username",
+      "field": "facebookVanityUrl",
+      "subfieldPath": [],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "Categories \u003e Facebook Place Topics",
+      "field": "categories",
+      "subfieldPath": [
+        {
+          "name": "facebookPlaceTopics"
+        }
+      ],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "Facebook Call-to-Action \u003e Type",
+      "field": "facebookCallToAction",
+      "subfieldPath": [
+        {
+          "name": "type"
+        }
+      ],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "last_name",
+      "field": "c_answersLastName",
+      "subfieldPath": [],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "Facebook Profile Picture \u003e alternateText",
+      "field": "facebookProfilePhoto",
+      "subfieldPath": [
+        {
+          "name": "alternateText"
+        }
+      ],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "|__phone",
+      "field": "mainPhone",
+      "subfieldPath": [],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "Business Logo \u003e image \u003e alternateText",
+      "field": "logo",
+      "subfieldPath": [
+        {
+          "name": "image"
+        },
+        {
+          "name": "alternateText"
+        }
+      ],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "Hours \u003e Tuesday \u003e Is Closed",
+      "field": "hours",
+      "subfieldPath": [
+        {
+          "name": "tuesday"
+        },
+        {
+          "name": "isClosed"
+        }
+      ],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "label",
+      "field": "labels",
+      "subfieldPath": [],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "Google Website Override",
+      "field": "googleWebsiteOverride",
+      "subfieldPath": [],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "Hours \u003e Saturday \u003e Open Intervals \u003e Start",
+      "field": "hours",
+      "subfieldPath": [
+        {
+          "name": "saturday"
+        },
+        {
+          "name": "openIntervals"
+        },
+        {
+          "name": "start"
+        }
+      ],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "Google UTM",
+      "field": "c_googleUTM",
+      "subfieldPath": [],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "Facebook Cover Photo \u003e url",
+      "field": "facebookCoverPhoto",
+      "subfieldPath": [
+        {
+          "name": "url"
+        }
+      ],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "Business Logo \u003e image \u003e url",
+      "field": "logo",
+      "subfieldPath": [
+        {
+          "name": "image"
+        },
+        {
+          "name": "url"
+        }
+      ],
+      "clearValueIfBlank": false
+    }
+  ],
+  "scheduleConfig": {
+    "customSchedule": {
+      "timeZone": "America/Chicago",
+      "startDate": "2023-11-01",
+      "startTime": "23:00",
+      "frequencyType": "DAILY"
+    },
+    "runMode": "COMPREHENSIVE",
+    "dryRun": false
+  },
+  "comprehensiveModeConfig": {
+    "comprehensiveSet": "ENTITIES_IN_SAVED_FILTER",
+    "savedFilter": "1337575255",
+    "actionOnMissingEntities": "UPDATE",
+    "missingUpdateConfig": {
+      "selectors": [
+        {
+          "type": "FIELD",
+          "header": "Name",
+          "fieldId": "name"
+        },
+        {
+          "type": "FIELD",
+          "header": "Website URL \u003e URL",
+          "fieldId": "websiteUrl",
+          "subfieldPath": [
+            {
+              "name": "url"
+            }
+          ]
+        },
+        {
+          "type": "FIELD",
+          "header": "Address \u003e Line 2",
+          "fieldId": "address",
+          "subfieldPath": [
+            {
+              "name": "line2"
+            }
+          ]
+        },
+        {
+          "type": "FIELD",
+          "header": "Address \u003e Line 1",
+          "fieldId": "address",
+          "subfieldPath": [
+            {
+              "name": "line1"
+            }
+          ]
+        },
+        {
+          "type": "FIELD",
+          "header": "Address \u003e Region",
+          "fieldId": "address",
+          "subfieldPath": [
+            {
+              "name": "region"
+            }
+          ]
+        },
+        {
+          "type": "FIELD",
+          "header": "Entity ID",
+          "fieldId": "entityId"
+        },
+        {
+          "type": "FIELD",
+          "header": "NMLS",
+          "fieldId": "c_nMLS"
+        },
+        {
+          "type": "FIELD",
+          "header": "Address \u003e City",
+          "fieldId": "address",
+          "subfieldPath": [
+            {
+              "name": "city"
+            }
+          ]
+        },
+        {
+          "type": "FIELD",
+          "header": "Address \u003e Postal Code",
+          "fieldId": "address",
+          "subfieldPath": [
+            {
+              "name": "postalCode"
+            }
+          ]
+        },
+        {
+          "type": "FIELD",
+          "header": "Facebook Cover Photo \u003e alternateText",
+          "fieldId": "facebookCoverPhoto",
+          "subfieldPath": [
+            {
+              "name": "alternateText"
+            }
+          ]
+        },
+        {
+          "type": "FIELD",
+          "header": "Hours \u003e Saturday \u003e Open Intervals \u003e End",
+          "fieldId": "hours",
+          "subfieldPath": [
+            {
+              "name": "saturday"
+            },
+            {
+              "name": "openIntervals"
+            },
+            {
+              "name": "end"
+            }
+          ]
+        },
+        {
+          "type": "FIELD",
+          "header": "Photo Gallery \u003e clickthroughUrl",
+          "fieldId": "photoGallery",
+          "subfieldPath": [
+            {
+              "name": "clickthroughUrl"
+            }
+          ]
+        },
+        {
+          "type": "FIELD",
+          "header": "Hours \u003e Friday \u003e Open Intervals \u003e Start",
+          "fieldId": "hours",
+          "subfieldPath": [
+            {
+              "name": "friday"
+            },
+            {
+              "name": "openIntervals"
+            },
+            {
+              "name": "start"
+            }
+          ]
+        },
+        {
+          "type": "FIELD",
+          "header": "Hours \u003e Tuesday \u003e Open Intervals \u003e End",
+          "fieldId": "hours",
+          "subfieldPath": [
+            {
+              "name": "tuesday"
+            },
+            {
+              "name": "openIntervals"
+            },
+            {
+              "name": "end"
+            }
+          ]
+        },
+        {
+          "type": "FIELD",
+          "header": "Photo Gallery \u003e image \u003e alternateText",
+          "fieldId": "photoGallery",
+          "subfieldPath": [
+            {
+              "name": "image"
+            },
+            {
+              "name": "alternateText"
+            }
+          ]
+        },
+        {
+          "type": "FIELD",
+          "header": "Facebook About",
+          "fieldId": "facebookAbout"
+        },
+        {
+          "type": "FIELD",
+          "header": "Mobile Phone",
+          "fieldId": "mobilePhone"
+        },
+        {
+          "type": "FIELD",
+          "header": "Hours \u003e Thursday \u003e Open Intervals \u003e End",
+          "fieldId": "hours",
+          "subfieldPath": [
+            {
+              "name": "thursday"
+            },
+            {
+              "name": "openIntervals"
+            },
+            {
+              "name": "end"
+            }
+          ]
+        },
+        {
+          "type": "FIELD",
+          "header": "Hours \u003e Thursday \u003e Open Intervals \u003e Start",
+          "fieldId": "hours",
+          "subfieldPath": [
+            {
+              "name": "thursday"
+            },
+            {
+              "name": "openIntervals"
+            },
+            {
+              "name": "start"
+            }
+          ]
+        },
+        {
+          "type": "FIELD",
+          "header": "Business Logo \u003e details",
+          "fieldId": "logo",
+          "subfieldPath": [
+            {
+              "name": "details"
+            }
+          ]
+        },
+        {
+          "type": "FIELD",
+          "header": "Hours \u003e Friday \u003e Is Closed",
+          "fieldId": "hours",
+          "subfieldPath": [
+            {
+              "name": "friday"
+            },
+            {
+              "name": "isClosed"
+            }
+          ]
+        },
+        {
+          "type": "FIELD",
+          "header": "Hours \u003e Monday \u003e Open Intervals \u003e Start",
+          "fieldId": "hours",
+          "subfieldPath": [
+            {
+              "name": "monday"
+            },
+            {
+              "name": "openIntervals"
+            },
+            {
+              "name": "start"
+            }
+          ]
+        },
+        {
+          "type": "FIELD",
+          "header": "Emails",
+          "fieldId": "emails"
+        },
+        {
+          "type": "FIELD",
+          "header": "Hours \u003e Monday \u003e Is Closed",
+          "fieldId": "hours",
+          "subfieldPath": [
+            {
+              "name": "monday"
+            },
+            {
+              "name": "isClosed"
+            }
+          ]
+        },
+        {
+          "type": "FIELD",
+          "header": "Hours \u003e Monday \u003e Open Intervals \u003e End",
+          "fieldId": "hours",
+          "subfieldPath": [
+            {
+              "name": "monday"
+            },
+            {
+              "name": "openIntervals"
+            },
+            {
+              "name": "end"
+            }
+          ]
+        },
+        {
+          "type": "FIELD",
+          "header": "Photo Gallery \u003e details",
+          "fieldId": "photoGallery",
+          "subfieldPath": [
+            {
+              "name": "details"
+            }
+          ]
+        },
+        {
+          "type": "FIELD",
+          "header": "Featured Message \u003e Description",
+          "fieldId": "featuredMessage",
+          "subfieldPath": [
+            {
+              "name": "description"
+            }
+          ]
+        },
+        {
+          "type": "FIELD",
+          "header": "Hours \u003e Sunday \u003e Open Intervals \u003e End",
+          "fieldId": "hours",
+          "subfieldPath": [
+            {
+              "name": "sunday"
+            },
+            {
+              "name": "openIntervals"
+            },
+            {
+              "name": "end"
+            }
+          ]
+        },
+        {
+          "type": "FIELD",
+          "header": "Google Account ID",
+          "fieldId": "googleAccountId"
+        },
+        {
+          "type": "FIELD",
+          "header": "Photo Gallery \u003e description",
+          "fieldId": "photoGallery",
+          "subfieldPath": [
+            {
+              "name": "description"
+            }
+          ]
+        },
+        {
+          "type": "FIELD",
+          "header": "Hours \u003e Saturday \u003e Is Closed",
+          "fieldId": "hours",
+          "subfieldPath": [
+            {
+              "name": "saturday"
+            },
+            {
+              "name": "isClosed"
+            }
+          ]
+        },
+        {
+          "type": "FIELD",
+          "header": "Photo Gallery \u003e image \u003e url",
+          "fieldId": "photoGallery",
+          "subfieldPath": [
+            {
+              "name": "image"
+            },
+            {
+              "name": "url"
+            }
+          ]
+        },
+        {
+          "type": "FIELD",
+          "header": "Hours \u003e Tuesday \u003e Open Intervals \u003e Start",
+          "fieldId": "hours",
+          "subfieldPath": [
+            {
+              "name": "tuesday"
+            },
+            {
+              "name": "openIntervals"
+            },
+            {
+              "name": "start"
+            }
+          ]
+        },
+        {
+          "type": "FIELD",
+          "header": "Hours \u003e Thursday \u003e Is Closed",
+          "fieldId": "hours",
+          "subfieldPath": [
+            {
+              "name": "thursday"
+            },
+            {
+              "name": "isClosed"
+            }
+          ]
+        },
+        {
+          "type": "FIELD",
+          "header": "Impressum",
+          "fieldId": "impressum"
+        },
+        {
+          "type": "FIELD",
+          "header": "Fax Number",
+          "fieldId": "fax"
+        },
+        {
+          "type": "FIELD",
+          "header": "Hours \u003e Friday \u003e Open Intervals \u003e End",
+          "fieldId": "hours",
+          "subfieldPath": [
+            {
+              "name": "friday"
+            },
+            {
+              "name": "openIntervals"
+            },
+            {
+              "name": "end"
+            }
+          ]
+        },
+        {
+          "type": "FIELD",
+          "header": "Description",
+          "fieldId": "description"
+        },
+        {
+          "type": "FIELD",
+          "header": "Business Logo \u003e description",
+          "fieldId": "logo",
+          "subfieldPath": [
+            {
+              "name": "description"
+            }
+          ]
+        },
+        {
+          "type": "FIELD",
+          "header": "Featured Message \u003e URL",
+          "fieldId": "featuredMessage",
+          "subfieldPath": [
+            {
+              "name": "url"
+            }
+          ]
+        },
+        {
+          "type": "FIELD",
+          "header": "Facebook Parent Page ID",
+          "fieldId": "facebookParentPageId"
+        },
+        {
+          "type": "FIELD",
+          "header": "Hours \u003e Wednesday \u003e Open Intervals \u003e Start",
+          "fieldId": "hours",
+          "subfieldPath": [
+            {
+              "name": "wednesday"
+            },
+            {
+              "name": "openIntervals"
+            },
+            {
+              "name": "start"
+            }
+          ]
+        },
+        {
+          "type": "FIELD",
+          "header": "Business Logo \u003e clickthroughUrl",
+          "fieldId": "logo",
+          "subfieldPath": [
+            {
+              "name": "clickthroughUrl"
+            }
+          ]
+        },
+        {
+          "type": "FIELD",
+          "header": "Hours \u003e Wednesday \u003e Is Closed",
+          "fieldId": "hours",
+          "subfieldPath": [
+            {
+              "name": "wednesday"
+            },
+            {
+              "name": "isClosed"
+            }
+          ]
+        },
+        {
+          "type": "FIELD",
+          "header": "Hours \u003e Sunday \u003e Is Closed",
+          "fieldId": "hours",
+          "subfieldPath": [
+            {
+              "name": "sunday"
+            },
+            {
+              "name": "isClosed"
+            }
+          ]
+        },
+        {
+          "type": "FIELD",
+          "header": "Hours \u003e Wednesday \u003e Open Intervals \u003e End",
+          "fieldId": "hours",
+          "subfieldPath": [
+            {
+              "name": "wednesday"
+            },
+            {
+              "name": "openIntervals"
+            },
+            {
+              "name": "end"
+            }
+          ]
+        },
+        {
+          "type": "FIELD",
+          "header": "Title",
+          "fieldId": "c_title"
+        },
+        {
+          "type": "FIELD",
+          "header": "Facebook Call-to-Action \u003e Value",
+          "fieldId": "facebookCallToAction",
+          "subfieldPath": [
+            {
+              "name": "value"
+            }
+          ]
+        },
+        {
+          "type": "FIELD",
+          "header": "Answers - First Name",
+          "fieldId": "c_answersFirstName"
+        },
+        {
+          "type": "FIELD",
+          "header": "Hours \u003e Sunday \u003e Open Intervals \u003e Start",
+          "fieldId": "hours",
+          "subfieldPath": [
+            {
+              "name": "sunday"
+            },
+            {
+              "name": "openIntervals"
+            },
+            {
+              "name": "start"
+            }
+          ]
+        },
+        {
+          "type": "FIELD",
+          "header": "Facebook Username",
+          "fieldId": "facebookVanityUrl"
+        },
+        {
+          "type": "FIELD",
+          "header": "Facebook Call-to-Action \u003e Type",
+          "fieldId": "facebookCallToAction",
+          "subfieldPath": [
+            {
+              "name": "type"
+            }
+          ]
+        },
+        {
+          "type": "FIELD",
+          "header": "Answers - Last Name",
+          "fieldId": "c_answersLastName"
+        },
+        {
+          "type": "FIELD",
+          "header": "Facebook Profile Picture \u003e alternateText",
+          "fieldId": "facebookProfilePhoto",
+          "subfieldPath": [
+            {
+              "name": "alternateText"
+            }
+          ]
+        },
+        {
+          "type": "FIELD",
+          "header": "Main Phone",
+          "fieldId": "mainPhone"
+        },
+        {
+          "type": "FIELD",
+          "header": "Business Logo \u003e image \u003e alternateText",
+          "fieldId": "logo",
+          "subfieldPath": [
+            {
+              "name": "image"
+            },
+            {
+              "name": "alternateText"
+            }
+          ]
+        },
+        {
+          "type": "FIELD",
+          "header": "Hours \u003e Tuesday \u003e Is Closed",
+          "fieldId": "hours",
+          "subfieldPath": [
+            {
+              "name": "tuesday"
+            },
+            {
+              "name": "isClosed"
+            }
+          ]
+        },
+        {
+          "type": "FIELD",
+          "header": "Google Website Override",
+          "fieldId": "googleWebsiteOverride"
+        },
+        {
+          "type": "FIELD",
+          "header": "Hours \u003e Saturday \u003e Open Intervals \u003e Start",
+          "fieldId": "hours",
+          "subfieldPath": [
+            {
+              "name": "saturday"
+            },
+            {
+              "name": "openIntervals"
+            },
+            {
+              "name": "start"
+            }
+          ]
+        },
+        {
+          "type": "FIELD",
+          "header": "Google UTM",
+          "fieldId": "c_googleUTM"
+        }
+      ],
+      "transforms": [
+        {
+          "addColumn": {
+            "newColumnHeader": "Closed",
+            "columnValue": "True"
+          }
+        },
+        {
+          "addColumn": {
+            "newColumnHeader": "Label",
+            "columnValue": "Action: Remove"
+          }
+        },
+        {
+          "addColumn": {
+            "newColumnHeader": "Folder",
+            "columnValue": "ETL \u003e Inactive"
+          }
+        },
+        {
+          "findAndReplace": {
+            "inputHeaders": {
+              "headers": [
+                "Name"
+              ]
+            },
+            "valueToFind": {
+              "plainText": {
+                "value": " - Gateway Mortgage",
+                "ignoreCase": false
+              }
+            },
+            "replacement": ""
+          }
+        },
+        {
+          "findAndReplace": {
+            "inputHeaders": {
+              "headers": [
+                "Website URL \u003e URL",
+                "Hours \u003e Saturday \u003e Open Intervals \u003e End",
+                "Photo Gallery \u003e clickthroughUrl",
+                "Hours \u003e Friday \u003e Open Intervals \u003e Start",
+                "Hours \u003e Tuesday \u003e Open Intervals \u003e End",
+                "Facebook About",
+                "Hours \u003e Thursday \u003e Open Intervals \u003e End",
+                "Hours \u003e Thursday \u003e Open Intervals \u003e Start",
+                "Hours \u003e Monday \u003e Open Intervals \u003e Start",
+                "Emails",
+                "Hours \u003e Monday \u003e Open Intervals \u003e End",
+                "Featured Message \u003e Description",
+                "Hours \u003e Sunday \u003e Open Intervals \u003e End",
+                "Hours \u003e Tuesday \u003e Open Intervals \u003e Start",
+                "Impressum",
+                "Hours \u003e Friday \u003e Open Intervals \u003e End",
+                "Description",
+                "Featured Message \u003e URL",
+                "Hours \u003e Wednesday \u003e Open Intervals \u003e Start",
+                "Business Logo \u003e clickthroughUrl",
+                "Hours \u003e Wednesday \u003e Open Intervals \u003e End",
+                "Facebook Call-to-Action \u003e Value",
+                "Hours \u003e Sunday \u003e Open Intervals \u003e Start",
+                "Facebook Call-to-Action \u003e Type",
+                "Google Website Override",
+                "Hours \u003e Saturday \u003e Open Intervals \u003e Start"
+              ]
+            },
+            "valueToFind": {
+              "regex": "(.*)"
+            },
+            "replacement": ""
+          }
+        },
+        {
+          "findAndReplace": {
+            "inputHeaders": {
+              "headers": [
+                "Hours \u003e Friday \u003e Is Closed",
+                "Hours \u003e Monday \u003e Is Closed",
+                "Hours \u003e Thursday \u003e Is Closed",
+                "Hours \u003e Wednesday \u003e Is Closed",
+                "Hours \u003e Tuesday \u003e Is Closed"
+              ]
+            },
+            "valueToFind": {
+              "regex": "/[\\s\\S]*/"
+            },
+            "replacement": "true"
+          }
+        },
+        {
+          "addColumn": {
+            "newColumnHeader": "closedDate",
+            "columnValue": "\u0027\u0027"
+          }
+        },
+        {
+          "function": {
+            "inputHeaders": {
+              "headers": [
+                "closedDate"
+              ]
+            },
+            "plugin": "gatewayFunctions",
+            "function": "getDate"
+          }
+        }
+      ],
+      "mappings": [
+        {
+          "header": "Address \u003e Line 2",
+          "field": "address",
+          "subfieldPath": [
+            {
+              "name": "line2"
+            }
+          ],
+          "clearValueIfBlank": false
+        },
+        {
+          "header": "Facebook Cover Photo \u003e alternateText",
+          "field": "facebookCoverPhoto",
+          "subfieldPath": [
+            {
+              "name": "alternateText"
+            }
+          ],
+          "clearValueIfBlank": true
+        },
+        {
+          "header": "Photo Gallery \u003e clickthroughUrl",
+          "field": "photoGallery",
+          "subfieldPath": [
+            {
+              "name": "clickthroughUrl"
+            }
+          ],
+          "clearValueIfBlank": true
+        },
+        {
+          "header": "Description",
+          "field": "description",
+          "subfieldPath": [],
+          "clearValueIfBlank": true
+        },
+        {
+          "header": "Business Logo \u003e description",
+          "field": "logo",
+          "subfieldPath": [
+            {
+              "name": "description"
+            }
+          ],
+          "clearValueIfBlank": true
+        },
+        {
+          "header": "Featured Message \u003e URL",
+          "field": "featuredMessage",
+          "subfieldPath": [
+            {
+              "name": "url"
+            }
+          ],
+          "clearValueIfBlank": true
+        },
+        {
+          "header": "Facebook Parent Page ID",
+          "field": "facebookParentPageId",
+          "subfieldPath": [],
+          "clearValueIfBlank": false
+        },
+        {
+          "header": "Main Phone",
+          "field": "mainPhone",
+          "subfieldPath": [],
+          "clearValueIfBlank": false
+        },
+        {
+          "header": "Address \u003e Line 1",
+          "field": "address",
+          "subfieldPath": [
+            {
+              "name": "line1"
+            }
+          ],
+          "clearValueIfBlank": false
+        },
+        {
+          "header": "Business Logo \u003e clickthroughUrl",
+          "field": "logo",
+          "subfieldPath": [
+            {
+              "name": "clickthroughUrl"
+            }
+          ],
+          "clearValueIfBlank": true
+        },
+        {
+          "header": "Label",
+          "field": "labels",
+          "subfieldPath": [],
+          "clearValueIfBlank": false
+        },
+        {
+          "header": "Folder",
+          "field": "folder",
+          "subfieldPath": [],
+          "clearValueIfBlank": false
+        },
+        {
+          "header": "Photo Gallery \u003e image \u003e alternateText",
+          "field": "photoGallery",
+          "subfieldPath": [
+            {
+              "name": "image"
+            },
+            {
+              "name": "alternateText"
+            }
+          ],
+          "clearValueIfBlank": true
+        },
+        {
+          "header": "Name",
+          "field": "name",
+          "subfieldPath": [],
+          "clearValueIfBlank": false
+        },
+        {
+          "header": "Facebook About",
+          "field": "facebookAbout",
+          "subfieldPath": [],
+          "clearValueIfBlank": true
+        },
+        {
+          "header": "Address \u003e Region",
+          "field": "address",
+          "subfieldPath": [
+            {
+              "name": "region"
+            }
+          ],
+          "clearValueIfBlank": false
+        },
+        {
+          "header": "Entity ID",
+          "field": "entityId",
+          "subfieldPath": [],
+          "clearValueIfBlank": false
+        },
+        {
+          "header": "Business Logo \u003e details",
+          "field": "logo",
+          "subfieldPath": [
+            {
+              "name": "details"
+            }
+          ],
+          "clearValueIfBlank": true
+        },
+        {
+          "header": "Emails",
+          "field": "emails",
+          "subfieldPath": [],
+          "clearValueIfBlank": true
+        },
+        {
+          "header": "Facebook Call-to-Action \u003e Value",
+          "field": "facebookCallToAction",
+          "subfieldPath": [
+            {
+              "name": "value"
+            }
+          ],
+          "clearValueIfBlank": true
+        },
+        {
+          "header": "NMLS",
+          "field": "c_nMLS",
+          "subfieldPath": [],
+          "clearValueIfBlank": false
+        },
+        {
+          "header": "Website URL \u003e URL",
+          "field": "websiteUrl",
+          "subfieldPath": [
+            {
+              "name": "url"
+            }
+          ],
+          "clearValueIfBlank": true
+        },
+        {
+          "header": "Photo Gallery \u003e details",
+          "field": "photoGallery",
+          "subfieldPath": [
+            {
+              "name": "details"
+            }
+          ],
+          "clearValueIfBlank": true
+        },
+        {
+          "header": "Featured Message \u003e Description",
+          "field": "featuredMessage",
+          "subfieldPath": [
+            {
+              "name": "description"
+            }
+          ],
+          "clearValueIfBlank": true
+        },
+        {
+          "header": "Facebook Call-to-Action \u003e Type",
+          "field": "facebookCallToAction",
+          "subfieldPath": [
+            {
+              "name": "type"
+            }
+          ],
+          "clearValueIfBlank": true
+        },
+        {
+          "header": "Google Account ID",
+          "field": "googleAccountId",
+          "subfieldPath": [],
+          "clearValueIfBlank": false
+        },
+        {
+          "header": "Photo Gallery \u003e description",
+          "field": "photoGallery",
+          "subfieldPath": [
+            {
+              "name": "description"
+            }
+          ],
+          "clearValueIfBlank": true
+        },
+        {
+          "header": "Answers - Last Name",
+          "field": "c_answersLastName",
+          "subfieldPath": [],
+          "clearValueIfBlank": false
+        },
+        {
+          "header": "Address \u003e City",
+          "field": "address",
+          "subfieldPath": [
+            {
+              "name": "city"
+            }
+          ],
+          "clearValueIfBlank": false
+        },
+        {
+          "header": "Title",
+          "field": "c_title",
+          "subfieldPath": [],
+          "clearValueIfBlank": true
+        },
+        {
+          "header": "Answers - First Name",
+          "field": "c_answersFirstName",
+          "subfieldPath": [],
+          "clearValueIfBlank": false
+        },
+        {
+          "header": "Facebook Profile Picture \u003e alternateText",
+          "field": "facebookProfilePhoto",
+          "subfieldPath": [
+            {
+              "name": "alternateText"
+            }
+          ],
+          "clearValueIfBlank": true
+        },
+        {
+          "header": "Business Logo \u003e image \u003e alternateText",
+          "field": "logo",
+          "subfieldPath": [
+            {
+              "name": "image"
+            },
+            {
+              "name": "alternateText"
+            }
+          ],
+          "clearValueIfBlank": true
+        },
+        {
+          "header": "Address \u003e Postal Code",
+          "field": "address",
+          "subfieldPath": [
+            {
+              "name": "postalCode"
+            }
+          ],
+          "clearValueIfBlank": false
+        },
+        {
+          "header": "Google Website Override",
+          "field": "googleWebsiteOverride",
+          "subfieldPath": [],
+          "clearValueIfBlank": true
+        },
+        {
+          "header": "Photo Gallery \u003e image \u003e url",
+          "field": "photoGallery",
+          "subfieldPath": [
+            {
+              "name": "image"
+            },
+            {
+              "name": "url"
+            }
+          ],
+          "clearValueIfBlank": true
+        },
+        {
+          "header": "closedDate",
+          "field": "c_eTLClosedDate",
+          "subfieldPath": [],
+          "clearValueIfBlank": false
+        },
+        {
+          "header": "Closed",
+          "field": "closed",
+          "subfieldPath": [],
+          "clearValueIfBlank": true
+        },
+        {
+          "header": "Fax Number",
+          "field": "fax",
+          "subfieldPath": [],
+          "clearValueIfBlank": false
+        },
+        {
+          "header": "Impressum",
+          "field": "impressum",
+          "subfieldPath": [],
+          "clearValueIfBlank": true
+        },
+        {
+          "header": "Mobile Phone",
+          "field": "mobilePhone",
+          "subfieldPath": [],
+          "clearValueIfBlank": false
+        },
+        {
+          "header": "Google UTM",
+          "field": "c_googleUTM",
+          "subfieldPath": [],
+          "clearValueIfBlank": true
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "$id": "M-185",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "address": {
+      "city": "Derby",
+      "countryCode": "US",
+      "line1": "200 N. Baltimore Ave.",
+      "line2": "Ste. 100",
+      "postalCode": "67037",
+      "region": "KS"
+    },
+    "c_eTLClosedDate": "2023-11-06",
+    "c_googleUTM": "?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
+    "c_nMLS": "7233",
+    "categoryIds": [
+      "1718"
+    ],
+    "closed": true,
+    "facebookParentPageId": "141088722606932",
+    "fax": "+13167833055",
+    "featuredMessage": {
+      "description": "Apply Now!"
+    },
+    "geomodifier": "Derby",
+    "googleAccountId": "106465598282274804591",
+    "hours": {
+      "friday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "monday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "saturday": {
+        "isClosed": true
+      },
+      "sunday": {
+        "isClosed": true
+      },
+      "thursday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "tuesday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "wednesday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      }
+    },
+    "mainPhone": "+13167833053",
+    "name": "Gateway Mortgage",
+    "photoGallery": [
+      {
+        "image": {
+          "url": "http://a.mktgcdn.com/p-sandbox/ByL52_cpGnvPlMxPBm28ZIT9uMML9qk3_JsOJU2Yul8/400x400.png"
+        }
+      }
+    ],
+    "timezone": "America/Chicago"
+  },
+  "entityType": "location",
+  "folder": "inactive",
+  "labels": [
+    "139381"
+  ]
+}

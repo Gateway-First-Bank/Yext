@@ -1,0 +1,108 @@
+{
+  "$id": "L-106439",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "address": {
+      "city": "Joplin",
+      "countryCode": "US",
+      "line1": "3929 E. 7th St.",
+      "line2": "Ste. G",
+      "postalCode": "64801",
+      "region": "MO"
+    },
+    "c_Licensed": true,
+    "c_answersFirstName": "Jackie",
+    "c_answersLastName": "Brummett",
+    "c_googleUTM": "?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
+    "c_nMLS": "1839895",
+    "c_title": "Loan Partner",
+    "categoryIds": [
+      "1718"
+    ],
+    "description": "At Gateway, we weave the knowledge and expertise of our local mortgage professionals together with state-of-the-art technology and the powerful resources of a national company to make your homebuying experience easy, reliable, and fast. Gateway’s focus on strengthening families through homeownership drives our commitment to the communities we serve.",
+    "emails": [
+      "Jackie.Brummett@gatewayloan.com"
+    ],
+    "facebookAbout": "Strengthening families and communities through personalized financial solutions, expert guidance, and award-winning service.",
+    "facebookCallToAction": {
+      "type": "LEARN_MORE",
+      "value": "[[website.url]]"
+    },
+    "facebookParentPageId": "141088722606932",
+    "facebookVanityUrl": "GatewayMortgage[[c_answersFirstName]][[c_answersLastName]]",
+    "fax": "+14177264063",
+    "featuredMessage": {
+      "description": "Apply Now!",
+      "url": "https://www.gatewayfirst.com/mortgage/apply-now"
+    },
+    "googleAccountId": "106465598282274804591",
+    "googleWebsiteOverride": "[[website.url]][[c_googleUTM]]",
+    "hours": {
+      "friday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "monday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "saturday": {
+        "isClosed": true
+      },
+      "sunday": {
+        "isClosed": true
+      },
+      "thursday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "tuesday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "wednesday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      }
+    },
+    "impressum": "Gateway Mortgage, a division of Gateway First Bank. Member FDIC. Equal Housing Lender. NMLS 7233. All loans subject to program guidelines and final underwriting approval. Contact local mortgage center for details. [[c_answersFirstName]] [[c_answersLastName]] NMLS [[c_nMLS]]",
+    "mainPhone": "+14177264057",
+    "mobilePhone": "+14178501302",
+    "name": "Jackie Brummett - Gateway Mortgage",
+    "photoGallery": [
+      {
+        "image": {
+          "url": "http://a.mktgcdn.com/p-sandbox/ByL52_cpGnvPlMxPBm28ZIT9uMML9qk3_JsOJU2Yul8/400x400.png"
+        }
+      }
+    ],
+    "timezone": "America/Chicago",
+    "websiteUrl": {
+      "url": "https://www.gatewayfirst.com/locations-atms/jackie-brummett"
+    }
+  },
+  "entityType": "location",
+  "folder": "loanOfficers",
+  "labels": []
+}

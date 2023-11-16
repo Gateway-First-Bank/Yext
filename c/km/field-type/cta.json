@@ -1,6 +1,7 @@
 {
   "$id": "c_cta",
   "$schema": "https://schema.yext.com/config/km/field-type/v1",
+  "description": "",
   "displayName": "CTA",
   "type": {
     "structType": {

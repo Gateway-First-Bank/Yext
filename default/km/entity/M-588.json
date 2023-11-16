@@ -1,0 +1,92 @@
+{
+  "$id": "M-588",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "address": {
+      "city": "Boerne",
+      "countryCode": "US",
+      "line1": "1201 S. Main St.",
+      "line2": "Ste. 122",
+      "postalCode": "78006",
+      "region": "TX"
+    },
+    "c_eTLClosedDate": "2023-11-06",
+    "c_googleUTM": "?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
+    "c_nMLS": "7233",
+    "categoryIds": [
+      "1718"
+    ],
+    "closed": true,
+    "facebookParentPageId": "141088722606932",
+    "fax": "+12107143618",
+    "featuredMessage": {
+      "description": "Apply Now!"
+    },
+    "geomodifier": "Boerne",
+    "googleAccountId": "106465598282274804591",
+    "hours": {
+      "friday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "monday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "saturday": {
+        "isClosed": true
+      },
+      "sunday": {
+        "isClosed": true
+      },
+      "thursday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "tuesday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "wednesday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      }
+    },
+    "mainPhone": "+12107144780",
+    "name": "Gateway Mortgage",
+    "photoGallery": [
+      {
+        "image": {
+          "url": "http://a.mktgcdn.com/p-sandbox/ByL52_cpGnvPlMxPBm28ZIT9uMML9qk3_JsOJU2Yul8/400x400.png"
+        }
+      }
+    ],
+    "timezone": "America/Chicago"
+  },
+  "entityType": "location",
+  "folder": "inactive",
+  "labels": [
+    "139381"
+  ]
+}

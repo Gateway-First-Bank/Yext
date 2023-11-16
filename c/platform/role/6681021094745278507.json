@@ -1,8 +1,0 @@
-{
-  "$id": "c_6681021094745278507",
-  "$schema": "https://schema.yext.com/config/platform/role/v1",
-  "name": "Custom",
-  "description": "Test",
-  "permissionIds": [],
-  "availableToSubAccounts": false
-}

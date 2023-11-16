@@ -1,0 +1,12 @@
+{
+  "$id": "c_eTLClosedDate",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "Used to unlicense entities x days after this date",
+  "displayName": "ETL Closed Date",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "dateType": {}
+  },
+  "typeId": "date"
+}

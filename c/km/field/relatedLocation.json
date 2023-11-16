@@ -1,6 +1,7 @@
 {
   "$id": "c_relatedLocation",
   "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "",
   "displayName": "Related Location",
   "group": "GROUP1",
   "localization": "PRIMARY_ONLY",

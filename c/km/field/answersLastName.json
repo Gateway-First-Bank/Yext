@@ -1,6 +1,7 @@
 {
   "$id": "c_answersLastName",
   "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "",
   "displayName": "Answers - Last Name",
   "group": "GROUP1",
   "localization": "PRIMARY_ONLY",

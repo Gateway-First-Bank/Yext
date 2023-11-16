@@ -1,0 +1,196 @@
+{
+  "$id": "removeLicenses",
+  "$schema": "https://schema.yext.com/config/km/connector/v4",
+  "displayName": "Remove Licenses",
+  "entityTypes": [
+    "location"
+  ],
+  "source": {
+    "sourceConfig": {
+      "nativeSourceConfig": {
+        "source": "yextAccount",
+        "operation": "fetchEntities",
+        "inputs": {
+          "apiKey": "${{km/connector.removeLicenses.apiKey}}",
+          "entityType": "location",
+          "environment": "sandbox",
+          "vParam": "20231106"
+        }
+      }
+    },
+    "selectors": [
+      {
+        "type": "JSON",
+        "header": "geomodifier",
+        "path": "geomodifier"
+      },
+      {
+        "type": "JSON",
+        "header": "address.line1",
+        "path": "address.line1"
+      },
+      {
+        "type": "JSON",
+        "header": "address.line2",
+        "path": "address.line2"
+      },
+      {
+        "type": "JSON",
+        "header": "address.city",
+        "path": "address.city"
+      },
+      {
+        "type": "JSON",
+        "header": "address.region",
+        "path": "address.region"
+      },
+      {
+        "type": "JSON",
+        "header": "address.postalCode",
+        "path": "address.postalCode"
+      },
+      {
+        "type": "JSON",
+        "header": "address.countryCode",
+        "path": "address.countryCode"
+      },
+      {
+        "type": "JSON",
+        "header": "name",
+        "path": "name"
+      },
+      {
+        "type": "JSON",
+        "header": "meta.accountId",
+        "path": "meta.accountId"
+      },
+      {
+        "type": "JSON",
+        "header": "meta.uid",
+        "path": "meta.uid"
+      },
+      {
+        "type": "JSON",
+        "header": "meta.id",
+        "path": "meta.id"
+      },
+      {
+        "type": "JSON",
+        "header": "meta.timestamp",
+        "path": "meta.timestamp"
+      },
+      {
+        "type": "JSON",
+        "header": "meta.labels",
+        "path": "meta.labels"
+      },
+      {
+        "type": "JSON",
+        "header": "meta.folderId",
+        "path": "meta.folderId"
+      },
+      {
+        "type": "JSON",
+        "header": "meta.language",
+        "path": "meta.language"
+      },
+      {
+        "type": "JSON",
+        "header": "meta.countryCode",
+        "path": "meta.countryCode"
+      },
+      {
+        "type": "JSON",
+        "header": "meta.entityType",
+        "path": "meta.entityType"
+      },
+      {
+        "type": "JSON",
+        "header": "c_eTLClosedDate",
+        "path": "c_eTLClosedDate"
+      },
+      {
+        "type": "JSON",
+        "header": "c_Licensed",
+        "path": "c_Licensed"
+      }
+    ]
+  },
+  "transforms": [
+    {
+      "filterRows": {
+        "action": "KEEP",
+        "combinator": "AND",
+        "rules": [
+          {
+            "columnHeader": "c_eTLClosedDate",
+            "conditional": "IS_NOT_BLANK"
+          }
+        ]
+      }
+    },
+    {
+      "addColumn": {
+        "newColumnHeader": "daysUntilUnlicense",
+        "columnValue": "28"
+      }
+    },
+    {
+      "functionOnARow": {
+        "plugin": "gatewayFunctions",
+        "function": "checkDateDifference",
+        "inputMappings": [
+          {
+            "functionKey": "dateString",
+            "columnHeader": "c_eTLClosedDate"
+          },
+          {
+            "functionKey": "daysDifference",
+            "columnHeader": "daysUntilUnlicense"
+          }
+        ],
+        "outputMappings": [
+          {
+            "functionKey": "licensed",
+            "columnHeader": "c_Licensed"
+          }
+        ],
+        "dropUnspecifiedOutputColumns": false
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "header": "meta.id",
+      "field": "entityId",
+      "subfieldPath": [],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "name",
+      "field": "name",
+      "subfieldPath": [],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "address.line1",
+      "field": "address",
+      "subfieldPath": [
+        {
+          "name": "line1"
+        }
+      ],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "c_Licensed",
+      "field": "c_Licensed",
+      "subfieldPath": [],
+      "clearValueIfBlank": false
+    }
+  ],
+  "comprehensiveModeConfig": {
+    "comprehensiveSet": "ENTITIES_CREATED_BY_THIS_CONNECTOR",
+    "actionOnMissingEntities": "DELETE"
+  }
+}

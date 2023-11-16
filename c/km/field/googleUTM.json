@@ -1,6 +1,7 @@
 {
   "$id": "c_googleUTM",
   "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "",
   "displayName": "Google UTM",
   "group": "NONE",
   "localization": "PRIMARY_ONLY",

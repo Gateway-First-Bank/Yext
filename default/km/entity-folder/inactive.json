@@ -2,5 +2,5 @@
   "$id": "inactive",
   "$schema": "https://schema.yext.com/config/km/entity-folder/v1",
   "name": "Inactive",
-  "parent": "yext/root"
+  "parent": "eTL"
 }
