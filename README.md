@@ -5,6 +5,6 @@ This repository stores the configuraton and custom typescript functions for the 
 Code is manually merged w/ Yext via the Yext CLI and not Github.
 
 The custom typescript functions live here:
--platform
---plugin
----gatewayfunctions
+- platform
+-- plugin
+--- gatewayfunctions
