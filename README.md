@@ -6,5 +6,5 @@ Code is manually merged w/ Yext via the Yext CLI and not Github.
 
 The custom typescript functions live here:
 - platform
--- plugin
+  - plugin
 --- gatewayfunctions
