@@ -13,11 +13,11 @@ The custom typescript functions live here:
 
 ## gatewayFunctions
 
-function lookupAddress : This function is used by the Loan Officer connector to retrieve the address information for their corresponding mortgage center. It depends on a Yext API connection.
+**function lookupAddress :** This function is used by the Loan Officer connector to retrieve the address information for their corresponding mortgage center. It depends on a Yext API connection.
 
-function getDate : Just returns the current system date. This is used when an entity is set to closed so that the license can be revoked later.
+**function getDate :** Just returns the current system date. This is used when an entity is set to closed so that the license can be revoked later.
 
-function checkDateDifference : returns a boolean if the closed date of an entity is past X days so that the license field can be set to false. (used to reclaim licenses by the license connector)
+**function checkDateDifference :** returns a boolean if the closed date of an entity is past X days so that the license field can be set to false. (used to reclaim licenses by the license connector)
 
 ## splitAndCleanAddress
 
