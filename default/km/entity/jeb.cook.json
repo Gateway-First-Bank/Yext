@@ -1,0 +1,113 @@
+{
+  "$id": "jeb.cook",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "address": {
+      "city": "Oklahoma City",
+      "countryCode": "US",
+      "line1": "6303 Waterford Blvd, Suite 100",
+      "postalCode": "73118",
+      "region": "OK"
+    },
+    "c_exemptFromETL": true,
+    "c_licensed": true,
+    "c_title": "Market President, Commercial Banking",
+    "categoryIds": [
+      "1091"
+    ],
+    "description": "At Gateway, we combine the knowledge and expertise of our local banking professionals together with state-of-the-art technology to help you achieve your financial goals. Our goal is to provide you with the tools you need to craft the future you want and that by doing so, we can build a stronger community, together.",
+    "emails": [
+      "Jeb.Cook@GatewayFirst.com"
+    ],
+    "facebookCallToAction": {
+      "type": "LEARN_MORE",
+      "value": "http://www.gatewayfirst.com/jeb-cook"
+    },
+    "featuredMessage": {
+      "description": "Contact Us Today!",
+      "url": "http://www.GatewayFirst.com"
+    },
+    "googleAccountId": "106465598282274804591",
+    "googlePlaceId": "ChIJpdP7J78bsocRX7WJiK_-SzU",
+    "googleWebsiteOverride": "http://www.gatewayfirst.com/locations-atms/jeb-cook?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
+    "hours": {
+      "friday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "monday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "saturday": {
+        "isClosed": true
+      },
+      "sunday": {
+        "isClosed": true
+      },
+      "thursday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "tuesday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "wednesday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      }
+    },
+    "impressum": "Gateway First Bank. Member FDIC.",
+    "mainPhone": "+14056973083",
+    "name": "Jeb Cook - Gateway First Bank",
+    "photoGallery": [
+      {
+        "image": {
+          "height": 450,
+          "thumbnails": [
+            {
+              "height": 450,
+              "url": "https://a.mktgcdn.com/p/A_fVsSWxC9B9N0DpqpoUs_6-RfJHQxq5VuqYJvSE16U/300x450.jpg",
+              "width": 300
+            }
+          ],
+          "url": "https://a.mktgcdn.com/p/A_fVsSWxC9B9N0DpqpoUs_6-RfJHQxq5VuqYJvSE16U/300x450.jpg",
+          "width": 300
+        }
+      }
+    ],
+    "timezone": "America/Chicago",
+    "websiteUrl": {
+      "displayUrl": "http://www.gatewayfirst.com/jeb-cook",
+      "url": "http://www.gatewayfirst.com/locations-atms/jeb-cook"
+    }
+  },
+  "entityType": "location",
+  "folder": "385918",
+  "labels": [
+    "135766",
+    "gateway132003"
+  ]
+}

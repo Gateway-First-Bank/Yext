@@ -11,25 +11,75 @@
       "postalCode": "08053",
       "region": "NJ"
     },
-    "c_Licensed": true,
+    "c_activeOnAnswers": true,
     "c_googleUTM": "?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
+    "c_licensed": true,
     "c_nMLS": "7233",
+    "c_relatedLoanOfficers": [
+      "L-102194",
+      "L-105080",
+      "L-102178"
+    ],
     "categoryIds": [
+      "1450365",
       "1718"
     ],
-    "description": "At Gateway, we weave the knowledge and expertise of our local mortgage professionals together with state-of-the-art technology and the powerful resources of a national company to make your homebuying experience easy, reliable, and fast. Gateway’s focus on strengthening families through homeownership drives our commitment to the communities we serve. Visit www.GatewayLoan.com to learn more.",
+    "description": "At Gateway, we weave the knowledge and expertise of our local mortgage professionals together with state-of-the-art technology and the powerful resources of a national company to make your homebuying experience easy, reliable, and fast. Gateway’s focus on strengthening families through homeownership drives our commitment to the communities we serve.",
+    "displayCoordinate": {
+      "latitude": 39.9069306,
+      "longitude": -74.9402858
+    },
+    "facebookAbout": "Strengthening families and communities through personalized financial solutions, expert guidance, and award-winning service.",
     "facebookCallToAction": {
       "type": "LEARN_MORE",
-      "value": "[[website.url]]"
+      "value": "https://www.gatewayfirst.com/marlton-nj"
     },
+    "facebookCoverPhoto": {
+      "height": 360,
+      "sourceUrl": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/820x360.png",
+      "thumbnails": [
+        {
+          "height": 360,
+          "url": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/820x360.png",
+          "width": 820
+        },
+        {
+          "height": 272,
+          "url": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/619x272.png",
+          "width": 619
+        },
+        {
+          "height": 263,
+          "url": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/600x263.png",
+          "width": 600
+        },
+        {
+          "height": 86,
+          "url": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/196x86.png",
+          "width": 196
+        }
+      ],
+      "url": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/820x360.png",
+      "width": 820
+    },
+    "facebookDescriptor": "Marlton, NJ",
+    "facebookName": "Gateway Mortgage",
+    "facebookPageUrl": "https://www.facebook.com/1662214014047934",
     "facebookParentPageId": "141088722606932",
+    "facebookProfilePhoto": {
+      "height": 1080,
+      "url": "https://a.mktgcdn.com/p/HH5lykycQ1ljumyiRVoqQA6muhqkIR8Sw3An0IXDl9I/1080x1080.png",
+      "width": 1080
+    },
+    "facebookVanityUrl": "GatewayMortgageMarltonNJ",
     "featuredMessage": {
       "description": "Apply Now!",
       "url": "https://www.gatewayfirst.com/mortgage/apply-now"
     },
     "geomodifier": "Marlton",
     "googleAccountId": "106465598282274804591",
-    "googleWebsiteOverride": "[[website.url]][[c_googleUTM]]",
+    "googlePlaceId": "ChIJ_S70YwozwYkRISsDDY7m__c",
+    "googleWebsiteOverride": "https://www.gatewayfirst.com/locations-atms/marlton-nj?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
     "hours": {
       "friday": {
         "openIntervals": [
@@ -78,24 +128,61 @@
         ]
       }
     },
-    "impressum": "Gateway Mortgage, a division of Gateway First Bank. Member FDIC. Equal Housing Lender. NMLS 7233. All loans subject to program guidelines and final underwriting approval. Contact local mortgage center for details.",
+    "impressum": "Gateway Mortgage, a division of Gateway First Bank. NMLS 7233. HQ: 244 South Gateway Place, Jenks, OK 74037. Tel: 877.406.8109. Maryland Mortgage Lender License 19468.",
+    "logo": {
+      "image": {
+        "height": 400,
+        "sourceUrl": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+        "thumbnails": [
+          {
+            "height": 400,
+            "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+            "width": 400
+          },
+          {
+            "height": 196,
+            "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/196x196.png",
+            "width": 196
+          }
+        ],
+        "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+        "width": 400
+      }
+    },
     "mainPhone": "+18568101200",
     "name": "Gateway Mortgage",
     "photoGallery": [
       {
         "image": {
-          "url": "http://a.mktgcdn.com/p-sandbox/ByL52_cpGnvPlMxPBm28ZIT9uMML9qk3_JsOJU2Yul8/400x400.png"
+          "height": 400,
+          "sourceUrl": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+          "thumbnails": [
+            {
+              "height": 400,
+              "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+              "width": 400
+            },
+            {
+              "height": 196,
+              "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/196x196.png",
+              "width": 196
+            }
+          ],
+          "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+          "width": 400
         }
       }
     ],
     "timezone": "America/New_York",
     "websiteUrl": {
+      "displayUrl": "https://www.gatewayfirst.com/marlton-nj",
       "url": "https://www.gatewayfirst.com/locations-atms/marlton-nj"
     }
   },
   "entityType": "location",
   "folder": "281735",
   "labels": [
-    "139380"
+    "135766",
+    "gateway132003"
   ]
 }

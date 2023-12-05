@@ -1,0 +1,32 @@
+{
+  "$id": "1350619239",
+  "$schema": "https://schema.yext.com/config/km/saved-filter/v1",
+  "name": "Apply Licenses Filter (DO NOT CHANGE OR DELETE)",
+  "filter": {
+    "entityField": [
+      {
+        "fieldId": "c_licensed",
+        "searchBool": "TRUE"
+      }
+    ],
+    "entityType": [
+      {
+        "entityTypeId": [
+          "location"
+        ],
+        "type": "IS"
+      }
+    ],
+    "fieldsWithData": [
+      {
+        "fieldId": [
+          "gmbLinkedAccount",
+          "googleAccountId",
+          "facebookLinkedAccount",
+          "facebookParentPageId"
+        ],
+        "type": "ANY"
+      }
+    ]
+  }
+}

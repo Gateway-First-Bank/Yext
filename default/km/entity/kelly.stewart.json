@@ -1,0 +1,124 @@
+{
+  "$id": "kelly.stewart",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "address": {
+      "city": "Cherokee",
+      "countryCode": "US",
+      "line1": "419 South Grand Avenue",
+      "postalCode": "73728",
+      "region": "OK"
+    },
+    "c_exemptFromETL": true,
+    "c_licensed": true,
+    "c_title": "VP, Senior Loan Officer",
+    "categoryIds": [
+      "1091"
+    ],
+    "description": "At Gateway, we combine the knowledge and expertise of our local banking professionals together with state-of-the-art technology to help you achieve your financial goals. Our goal is to provide you with the tools you need to craft the future you want and that by doing so, we can build a stronger community, together.",
+    "emails": [
+      "Kelly.stewart@gatewayfirst.com"
+    ],
+    "facebookCallToAction": {
+      "type": "LEARN_MORE",
+      "value": "https://www.gatewayfirst.com/kelly-stewart"
+    },
+    "featuredMessage": {
+      "description": "Contact Us Today!",
+      "url": "http://www.GatewayFirst.com"
+    },
+    "googleAccountId": "106465598282274804591",
+    "googleCoverPhoto": {
+      "height": 1447,
+      "thumbnails": [
+        {
+          "height": 1447,
+          "url": "https://a.mktgcdn.com/p/MwKo8W8e6jYEZjMtEFJ8tHusqrnRlwmPpD-ALygt1dk/1512x1447.jpg",
+          "width": 1512
+        },
+        {
+          "height": 592,
+          "url": "https://a.mktgcdn.com/p/MwKo8W8e6jYEZjMtEFJ8tHusqrnRlwmPpD-ALygt1dk/619x592.jpg",
+          "width": 619
+        },
+        {
+          "height": 450,
+          "url": "https://a.mktgcdn.com/p/MwKo8W8e6jYEZjMtEFJ8tHusqrnRlwmPpD-ALygt1dk/470x450.jpg",
+          "width": 470
+        },
+        {
+          "height": 188,
+          "url": "https://a.mktgcdn.com/p/MwKo8W8e6jYEZjMtEFJ8tHusqrnRlwmPpD-ALygt1dk/196x188.jpg",
+          "width": 196
+        }
+      ],
+      "url": "https://a.mktgcdn.com/p/MwKo8W8e6jYEZjMtEFJ8tHusqrnRlwmPpD-ALygt1dk/1512x1447.jpg",
+      "width": 1512
+    },
+    "googlePlaceId": "ChIJLfpuXGubr4cRK4szcqaRY9k",
+    "googleWebsiteOverride": "https://www.gatewayfirst.com/locations-atms/kelly-stewart?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
+    "hours": {
+      "friday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "monday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "saturday": {
+        "isClosed": true
+      },
+      "sunday": {
+        "isClosed": true
+      },
+      "thursday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "tuesday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "wednesday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      }
+    },
+    "impressum": "Gateway First Bank. Member FDIC.",
+    "mainPhone": "+15805961013",
+    "name": "Kelly Stewart - Gateway First Bank",
+    "timezone": "America/Chicago",
+    "websiteUrl": {
+      "displayUrl": "https://www.gatewayfirst.com/kelly-stewart",
+      "url": "https://www.gatewayfirst.com/locations-atms/kelly-stewart"
+    }
+  },
+  "entityType": "location",
+  "folder": "385918",
+  "labels": [
+    "135766",
+    "gateway132003"
+  ]
+}

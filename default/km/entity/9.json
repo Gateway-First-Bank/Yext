@@ -1,0 +1,127 @@
+{
+  "$id": "9",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "address": {
+      "city": "Oklahoma City",
+      "countryCode": "US",
+      "line1": "6303 Waterford Blvd",
+      "postalCode": "73118",
+      "region": "OK"
+    },
+    "c_exemptFromETL": true,
+    "c_licensed": true,
+    "categoryIds": [
+      "1091"
+    ],
+    "description": "At Gateway, we combine the knowledge and expertise of our local banking professionals together with state-of-the-art technology to help you achieve your financial goals. Our goal is to provide you with the tools you need to craft the future you want and that by doing so, we can build a stronger community, together.",
+    "emails": [
+      "DigitalSupport@GatewayFirst.com"
+    ],
+    "facebookAbout": "Strengthening families and communities through personalized financial solutions, expert guidance, and award-winning service.",
+    "facebookCallToAction": {
+      "type": "LEARN_MORE",
+      "value": "https://www.gatewayfirst.com/locations-atms/oklahoma-city-waterford-ok"
+    },
+    "facebookCoverPhoto": {
+      "height": 1356,
+      "sourceUrl": "http://a.mktgcdn.com/p/evvC7ZEaBcCF7kBrpy4tqbeOGmTVMZwOonMOlb5oVdY/3091x1356.jpg",
+      "thumbnails": [
+        {
+          "height": 1356,
+          "url": "//a.mktgcdn.com/p/evvC7ZEaBcCF7kBrpy4tqbeOGmTVMZwOonMOlb5oVdY/3091x1356.jpg",
+          "width": 3091
+        }
+      ],
+      "url": "http://a.mktgcdn.com/p/evvC7ZEaBcCF7kBrpy4tqbeOGmTVMZwOonMOlb5oVdY/3091x1356.jpg",
+      "width": 3091
+    },
+    "facebookDescriptor": "Oklahoma City, OK",
+    "facebookPageUrl": "https://www.facebook.com/132607509937095",
+    "facebookParentPageId": "141088722606932",
+    "facebookProfilePhoto": {
+      "height": 200,
+      "sourceUrl": "http://a.mktgcdn.com/p/Yyfnr0fmpLRb1QOk6dGHgnklWIip6SeAcWeEH50SkaY/200x200.png",
+      "thumbnails": [
+        {
+          "height": 200,
+          "url": "//a.mktgcdn.com/p/Yyfnr0fmpLRb1QOk6dGHgnklWIip6SeAcWeEH50SkaY/200x200.png",
+          "width": 200
+        }
+      ],
+      "url": "http://a.mktgcdn.com/p/Yyfnr0fmpLRb1QOk6dGHgnklWIip6SeAcWeEH50SkaY/200x200.png",
+      "width": 200
+    },
+    "facebookVanityUrl": "GatewayFirstBankOklahomaCityOK",
+    "featuredMessage": {
+      "description": "Contact Us Today!",
+      "url": "https://www.gatewayfirst.com/locations-atms/oklahoma-city-waterford-ok"
+    },
+    "googleAccountId": "106465598282274804591",
+    "googlePlaceId": "ChIJX4Wxt7wbsocRrk8HKLkXodQ",
+    "googleWebsiteOverride": "https://www.gatewayfirst.com/locations-atms/oklahoma-city-waterford-ok?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
+    "hours": {
+      "friday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "monday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "saturday": {
+        "isClosed": true
+      },
+      "sunday": {
+        "isClosed": true
+      },
+      "thursday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "tuesday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "wednesday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      }
+    },
+    "impressum": "Gateway First Bank. Member FDIC.",
+    "mainPhone": "+14053381578",
+    "name": "Gateway First Bank",
+    "timezone": "America/Chicago",
+    "websiteUrl": {
+      "displayUrl": "https://www.gatewayfirst.com/locations-atms/oklahoma-city-waterford-ok",
+      "preferDisplayUrl": false,
+      "url": "https://www.gatewayfirst.com/locations-atms/oklahoma-city-waterford-ok"
+    }
+  },
+  "entityType": "location",
+  "folder": "385917",
+  "labels": [
+    "139380"
+  ]
+}

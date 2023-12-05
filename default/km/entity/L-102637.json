@@ -11,15 +11,21 @@
       "postalCode": "32258",
       "region": "FL"
     },
-    "c_Licensed": true,
+    "addressHidden": false,
+    "c_activeOnAnswers": true,
     "c_answersFirstName": "Shari",
     "c_answersLastName": "Reeves",
+    "c_answersName": "Shari Reeves",
+    "c_employeeID": "102637",
     "c_googleUTM": "?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
+    "c_licensed": true,
     "c_nMLS": "415413",
     "c_title": "Mortgage Sales Manager 2",
     "categoryIds": [
+      "1450365",
       "1718"
     ],
+    "closed": false,
     "description": "At Gateway, we weave the knowledge and expertise of our local mortgage professionals together with state-of-the-art technology and the powerful resources of a national company to make your homebuying experience easy, reliable, and fast. Gateway’s focus on strengthening families through homeownership drives our commitment to the communities we serve.",
     "emails": [
       "Shari.Reeves@gatewayloan.com"
@@ -29,7 +35,58 @@
       "type": "LEARN_MORE",
       "value": "[[website.url]]"
     },
+    "facebookCoverPhoto": {
+      "height": 360,
+      "sourceUrl": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/820x360.png",
+      "thumbnails": [
+        {
+          "height": 360,
+          "url": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/820x360.png",
+          "width": 820
+        },
+        {
+          "height": 272,
+          "url": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/619x272.png",
+          "width": 619
+        },
+        {
+          "height": 263,
+          "url": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/600x263.png",
+          "width": 600
+        },
+        {
+          "height": 86,
+          "url": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/196x86.png",
+          "width": 196
+        }
+      ],
+      "url": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/820x360.png",
+      "width": 820
+    },
+    "facebookPageUrl": "https://www.facebook.com/101773257864605",
     "facebookParentPageId": "141088722606932",
+    "facebookProfilePhoto": {
+      "height": 600,
+      "thumbnails": [
+        {
+          "height": 600,
+          "url": "https://a.mktgcdn.com/p/Kdt7wxaEtmNTkPuln-pnu9OHxIJrDAjZ_L-lEjU8HrQ/600x600.jpg",
+          "width": 600
+        },
+        {
+          "height": 450,
+          "url": "https://a.mktgcdn.com/p/Kdt7wxaEtmNTkPuln-pnu9OHxIJrDAjZ_L-lEjU8HrQ/450x450.jpg",
+          "width": 450
+        },
+        {
+          "height": 196,
+          "url": "https://a.mktgcdn.com/p/Kdt7wxaEtmNTkPuln-pnu9OHxIJrDAjZ_L-lEjU8HrQ/196x196.jpg",
+          "width": 196
+        }
+      ],
+      "url": "https://a.mktgcdn.com/p/Kdt7wxaEtmNTkPuln-pnu9OHxIJrDAjZ_L-lEjU8HrQ/600x600.jpg",
+      "width": 600
+    },
     "facebookVanityUrl": "GatewayMortgage[[c_answersFirstName]][[c_answersLastName]]",
     "fax": "+19049905099",
     "featuredMessage": {
@@ -37,6 +94,29 @@
       "url": "https://www.gatewayfirst.com/mortgage/apply-now"
     },
     "googleAccountId": "106465598282274804591",
+    "googleCoverPhoto": {
+      "height": 600,
+      "thumbnails": [
+        {
+          "height": 600,
+          "url": "https://a.mktgcdn.com/p/wIye-XhIu367F1lGp2_y2XntFNpRRsAeWaVlwACEm-4/600x600.jpg",
+          "width": 600
+        },
+        {
+          "height": 450,
+          "url": "https://a.mktgcdn.com/p/wIye-XhIu367F1lGp2_y2XntFNpRRsAeWaVlwACEm-4/450x450.jpg",
+          "width": 450
+        },
+        {
+          "height": 196,
+          "url": "https://a.mktgcdn.com/p/wIye-XhIu367F1lGp2_y2XntFNpRRsAeWaVlwACEm-4/196x196.jpg",
+          "width": 196
+        }
+      ],
+      "url": "https://a.mktgcdn.com/p/wIye-XhIu367F1lGp2_y2XntFNpRRsAeWaVlwACEm-4/600x600.jpg",
+      "width": 600
+    },
+    "googlePlaceId": "ChIJid13zDbB5YgRirqkzG9E7qw",
     "googleWebsiteOverride": "[[website.url]][[c_googleUTM]]",
     "hours": {
       "friday": {
@@ -87,22 +167,97 @@
       }
     },
     "impressum": "Gateway Mortgage, a division of Gateway First Bank. Member FDIC. Equal Housing Lender. NMLS 7233. All loans subject to program guidelines and final underwriting approval. Contact local mortgage center for details. [[c_answersFirstName]] [[c_answersLastName]] NMLS [[c_nMLS]]",
+    "logo": {
+      "image": {
+        "height": 400,
+        "sourceUrl": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+        "thumbnails": [
+          {
+            "height": 400,
+            "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+            "width": 400
+          },
+          {
+            "height": 196,
+            "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/196x196.png",
+            "width": 196
+          }
+        ],
+        "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+        "width": 400
+      }
+    },
     "mainPhone": "+19049905098",
     "mobilePhone": "+19048742205",
     "name": "Shari Reeves - Gateway Mortgage",
     "photoGallery": [
       {
         "image": {
-          "url": "http://a.mktgcdn.com/p-sandbox/ByL52_cpGnvPlMxPBm28ZIT9uMML9qk3_JsOJU2Yul8/400x400.png"
+          "height": 400,
+          "sourceUrl": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+          "thumbnails": [
+            {
+              "height": 400,
+              "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+              "width": 400
+            },
+            {
+              "height": 196,
+              "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/196x196.png",
+              "width": 196
+            }
+          ],
+          "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+          "width": 400
+        }
+      },
+      {
+        "image": {
+          "height": 3000,
+          "sourceUrl": "https://a.mktgcdn.com/p/yHAvOYJNwReRsSWOUBqN_k0ODLloSMJMrPjhbPZ6-9U/2700x3000.jpg",
+          "thumbnails": [
+            {
+              "height": 3000,
+              "url": "https://a.mktgcdn.com/p/yHAvOYJNwReRsSWOUBqN_k0ODLloSMJMrPjhbPZ6-9U/2700x3000.jpg",
+              "width": 2700
+            },
+            {
+              "height": 1900,
+              "url": "https://a.mktgcdn.com/p/yHAvOYJNwReRsSWOUBqN_k0ODLloSMJMrPjhbPZ6-9U/1710x1900.jpg",
+              "width": 1710
+            },
+            {
+              "height": 688,
+              "url": "https://a.mktgcdn.com/p/yHAvOYJNwReRsSWOUBqN_k0ODLloSMJMrPjhbPZ6-9U/619x688.jpg",
+              "width": 619
+            },
+            {
+              "height": 450,
+              "url": "https://a.mktgcdn.com/p/yHAvOYJNwReRsSWOUBqN_k0ODLloSMJMrPjhbPZ6-9U/405x450.jpg",
+              "width": 405
+            },
+            {
+              "height": 218,
+              "url": "https://a.mktgcdn.com/p/yHAvOYJNwReRsSWOUBqN_k0ODLloSMJMrPjhbPZ6-9U/196x218.jpg",
+              "width": 196
+            }
+          ],
+          "url": "https://a.mktgcdn.com/p/yHAvOYJNwReRsSWOUBqN_k0ODLloSMJMrPjhbPZ6-9U/2700x3000.jpg",
+          "width": 2700
         }
       }
     ],
     "timezone": "America/New_York",
     "websiteUrl": {
+      "displayUrl": "https://www.gatewayfirst.com/locations-atms/shari-reeves",
+      "preferDisplayUrl": false,
       "url": "https://www.gatewayfirst.com/locations-atms/shari-reeves"
     }
   },
   "entityType": "location",
   "folder": "loanOfficers",
-  "labels": []
+  "labels": [
+    "135766",
+    "gateway132003"
+  ]
 }

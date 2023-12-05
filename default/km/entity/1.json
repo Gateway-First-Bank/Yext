@@ -1,0 +1,134 @@
+{
+  "$id": "1",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "additionalHoursText": "Drive Thru Open 8 am - 4 pm, M-F",
+    "address": {
+      "city": "Cherokee",
+      "countryCode": "US",
+      "line1": "419 S. Grand",
+      "postalCode": "73728",
+      "region": "OK"
+    },
+    "c_exemptFromETL": true,
+    "c_licensed": true,
+    "categoryIds": [
+      "1091"
+    ],
+    "description": "At Gateway, we combine the knowledge and expertise of our local banking professionals together with state-of-the-art technology to help you achieve your financial goals. Our goal is to provide you with the tools you need to craft the future you want and that by doing so, we can build a stronger community, together.",
+    "emails": [
+      "DigitalSupport@GatewayFirst.com"
+    ],
+    "facebookAbout": "Strengthening families and communities through personalized financial solutions, expert guidance, and award-winning service.",
+    "facebookCallToAction": {
+      "type": "LEARN_MORE",
+      "value": "https://www.gatewayfirst.com/locations-atms/cherokee-ok"
+    },
+    "facebookCoverPhoto": {
+      "height": 1356,
+      "sourceUrl": "http://a.mktgcdn.com/p/evvC7ZEaBcCF7kBrpy4tqbeOGmTVMZwOonMOlb5oVdY/3091x1356.jpg",
+      "thumbnails": [
+        {
+          "height": 1356,
+          "url": "//a.mktgcdn.com/p/evvC7ZEaBcCF7kBrpy4tqbeOGmTVMZwOonMOlb5oVdY/3091x1356.jpg",
+          "width": 3091
+        }
+      ],
+      "url": "http://a.mktgcdn.com/p/evvC7ZEaBcCF7kBrpy4tqbeOGmTVMZwOonMOlb5oVdY/3091x1356.jpg",
+      "width": 3091
+    },
+    "facebookDescriptor": "Cherokee, OK",
+    "facebookPageUrl": "https://www.facebook.com/100859382109251",
+    "facebookParentPageId": "884602101931767",
+    "facebookProfilePhoto": {
+      "height": 200,
+      "sourceUrl": "http://a.mktgcdn.com/p/Yyfnr0fmpLRb1QOk6dGHgnklWIip6SeAcWeEH50SkaY/200x200.png",
+      "thumbnails": [
+        {
+          "height": 200,
+          "url": "//a.mktgcdn.com/p/Yyfnr0fmpLRb1QOk6dGHgnklWIip6SeAcWeEH50SkaY/200x200.png",
+          "width": 200
+        }
+      ],
+      "url": "http://a.mktgcdn.com/p/Yyfnr0fmpLRb1QOk6dGHgnklWIip6SeAcWeEH50SkaY/200x200.png",
+      "width": 200
+    },
+    "facebookVanityUrl": "GatewayFirstBankCherokeeOK",
+    "featuredMessage": {
+      "description": "Contact Us Today!",
+      "url": "https://www.gatewayfirst.com/locations-atms/cherokee-ok"
+    },
+    "googleAccountId": "106465598282274804591",
+    "googleAttributes": {
+      "has_drive_through": [
+        "true"
+      ]
+    },
+    "googlePlaceId": "ChIJoyZzfoqbr4cR9pH3cf4xyG8",
+    "googleWebsiteOverride": "https://www.gatewayfirst.com/locations-atms/cherokee-ok?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
+    "hours": {
+      "friday": {
+        "openIntervals": [
+          {
+            "end": "16:00",
+            "start": "08:00"
+          }
+        ]
+      },
+      "monday": {
+        "openIntervals": [
+          {
+            "end": "16:00",
+            "start": "08:00"
+          }
+        ]
+      },
+      "saturday": {
+        "isClosed": true
+      },
+      "sunday": {
+        "isClosed": true
+      },
+      "thursday": {
+        "openIntervals": [
+          {
+            "end": "16:00",
+            "start": "08:00"
+          }
+        ]
+      },
+      "tuesday": {
+        "openIntervals": [
+          {
+            "end": "16:00",
+            "start": "08:00"
+          }
+        ]
+      },
+      "wednesday": {
+        "openIntervals": [
+          {
+            "end": "16:00",
+            "start": "08:00"
+          }
+        ]
+      }
+    },
+    "impressum": "Gateway First Bank. Member FDIC.",
+    "mainPhone": "+15805963371",
+    "name": "Gateway First Bank",
+    "timezone": "America/Chicago",
+    "websiteUrl": {
+      "displayUrl": "https://www.gatewayfirst.com/locations-atms/cherokee-ok",
+      "preferDisplayUrl": false,
+      "url": "https://www.gatewayfirst.com/locations-atms/cherokee-ok"
+    }
+  },
+  "entityType": "location",
+  "folder": "385917",
+  "labels": [
+    "135766",
+    "gateway132003"
+  ]
+}

@@ -10,18 +10,53 @@
       "postalCode": "74037",
       "region": "OK"
     },
-    "c_Licensed": true,
+    "c_activeOnAnswers": true,
     "c_googleUTM": "?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
+    "c_licensed": true,
     "c_nMLS": "7233",
+    "c_relatedLoanOfficers": [
+      "L-102708",
+      "L-104022",
+      "L-102027",
+      "L-102707",
+      "L-103242",
+      "L-101907",
+      "L-103618",
+      "L-101906",
+      "L-105280"
+    ],
     "categoryIds": [
+      "1450365",
       "1718"
     ],
-    "description": "At Gateway, we weave the knowledge and expertise of our local mortgage professionals together with state-of-the-art technology and the powerful resources of a national company to make your homebuying experience easy, reliable, and fast. Gateway’s focus on strengthening families through homeownership drives our commitment to the communities we serve. Visit www.GatewayLoan.com to learn more.",
+    "description": "At Gateway, we weave the knowledge and expertise of our local mortgage professionals together with state-of-the-art technology and the powerful resources of a national company to make your homebuying experience easy, reliable, and fast. Gateway’s focus on strengthening families through homeownership drives our commitment to the communities we serve.",
+    "facebookAbout": "Strengthening families and communities through personalized financial solutions, expert guidance, and award-winning service.",
     "facebookCallToAction": {
       "type": "LEARN_MORE",
-      "value": "[[website.url]]"
+      "value": "https://www.gatewayfirst.com/jenks-ok"
     },
+    "facebookCoverPhoto": {
+      "height": 312,
+      "thumbnails": [
+        {
+          "height": 312,
+          "url": "https://a.mktgcdn.com/p/a_BnwId7t6zzD91nkxDrOy2tH-Yoj0MPKMIBc8Arn4M/820x312.png",
+          "width": 820
+        }
+      ],
+      "url": "https://a.mktgcdn.com/p/a_BnwId7t6zzD91nkxDrOy2tH-Yoj0MPKMIBc8Arn4M/820x312.png",
+      "width": 820
+    },
+    "facebookDescriptor": "Serving Tulsa, OK",
+    "facebookName": "Gateway Mortgage",
+    "facebookPageUrl": "https://www.facebook.com/539990676447572",
     "facebookParentPageId": "141088722606932",
+    "facebookProfilePhoto": {
+      "height": 1080,
+      "url": "https://a.mktgcdn.com/p/HH5lykycQ1ljumyiRVoqQA6muhqkIR8Sw3An0IXDl9I/1080x1080.png",
+      "width": 1080
+    },
+    "facebookVanityUrl": "GatewayMortgageJenksOK",
     "fax": "+19186600954",
     "featuredMessage": {
       "description": "Apply Now!",
@@ -29,7 +64,8 @@
     },
     "geomodifier": "Jenks",
     "googleAccountId": "106465598282274804591",
-    "googleWebsiteOverride": "[[website.url]][[c_googleUTM]]",
+    "googlePlaceId": "ChIJPV5XWz2OtocRyLTnmnchgIg",
+    "googleWebsiteOverride": "https://www.gatewayfirst.com/locations-atms/jenks-ok?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
     "hours": {
       "friday": {
         "openIntervals": [
@@ -79,23 +115,60 @@
       }
     },
     "impressum": "Gateway Mortgage, a division of Gateway First Bank. Member FDIC. Equal Housing Lender. NMLS 7233. All loans subject to program guidelines and final underwriting approval. Contact local mortgage center for details.",
+    "logo": {
+      "image": {
+        "height": 400,
+        "sourceUrl": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+        "thumbnails": [
+          {
+            "height": 400,
+            "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+            "width": 400
+          },
+          {
+            "height": 196,
+            "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/196x196.png",
+            "width": 196
+          }
+        ],
+        "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+        "width": 400
+      }
+    },
     "mainPhone": "+19183928555",
     "name": "Gateway Mortgage",
     "photoGallery": [
       {
         "image": {
-          "url": "http://a.mktgcdn.com/p-sandbox/ByL52_cpGnvPlMxPBm28ZIT9uMML9qk3_JsOJU2Yul8/400x400.png"
+          "height": 400,
+          "sourceUrl": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+          "thumbnails": [
+            {
+              "height": 400,
+              "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+              "width": 400
+            },
+            {
+              "height": 196,
+              "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/196x196.png",
+              "width": 196
+            }
+          ],
+          "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+          "width": 400
         }
       }
     ],
     "timezone": "America/Chicago",
     "websiteUrl": {
+      "displayUrl": "https://www.gatewayfirst.com/jenks-ok",
       "url": "https://www.gatewayfirst.com/locations-atms/jenks-ok"
     }
   },
   "entityType": "location",
   "folder": "281735",
   "labels": [
-    "139380"
+    "135766",
+    "gateway132003"
   ]
 }

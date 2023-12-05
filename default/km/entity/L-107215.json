@@ -11,48 +11,78 @@
       "postalCode": "71105",
       "region": "LA"
     },
-    "c_Licensed": true,
-    "c_answersFirstName": "Victoria",
-    "c_answersLastName": "Roberts",
+    "c_eTLClosedDate": "2023-12-04",
+    "c_employeeID": "107215",
     "c_googleUTM": "?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
+    "c_licensed": true,
     "c_nMLS": "2520136",
     "c_title": "Loan Partner",
     "categoryIds": [
+      "1450365",
       "1718"
     ],
-    "description": "At Gateway, we weave the knowledge and expertise of our local mortgage professionals together with state-of-the-art technology and the powerful resources of a national company to make your homebuying experience easy, reliable, and fast. Gateway’s focus on strengthening families through homeownership drives our commitment to the communities we serve.",
-    "emails": [
-      "Victoria.Roberts@gatewayloan.com"
-    ],
+    "closed": true,
     "facebookAbout": "Strengthening families and communities through personalized financial solutions, expert guidance, and award-winning service.",
-    "facebookCallToAction": {
-      "type": "LEARN_MORE",
-      "value": "[[website.url]]"
+    "facebookCoverPhoto": {
+      "height": 360,
+      "thumbnails": [
+        {
+          "height": 360,
+          "url": "http://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/820x360.png",
+          "width": 820
+        },
+        {
+          "height": 272,
+          "url": "http://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/619x272.png",
+          "width": 619
+        },
+        {
+          "height": 263,
+          "url": "http://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/600x263.png",
+          "width": 600
+        },
+        {
+          "height": 86,
+          "url": "http://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/196x86.png",
+          "width": 196
+        }
+      ],
+      "url": "http://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/820x360.png",
+      "width": 820
     },
+    "facebookPageUrl": "https://www.facebook.com/104152706123301",
     "facebookParentPageId": "141088722606932",
-    "facebookVanityUrl": "GatewayMortgage[[c_answersFirstName]][[c_answersLastName]]",
-    "featuredMessage": {
-      "description": "Apply Now!",
-      "url": "https://www.gatewayfirst.com/mortgage/apply-now"
+    "facebookProfilePhoto": {
+      "height": 1080,
+      "thumbnails": [
+        {
+          "height": 619,
+          "url": "http://a.mktgcdn.com/p/REVdgEFvtTDRndMvX6Kv_TE7Uv_TRnXuaF9C31PRU_Y/619x619.png",
+          "width": 619
+        },
+        {
+          "height": 450,
+          "url": "http://a.mktgcdn.com/p/REVdgEFvtTDRndMvX6Kv_TE7Uv_TRnXuaF9C31PRU_Y/450x450.png",
+          "width": 450
+        },
+        {
+          "height": 196,
+          "url": "http://a.mktgcdn.com/p/REVdgEFvtTDRndMvX6Kv_TE7Uv_TRnXuaF9C31PRU_Y/196x196.png",
+          "width": 196
+        }
+      ],
+      "url": "http://a.mktgcdn.com/p/REVdgEFvtTDRndMvX6Kv_TE7Uv_TRnXuaF9C31PRU_Y/1080x1080.png",
+      "width": 1080
     },
+    "facebookVanityUrl": "GatewayMortgage[[c_answersFirstName]][[c_answersLastName]]",
     "googleAccountId": "106465598282274804591",
-    "googleWebsiteOverride": "[[website.url]][[c_googleUTM]]",
+    "googlePlaceId": "ChIJUyPvdHUtMYYRSD-4D6DS3iA",
     "hours": {
       "friday": {
-        "openIntervals": [
-          {
-            "end": "17:00",
-            "start": "09:00"
-          }
-        ]
+        "isClosed": true
       },
       "monday": {
-        "openIntervals": [
-          {
-            "end": "17:00",
-            "start": "09:00"
-          }
-        ]
+        "isClosed": true
       },
       "saturday": {
         "isClosed": true
@@ -61,47 +91,69 @@
         "isClosed": true
       },
       "thursday": {
-        "openIntervals": [
-          {
-            "end": "17:00",
-            "start": "09:00"
-          }
-        ]
+        "isClosed": true
       },
       "tuesday": {
-        "openIntervals": [
-          {
-            "end": "17:00",
-            "start": "09:00"
-          }
-        ]
+        "isClosed": true
       },
       "wednesday": {
-        "openIntervals": [
-          {
-            "end": "17:00",
-            "start": "09:00"
-          }
-        ]
+        "isClosed": true
       }
     },
     "impressum": "Gateway Mortgage, a division of Gateway First Bank. Member FDIC. Equal Housing Lender. NMLS 7233. All loans subject to program guidelines and final underwriting approval. Contact local mortgage center for details. [[c_answersFirstName]] [[c_answersLastName]] NMLS [[c_nMLS]]",
+    "logo": {
+      "image": {
+        "height": 400,
+        "thumbnails": [
+          {
+            "height": 400,
+            "url": "http://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+            "width": 400
+          },
+          {
+            "height": 150,
+            "url": "http://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/150x150.png",
+            "width": 150
+          },
+          {
+            "height": 94,
+            "url": "http://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/94x94.png",
+            "width": 94
+          }
+        ],
+        "url": "http://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+        "width": 400
+      }
+    },
     "mainPhone": "+13185455549",
     "mobilePhone": "+13185059430",
-    "name": "Victoria Roberts - Gateway Mortgage",
+    "name": "Victoria Roberts",
     "photoGallery": [
       {
         "image": {
-          "url": "http://a.mktgcdn.com/p-sandbox/ByL52_cpGnvPlMxPBm28ZIT9uMML9qk3_JsOJU2Yul8/400x400.png"
+          "height": 400,
+          "thumbnails": [
+            {
+              "height": 400,
+              "url": "http://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+              "width": 400
+            },
+            {
+              "height": 196,
+              "url": "http://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/196x196.png",
+              "width": 196
+            }
+          ],
+          "url": "http://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+          "width": 400
         }
       }
     ],
-    "timezone": "America/Chicago",
-    "websiteUrl": {
-      "url": "https://www.gatewayfirst.com/locations-atms/victoria-roberts"
-    }
+    "timezone": "America/Chicago"
   },
   "entityType": "location",
-  "folder": "loanOfficers",
-  "labels": []
+  "folder": "inactive",
+  "labels": [
+    "139381"
+  ]
 }

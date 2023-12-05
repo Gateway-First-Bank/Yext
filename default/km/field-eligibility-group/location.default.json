@@ -4,7 +4,6 @@
   "name": "Location-default",
   "entityType": "location",
   "fields": [
-    "c_Licensed",
     "c_activeOnAnswers",
     "c_answersFirstName",
     "c_answersKeywords",
@@ -15,6 +14,7 @@
     "c_employeeID",
     "c_exemptFromETL",
     "c_googleUTM",
+    "c_licensed",
     "c_nMLS",
     "c_relatedLoanOfficers",
     "c_relatedLocation",

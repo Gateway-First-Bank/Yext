@@ -1,0 +1,160 @@
+{
+  "$id": "ann.darnaby",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "address": {
+      "city": "Tulsa",
+      "countryCode": "US",
+      "line1": "6120 S. Yale Ave",
+      "line2": "Suite 108",
+      "postalCode": "74136",
+      "region": "OK"
+    },
+    "addressHidden": false,
+    "c_exemptFromETL": true,
+    "c_licensed": true,
+    "c_title": "SVP, Director of Treasury Services",
+    "categoryIds": [
+      "1091"
+    ],
+    "description": "At Gateway, we combine the knowledge and expertise of our local banking professionals together with state-of-the-art technology to help you achieve your financial goals. Our goal is to provide you with the tools you need to craft the future you want and that by doing so, we can build a stronger community, together.",
+    "emails": [
+      "Ann.Darnaby@GatewayFirst.com"
+    ],
+    "facebookAbout": "Strengthening families and communities through personalized financial solutions, expert guidance, and award-winning service.",
+    "facebookCallToAction": {
+      "type": "LEARN_MORE",
+      "value": "http://www.gatewayfirst.com"
+    },
+    "facebookCoverPhoto": {
+      "height": 1356,
+      "sourceUrl": "https://scontent-lga3-2.xx.fbcdn.net/v/t1.0-9/119520819_1292091237849516_3090486836178263329_o.jpg?_nc_cat\u003d106\u0026ccb\u003d1-3\u0026_nc_sid\u003ddd9801\u0026_nc_ohc\u003dJCqYe95wXz0AX8IXZ-t\u0026_nc_ht\u003dscontent-lga3-2.xx\u0026oh\u003d785cf57f09fc2aed2f9b507aa2864907\u0026oe\u003d60843FAF",
+      "thumbnails": [
+        {
+          "height": 1356,
+          "url": "http://a.mktgcdn.com/p/evvC7ZEaBcCF7kBrpy4tqbeOGmTVMZwOonMOlb5oVdY/3091x1356.jpg",
+          "width": 3091
+        }
+      ],
+      "url": "http://a.mktgcdn.com/p/evvC7ZEaBcCF7kBrpy4tqbeOGmTVMZwOonMOlb5oVdY/3091x1356.jpg",
+      "width": 3091
+    },
+    "facebookPageUrl": "https://www.facebook.com/GatewayFirstBankAnnDarnaby",
+    "facebookParentPageId": "884602101931767",
+    "facebookProfilePhoto": {
+      "height": 200,
+      "sourceUrl": "https://scontent-lga3-2.xx.fbcdn.net/v/t1.0-1/p200x200/75323334_1038786086513367_3465313823550865408_o.png?_nc_cat\u003d101\u0026ccb\u003d1-3\u0026_nc_sid\u003d0c64ff\u0026_nc_ohc\u003d5WBCSHhH8mQAX8i-Lj3\u0026_nc_ht\u003dscontent-lga3-2.xx\u0026_nc_tp\u003d30\u0026oh\u003d8f6434ec3140f65454c55c04fe0f09f4\u0026oe\u003d60827E95",
+      "thumbnails": [
+        {
+          "height": 200,
+          "url": "http://a.mktgcdn.com/p/Yyfnr0fmpLRb1QOk6dGHgnklWIip6SeAcWeEH50SkaY/200x200.png",
+          "width": 200
+        }
+      ],
+      "url": "http://a.mktgcdn.com/p/Yyfnr0fmpLRb1QOk6dGHgnklWIip6SeAcWeEH50SkaY/200x200.png",
+      "width": 200
+    },
+    "facebookVanityUrl": "GatewayFirstBankAnnDarnaby",
+    "featuredMessage": {
+      "description": "Contact Us Today!",
+      "url": "http://www.GatewayFirst.com"
+    },
+    "googleAccountId": "106465598282274804591",
+    "googlePlaceId": "ChIJO5IkRDCTtocR2GXQp5HkzsA",
+    "googleWebsiteOverride": "http://www.gatewayfirst.com?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
+    "hours": {
+      "friday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "monday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "saturday": {
+        "isClosed": true
+      },
+      "sunday": {
+        "isClosed": true
+      },
+      "thursday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "tuesday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "wednesday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      }
+    },
+    "impressum": "Gateway First Bank. Member FDIC.",
+    "mainPhone": "+19188588383",
+    "name": "Ann Darnaby - Gateway First Bank",
+    "photoGallery": [
+      {
+        "image": {
+          "height": 4320,
+          "thumbnails": [
+            {
+              "height": 1900,
+              "url": "https://a.mktgcdn.com/p/qdIppuBK5_GMPyv_5XHUzk8Y5kQF0NM6CeVnpGOmxEM/1267x1900.jpg",
+              "width": 1267
+            },
+            {
+              "height": 928,
+              "url": "https://a.mktgcdn.com/p/qdIppuBK5_GMPyv_5XHUzk8Y5kQF0NM6CeVnpGOmxEM/619x928.jpg",
+              "width": 619
+            },
+            {
+              "height": 450,
+              "url": "https://a.mktgcdn.com/p/qdIppuBK5_GMPyv_5XHUzk8Y5kQF0NM6CeVnpGOmxEM/300x450.jpg",
+              "width": 300
+            },
+            {
+              "height": 293,
+              "url": "https://a.mktgcdn.com/p/qdIppuBK5_GMPyv_5XHUzk8Y5kQF0NM6CeVnpGOmxEM/196x293.jpg",
+              "width": 196
+            }
+          ],
+          "url": "https://a.mktgcdn.com/p/qdIppuBK5_GMPyv_5XHUzk8Y5kQF0NM6CeVnpGOmxEM/2881x4320.jpg",
+          "width": 2881
+        }
+      }
+    ],
+    "timezone": "America/Chicago",
+    "websiteUrl": {
+      "displayUrl": "http://www.gatewayfirst.com",
+      "url": "http://www.gatewayfirst.com"
+    }
+  },
+  "entityType": "location",
+  "folder": "385918",
+  "labels": [
+    "135766",
+    "gateway132003"
+  ]
+}

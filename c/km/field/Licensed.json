@@ -1,7 +1,7 @@
 {
-  "$id": "c_Licensed",
+  "$id": "c_licensed",
   "$schema": "https://schema.yext.com/config/km/field/v1",
-  "description": "Used to automatically add/remove licenses by the ETL and Automatic License Assignment",
+  "description": "This must be checked for an entity to be licensed. If unchecked, the automation will remove licensing when it runs.",
   "displayName": "Licensed",
   "group": "NONE",
   "localization": "PRIMARY_ONLY",

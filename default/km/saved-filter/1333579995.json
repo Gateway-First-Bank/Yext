@@ -1,7 +1,7 @@
 {
   "$id": "1333579995",
   "$schema": "https://schema.yext.com/config/km/saved-filter/v1",
-  "name": "ETL-Locations Folder",
+  "name": "ETL-Locations Folder (DO NOT CHANGE OR DELETE)",
   "filter": {
     "entityType": [
       {

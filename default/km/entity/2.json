@@ -1,0 +1,128 @@
+{
+  "$id": "2",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "address": {
+      "city": "Tonkawa",
+      "countryCode": "US",
+      "line1": "111 E. Grand",
+      "postalCode": "74653",
+      "region": "OK"
+    },
+    "c_exemptFromETL": true,
+    "c_licensed": true,
+    "categoryIds": [
+      "1091"
+    ],
+    "description": "At Gateway, we combine the knowledge and expertise of our local banking professionals together with state-of-the-art technology to help you achieve your financial goals. Our goal is to provide you with the tools you need to craft the future you want and that by doing so, we can build a stronger community, together.",
+    "emails": [
+      "DigitalSupport@GatewayFirst.com"
+    ],
+    "facebookAbout": "Strengthening families and communities through personalized financial solutions, expert guidance, and award-winning service.",
+    "facebookCallToAction": {
+      "type": "LEARN_MORE",
+      "value": "https://www.gatewayfirst.com/locations-atms/tonkawa-ok"
+    },
+    "facebookCoverPhoto": {
+      "height": 1356,
+      "sourceUrl": "http://a.mktgcdn.com/p/evvC7ZEaBcCF7kBrpy4tqbeOGmTVMZwOonMOlb5oVdY/3091x1356.jpg",
+      "thumbnails": [
+        {
+          "height": 1356,
+          "url": "//a.mktgcdn.com/p/evvC7ZEaBcCF7kBrpy4tqbeOGmTVMZwOonMOlb5oVdY/3091x1356.jpg",
+          "width": 3091
+        }
+      ],
+      "url": "http://a.mktgcdn.com/p/evvC7ZEaBcCF7kBrpy4tqbeOGmTVMZwOonMOlb5oVdY/3091x1356.jpg",
+      "width": 3091
+    },
+    "facebookDescriptor": "Tonkawa, OK",
+    "facebookPageUrl": "https://www.facebook.com/104893301699111",
+    "facebookParentPageId": "884602101931767",
+    "facebookProfilePhoto": {
+      "height": 200,
+      "sourceUrl": "http://a.mktgcdn.com/p/Yyfnr0fmpLRb1QOk6dGHgnklWIip6SeAcWeEH50SkaY/200x200.png",
+      "thumbnails": [
+        {
+          "height": 200,
+          "url": "//a.mktgcdn.com/p/Yyfnr0fmpLRb1QOk6dGHgnklWIip6SeAcWeEH50SkaY/200x200.png",
+          "width": 200
+        }
+      ],
+      "url": "http://a.mktgcdn.com/p/Yyfnr0fmpLRb1QOk6dGHgnklWIip6SeAcWeEH50SkaY/200x200.png",
+      "width": 200
+    },
+    "facebookVanityUrl": "GatewayFirstBankTonkawaOK",
+    "featuredMessage": {
+      "description": "Contact Us Today!",
+      "url": "https://www.gatewayfirst.com/locations-atms/tonkawa-ok"
+    },
+    "googleAccountId": "106465598282274804591",
+    "googlePlaceId": "ChIJCyF4fVFDsIcR-KWRbansCSE",
+    "googleWebsiteOverride": "https://www.gatewayfirst.com/locations-atms/tonkawa-ok?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
+    "hours": {
+      "friday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "08:00"
+          }
+        ]
+      },
+      "monday": {
+        "openIntervals": [
+          {
+            "end": "16:00",
+            "start": "08:00"
+          }
+        ]
+      },
+      "saturday": {
+        "isClosed": true
+      },
+      "sunday": {
+        "isClosed": true
+      },
+      "thursday": {
+        "openIntervals": [
+          {
+            "end": "16:00",
+            "start": "08:00"
+          }
+        ]
+      },
+      "tuesday": {
+        "openIntervals": [
+          {
+            "end": "16:00",
+            "start": "08:00"
+          }
+        ]
+      },
+      "wednesday": {
+        "openIntervals": [
+          {
+            "end": "16:00",
+            "start": "08:00"
+          }
+        ]
+      }
+    },
+    "impressum": "Gateway First Bank. Member FDIC.",
+    "mainPhone": "+15806282572",
+    "name": "Gateway First Bank",
+    "timezone": "America/Chicago",
+    "websiteUrl": {
+      "displayUrl": "https://www.gatewayfirst.com/locations-atms/tonkawa-ok",
+      "preferDisplayUrl": false,
+      "url": "https://www.gatewayfirst.com/locations-atms/tonkawa-ok"
+    }
+  },
+  "entityType": "location",
+  "folder": "385917",
+  "labels": [
+    "135766",
+    "gateway132003"
+  ]
+}

@@ -1,7 +1,6 @@
 {
   "$id": "c_nMLS",
   "$schema": "https://schema.yext.com/config/km/field/v1",
-  "description": "",
   "displayName": "NMLS",
   "group": "NONE",
   "localization": "PRIMARY_ONLY",

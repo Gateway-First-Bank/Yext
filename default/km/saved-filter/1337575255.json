@@ -1,7 +1,7 @@
 {
   "$id": "1337575255",
   "$schema": "https://schema.yext.com/config/km/saved-filter/v1",
-  "name": "ETL - Loan Officers Folder",
+  "name": "ETL - Loan Officers Folder(DO NOT CHANGE/DELETE)",
   "filter": {
     "inFolders": [
       "loanOfficers"

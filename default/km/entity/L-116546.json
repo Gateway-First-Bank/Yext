@@ -11,15 +11,18 @@
       "postalCode": "77566",
       "region": "TX"
     },
-    "c_Licensed": true,
     "c_answersFirstName": "Charles",
     "c_answersLastName": "Smith",
+    "c_employeeID": "116546",
     "c_googleUTM": "?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
+    "c_licensed": true,
     "c_nMLS": "2106505",
     "c_title": "Mortgage Sales Manager 2",
     "categoryIds": [
+      "1450365",
       "1718"
     ],
+    "closed": false,
     "description": "At Gateway, we weave the knowledge and expertise of our local mortgage professionals together with state-of-the-art technology and the powerful resources of a national company to make your homebuying experience easy, reliable, and fast. Gateway’s focus on strengthening families through homeownership drives our commitment to the communities we serve.",
     "emails": [
       "Charles.Smith@gatewayloan.com"
@@ -29,7 +32,47 @@
       "type": "LEARN_MORE",
       "value": "[[website.url]]"
     },
+    "facebookCoverPhoto": {
+      "height": 360,
+      "thumbnails": [
+        {
+          "height": 360,
+          "url": "http://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/820x360.png",
+          "width": 820
+        },
+        {
+          "height": 272,
+          "url": "http://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/619x272.png",
+          "width": 619
+        },
+        {
+          "height": 263,
+          "url": "http://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/600x263.png",
+          "width": 600
+        },
+        {
+          "height": 86,
+          "url": "http://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/196x86.png",
+          "width": 196
+        }
+      ],
+      "url": "http://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/820x360.png",
+      "width": 820
+    },
+    "facebookPageUrl": "https://www.facebook.com/106067335856426",
     "facebookParentPageId": "141088722606932",
+    "facebookProfilePhoto": {
+      "height": 600,
+      "thumbnails": [
+        {
+          "height": 600,
+          "url": "https://a.mktgcdn.com/p/veIhtSq2gkUUVc2ZLcTe1uacYlzAPmd8-i5eOaJ8elQ/600x600.jpg",
+          "width": 600
+        }
+      ],
+      "url": "https://a.mktgcdn.com/p/veIhtSq2gkUUVc2ZLcTe1uacYlzAPmd8-i5eOaJ8elQ/600x600.jpg",
+      "width": 600
+    },
     "facebookVanityUrl": "GatewayMortgage[[c_answersFirstName]][[c_answersLastName]]",
     "fax": "+19795997855",
     "featuredMessage": {
@@ -37,6 +80,19 @@
       "url": "https://www.gatewayfirst.com/mortgage/apply-now"
     },
     "googleAccountId": "106465598282274804591",
+    "googleCoverPhoto": {
+      "height": 600,
+      "thumbnails": [
+        {
+          "height": 600,
+          "url": "https://a.mktgcdn.com/p/w_X1orEqOFpe1bqfp4JaYxCmbmZoDRBCP4O7mE-LiBA/600x600.jpg",
+          "width": 600
+        }
+      ],
+      "url": "https://a.mktgcdn.com/p/w_X1orEqOFpe1bqfp4JaYxCmbmZoDRBCP4O7mE-LiBA/600x600.jpg",
+      "width": 600
+    },
+    "googlePlaceId": "ChIJ80eFf5tDQIYRmkJPSvKo3TY",
     "googleWebsiteOverride": "[[website.url]][[c_googleUTM]]",
     "hours": {
       "friday": {
@@ -87,13 +143,46 @@
       }
     },
     "impressum": "Gateway Mortgage, a division of Gateway First Bank. Member FDIC. Equal Housing Lender. NMLS 7233. All loans subject to program guidelines and final underwriting approval. Contact local mortgage center for details. [[c_answersFirstName]] [[c_answersLastName]] NMLS [[c_nMLS]]",
+    "logo": {
+      "image": {
+        "height": 400,
+        "thumbnails": [
+          {
+            "height": 400,
+            "url": "http://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+            "width": 400
+          },
+          {
+            "height": 150,
+            "url": "http://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/150x150.png",
+            "width": 150
+          },
+          {
+            "height": 94,
+            "url": "http://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/94x94.png",
+            "width": 94
+          }
+        ],
+        "url": "http://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+        "width": 400
+      }
+    },
     "mainPhone": "+19795997854",
     "mobilePhone": "+19793004272",
     "name": "Charles Smith - Gateway Mortgage",
     "photoGallery": [
       {
         "image": {
-          "url": "http://a.mktgcdn.com/p-sandbox/ByL52_cpGnvPlMxPBm28ZIT9uMML9qk3_JsOJU2Yul8/400x400.png"
+          "height": 600,
+          "thumbnails": [
+            {
+              "height": 600,
+              "url": "https://a.mktgcdn.com/p/w_X1orEqOFpe1bqfp4JaYxCmbmZoDRBCP4O7mE-LiBA/600x600.jpg",
+              "width": 600
+            }
+          ],
+          "url": "https://a.mktgcdn.com/p/w_X1orEqOFpe1bqfp4JaYxCmbmZoDRBCP4O7mE-LiBA/600x600.jpg",
+          "width": 600
         }
       }
     ],
@@ -104,5 +193,8 @@
   },
   "entityType": "location",
   "folder": "loanOfficers",
-  "labels": []
+  "labels": [
+    "139380",
+    "manexp8"
+  ]
 }

@@ -11,37 +11,70 @@
       "postalCode": "75287",
       "region": "TX"
     },
-    "c_Licensed": true,
+    "c_activeOnAnswers": true,
     "c_answersFirstName": "Victor",
     "c_answersLastName": "Carranza",
-    "c_eTLClosedDate": "2023-11-08",
+    "c_answersName": "Victor Carranza",
+    "c_eTLClosedDate": "2023-12-04",
+    "c_employeeID": "103112",
     "c_googleUTM": "?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
+    "c_licensed": true,
     "c_nMLS": "1001430",
+    "c_relatedLocation": [
+      "M-703"
+    ],
     "c_title": "Loan Originator Consumer Direct",
     "categoryIds": [
+      "1450365",
       "1718"
     ],
     "closed": true,
+    "facebookAbout": "Strengthening families and communities through personalized financial solutions, expert guidance, and award-winning service.",
+    "facebookCoverPhoto": {
+      "height": 360,
+      "sourceUrl": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/820x360.png",
+      "thumbnails": [
+        {
+          "height": 360,
+          "url": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/820x360.png",
+          "width": 820
+        },
+        {
+          "height": 272,
+          "url": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/619x272.png",
+          "width": 619
+        },
+        {
+          "height": 263,
+          "url": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/600x263.png",
+          "width": 600
+        },
+        {
+          "height": 86,
+          "url": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/196x86.png",
+          "width": 196
+        }
+      ],
+      "url": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/820x360.png",
+      "width": 820
+    },
+    "facebookPageUrl": "https://www.facebook.com/GatewayMortgageVictorCarranza",
     "facebookParentPageId": "141088722606932",
+    "facebookProfilePhoto": {
+      "height": 1080,
+      "url": "https://a.mktgcdn.com/p/HH5lykycQ1ljumyiRVoqQA6muhqkIR8Sw3An0IXDl9I/1080x1080.png",
+      "width": 1080
+    },
     "facebookVanityUrl": "GatewayMortgage[[c_answersFirstName]][[c_answersLastName]]",
     "fax": "+19723722604",
     "googleAccountId": "106465598282274804591",
+    "googlePlaceId": "ChIJDyPe8w0jTIYR_xwK2-BXnI0",
     "hours": {
       "friday": {
-        "openIntervals": [
-          {
-            "end": "17:00",
-            "start": "09:00"
-          }
-        ]
+        "isClosed": true
       },
       "monday": {
-        "openIntervals": [
-          {
-            "end": "17:00",
-            "start": "09:00"
-          }
-        ]
+        "isClosed": true
       },
       "saturday": {
         "isClosed": true
@@ -50,28 +83,34 @@
         "isClosed": true
       },
       "thursday": {
-        "openIntervals": [
-          {
-            "end": "17:00",
-            "start": "09:00"
-          }
-        ]
+        "isClosed": true
       },
       "tuesday": {
-        "openIntervals": [
-          {
-            "end": "17:00",
-            "start": "09:00"
-          }
-        ]
+        "isClosed": true
       },
       "wednesday": {
-        "openIntervals": [
+        "isClosed": true
+      }
+    },
+    "impressum": "Gateway Mortgage, a division of Gateway First Bank. Member FDIC. Equal Housing Lender. NMLS 7233. All loans subject to program guidelines and final underwriting approval. Contact local mortgage center for details. Victor Carranza NMLS 1001430.",
+    "logo": {
+      "image": {
+        "height": 400,
+        "sourceUrl": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+        "thumbnails": [
           {
-            "end": "17:00",
-            "start": "09:00"
+            "height": 400,
+            "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+            "width": 400
+          },
+          {
+            "height": 196,
+            "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/196x196.png",
+            "width": 196
           }
-        ]
+        ],
+        "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+        "width": 400
       }
     },
     "mainPhone": "+19723722603",
@@ -80,7 +119,22 @@
     "photoGallery": [
       {
         "image": {
-          "url": "http://a.mktgcdn.com/p-sandbox/ByL52_cpGnvPlMxPBm28ZIT9uMML9qk3_JsOJU2Yul8/400x400.png"
+          "height": 400,
+          "sourceUrl": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+          "thumbnails": [
+            {
+              "height": 400,
+              "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+              "width": 400
+            },
+            {
+              "height": 196,
+              "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/196x196.png",
+              "width": 196
+            }
+          ],
+          "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+          "width": 400
         }
       }
     ],
@@ -89,6 +143,8 @@
   "entityType": "location",
   "folder": "inactive",
   "labels": [
+    "135766",
+    "gateway132003",
     "139381"
   ]
 }

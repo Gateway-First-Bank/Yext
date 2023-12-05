@@ -7,18 +7,22 @@
       "city": "Bluffton",
       "countryCode": "US",
       "line1": "27 Towne Drive",
+      "line2": "Suite 301",
       "postalCode": "29910",
       "region": "SC"
     },
-    "c_Licensed": true,
     "c_answersFirstName": "Jaclyn",
     "c_answersLastName": "Borja",
+    "c_employeeID": "103283",
     "c_googleUTM": "?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
+    "c_licensed": true,
     "c_nMLS": "1164652",
     "c_title": "Loan Partner",
     "categoryIds": [
+      "1450365",
       "1718"
     ],
+    "closed": false,
     "description": "At Gateway, we weave the knowledge and expertise of our local mortgage professionals together with state-of-the-art technology and the powerful resources of a national company to make your homebuying experience easy, reliable, and fast. Gateway’s focus on strengthening families through homeownership drives our commitment to the communities we serve.",
     "emails": [
       "Jaclyn.Borja@gatewayloan.com"
@@ -28,7 +32,58 @@
       "type": "LEARN_MORE",
       "value": "[[website.url]]"
     },
+    "facebookCoverPhoto": {
+      "height": 360,
+      "sourceUrl": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/820x360.png",
+      "thumbnails": [
+        {
+          "height": 360,
+          "url": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/820x360.png",
+          "width": 820
+        },
+        {
+          "height": 272,
+          "url": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/619x272.png",
+          "width": 619
+        },
+        {
+          "height": 263,
+          "url": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/600x263.png",
+          "width": 600
+        },
+        {
+          "height": 86,
+          "url": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/196x86.png",
+          "width": 196
+        }
+      ],
+      "url": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/820x360.png",
+      "width": 820
+    },
+    "facebookPageUrl": "https://www.facebook.com/103224785561680",
     "facebookParentPageId": "141088722606932",
+    "facebookProfilePhoto": {
+      "height": 600,
+      "thumbnails": [
+        {
+          "height": 600,
+          "url": "https://a.mktgcdn.com/p/xZ2nIXZjoQpgTgDsrfMQ1JWx22ffQqX0YVfWH-wF4Fw/600x600.jpg",
+          "width": 600
+        },
+        {
+          "height": 450,
+          "url": "https://a.mktgcdn.com/p/xZ2nIXZjoQpgTgDsrfMQ1JWx22ffQqX0YVfWH-wF4Fw/450x450.jpg",
+          "width": 450
+        },
+        {
+          "height": 196,
+          "url": "https://a.mktgcdn.com/p/xZ2nIXZjoQpgTgDsrfMQ1JWx22ffQqX0YVfWH-wF4Fw/196x196.jpg",
+          "width": 196
+        }
+      ],
+      "url": "https://a.mktgcdn.com/p/xZ2nIXZjoQpgTgDsrfMQ1JWx22ffQqX0YVfWH-wF4Fw/600x600.jpg",
+      "width": 600
+    },
     "facebookVanityUrl": "GatewayMortgage[[c_answersFirstName]][[c_answersLastName]]",
     "fax": "+18554107355",
     "featuredMessage": {
@@ -36,7 +91,29 @@
       "url": "https://www.gatewayfirst.com/mortgage/apply-now"
     },
     "googleAccountId": "106465598282274804591",
-    "googleWebsiteOverride": "[[website.url]][[c_googleUTM]]",
+    "googleCoverPhoto": {
+      "height": 599,
+      "thumbnails": [
+        {
+          "height": 599,
+          "url": "https://a.mktgcdn.com/p/MASE-VNmNCFTe8s1oa9gOV72hJ1cakXxM1EeOiPGupM/600x599.jpg",
+          "width": 600
+        },
+        {
+          "height": 450,
+          "url": "https://a.mktgcdn.com/p/MASE-VNmNCFTe8s1oa9gOV72hJ1cakXxM1EeOiPGupM/451x450.jpg",
+          "width": 451
+        },
+        {
+          "height": 196,
+          "url": "https://a.mktgcdn.com/p/MASE-VNmNCFTe8s1oa9gOV72hJ1cakXxM1EeOiPGupM/196x196.jpg",
+          "width": 196
+        }
+      ],
+      "url": "https://a.mktgcdn.com/p/MASE-VNmNCFTe8s1oa9gOV72hJ1cakXxM1EeOiPGupM/600x599.jpg",
+      "width": 600
+    },
+    "googlePlaceId": "ChIJo5aenB2J-4gRICEqaKVKcpI",
     "hours": {
       "friday": {
         "openIntervals": [
@@ -86,13 +163,63 @@
       }
     },
     "impressum": "Gateway Mortgage, a division of Gateway First Bank. Member FDIC. Equal Housing Lender. NMLS 7233. All loans subject to program guidelines and final underwriting approval. Contact local mortgage center for details. [[c_answersFirstName]] [[c_answersLastName]] NMLS [[c_nMLS]]",
+    "logo": {
+      "image": {
+        "height": 400,
+        "sourceUrl": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+        "thumbnails": [
+          {
+            "height": 400,
+            "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+            "width": 400
+          },
+          {
+            "height": 196,
+            "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/196x196.png",
+            "width": 196
+          }
+        ],
+        "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+        "width": 400
+      }
+    },
     "mainPhone": "+18432133602",
     "mobilePhone": "+18433682391",
     "name": "Jaclyn Borja - Gateway Mortgage",
     "photoGallery": [
       {
         "image": {
-          "url": "http://a.mktgcdn.com/p-sandbox/ByL52_cpGnvPlMxPBm28ZIT9uMML9qk3_JsOJU2Yul8/400x400.png"
+          "height": 1365,
+          "sourceUrl": "https://a.mktgcdn.com/p/I7Cp3YziPdInPTlf_1X6byM9zvkoSXIqMKOFx30RYIM/2048x1365.jpg",
+          "thumbnails": [
+            {
+              "height": 1365,
+              "url": "https://a.mktgcdn.com/p/I7Cp3YziPdInPTlf_1X6byM9zvkoSXIqMKOFx30RYIM/2048x1365.jpg",
+              "width": 2048
+            },
+            {
+              "height": 1266,
+              "url": "https://a.mktgcdn.com/p/I7Cp3YziPdInPTlf_1X6byM9zvkoSXIqMKOFx30RYIM/1900x1266.jpg",
+              "width": 1900
+            },
+            {
+              "height": 413,
+              "url": "https://a.mktgcdn.com/p/I7Cp3YziPdInPTlf_1X6byM9zvkoSXIqMKOFx30RYIM/619x413.jpg",
+              "width": 619
+            },
+            {
+              "height": 400,
+              "url": "https://a.mktgcdn.com/p/I7Cp3YziPdInPTlf_1X6byM9zvkoSXIqMKOFx30RYIM/600x400.jpg",
+              "width": 600
+            },
+            {
+              "height": 131,
+              "url": "https://a.mktgcdn.com/p/I7Cp3YziPdInPTlf_1X6byM9zvkoSXIqMKOFx30RYIM/196x131.jpg",
+              "width": 196
+            }
+          ],
+          "url": "https://a.mktgcdn.com/p/I7Cp3YziPdInPTlf_1X6byM9zvkoSXIqMKOFx30RYIM/2048x1365.jpg",
+          "width": 2048
         }
       }
     ],
@@ -103,5 +230,8 @@
   },
   "entityType": "location",
   "folder": "loanOfficers",
-  "labels": []
+  "labels": [
+    "139380",
+    "gateway132003"
+  ]
 }

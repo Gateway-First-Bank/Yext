@@ -13,8 +13,8 @@
         "inputs": {
           "apiKey": "${{km/connector.removeLicenses.apiKey}}",
           "entityType": "location",
-          "environment": "sandbox",
-          "vParam": "20231106"
+          "environment": "api",
+          "vParam": "20231205"
         }
       }
     },
@@ -111,8 +111,8 @@
       },
       {
         "type": "JSON",
-        "header": "c_Licensed",
-        "path": "c_Licensed"
+        "header": "c_licensed",
+        "path": "c_licensed"
       }
     ]
   },
@@ -152,7 +152,7 @@
         "outputMappings": [
           {
             "functionKey": "licensed",
-            "columnHeader": "c_Licensed"
+            "columnHeader": "c_licensed"
           }
         ],
         "dropUnspecifiedOutputColumns": false
@@ -163,6 +163,12 @@
     {
       "header": "meta.id",
       "field": "entityId",
+      "subfieldPath": [],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "c_licensed",
+      "field": "c_licensed",
       "subfieldPath": [],
       "clearValueIfBlank": false
     },
@@ -181,16 +187,17 @@
         }
       ],
       "clearValueIfBlank": false
-    },
-    {
-      "header": "c_Licensed",
-      "field": "c_Licensed",
-      "subfieldPath": [],
-      "clearValueIfBlank": false
     }
   ],
   "comprehensiveModeConfig": {
     "comprehensiveSet": "ENTITIES_CREATED_BY_THIS_CONNECTOR",
     "actionOnMissingEntities": "DELETE"
-  }
+  },
+  "linkedConnectorConfigs": [
+    {
+      "connector": "LoanOfficerUpdate",
+      "runMode": "DEFAULT",
+      "dryRun": true
+    }
+  ]
 }

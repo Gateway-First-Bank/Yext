@@ -11,37 +11,106 @@
       "postalCode": "85308",
       "region": "AZ"
     },
-    "c_Licensed": true,
+    "c_activeOnAnswers": true,
     "c_answersFirstName": "Lorena",
     "c_answersLastName": "Sandoval",
-    "c_eTLClosedDate": "2023-11-04",
+    "c_answersName": "Lorena Sandoval",
+    "c_eTLClosedDate": "2023-12-04",
+    "c_employeeID": "104857",
     "c_googleUTM": "?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
+    "c_licensed": true,
     "c_nMLS": "200914",
     "c_title": "Loan Originator",
     "categoryIds": [
+      "1450365",
       "1718"
     ],
     "closed": true,
+    "facebookAbout": "Strengthening families and communities through personalized financial solutions, expert guidance, and award-winning service.",
+    "facebookCoverPhoto": {
+      "height": 360,
+      "sourceUrl": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/820x360.png",
+      "thumbnails": [
+        {
+          "height": 360,
+          "url": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/820x360.png",
+          "width": 820
+        },
+        {
+          "height": 272,
+          "url": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/619x272.png",
+          "width": 619
+        },
+        {
+          "height": 263,
+          "url": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/600x263.png",
+          "width": 600
+        },
+        {
+          "height": 86,
+          "url": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/196x86.png",
+          "width": 196
+        }
+      ],
+      "url": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/820x360.png",
+      "width": 820
+    },
+    "facebookPageUrl": "https://www.facebook.com/109628550404870",
     "facebookParentPageId": "141088722606932",
+    "facebookProfilePhoto": {
+      "height": 600,
+      "thumbnails": [
+        {
+          "height": 600,
+          "url": "https://a.mktgcdn.com/p/Gi-3OFDGl_tqBnb-OnNAQZ0HP3A9sHD00IaVJ59myOM/600x600.jpg",
+          "width": 600
+        },
+        {
+          "height": 450,
+          "url": "https://a.mktgcdn.com/p/Gi-3OFDGl_tqBnb-OnNAQZ0HP3A9sHD00IaVJ59myOM/450x450.jpg",
+          "width": 450
+        },
+        {
+          "height": 196,
+          "url": "https://a.mktgcdn.com/p/Gi-3OFDGl_tqBnb-OnNAQZ0HP3A9sHD00IaVJ59myOM/196x196.jpg",
+          "width": 196
+        }
+      ],
+      "url": "https://a.mktgcdn.com/p/Gi-3OFDGl_tqBnb-OnNAQZ0HP3A9sHD00IaVJ59myOM/600x600.jpg",
+      "width": 600
+    },
     "facebookVanityUrl": "GatewayMortgage[[c_answersFirstName]][[c_answersLastName]]",
     "fax": "+16027530774",
     "googleAccountId": "106465598282274804591",
+    "googleCoverPhoto": {
+      "height": 600,
+      "thumbnails": [
+        {
+          "height": 600,
+          "url": "https://a.mktgcdn.com/p/E-9rBo7ZOVJMCbNPQ4yGTGtAbSB5WjezqDIZuShbaH8/600x600.jpg",
+          "width": 600
+        },
+        {
+          "height": 450,
+          "url": "https://a.mktgcdn.com/p/E-9rBo7ZOVJMCbNPQ4yGTGtAbSB5WjezqDIZuShbaH8/450x450.jpg",
+          "width": 450
+        },
+        {
+          "height": 196,
+          "url": "https://a.mktgcdn.com/p/E-9rBo7ZOVJMCbNPQ4yGTGtAbSB5WjezqDIZuShbaH8/196x196.jpg",
+          "width": 196
+        }
+      ],
+      "url": "https://a.mktgcdn.com/p/E-9rBo7ZOVJMCbNPQ4yGTGtAbSB5WjezqDIZuShbaH8/600x600.jpg",
+      "width": 600
+    },
+    "googlePlaceId": "ChIJ92Tf164_K4cRgh2U09JmXDg",
     "hours": {
       "friday": {
-        "openIntervals": [
-          {
-            "end": "17:00",
-            "start": "09:00"
-          }
-        ]
+        "isClosed": true
       },
       "monday": {
-        "openIntervals": [
-          {
-            "end": "17:00",
-            "start": "09:00"
-          }
-        ]
+        "isClosed": true
       },
       "saturday": {
         "isClosed": true
@@ -50,28 +119,34 @@
         "isClosed": true
       },
       "thursday": {
-        "openIntervals": [
-          {
-            "end": "17:00",
-            "start": "09:00"
-          }
-        ]
+        "isClosed": true
       },
       "tuesday": {
-        "openIntervals": [
-          {
-            "end": "17:00",
-            "start": "09:00"
-          }
-        ]
+        "isClosed": true
       },
       "wednesday": {
-        "openIntervals": [
+        "isClosed": true
+      }
+    },
+    "impressum": "Gateway Mortgage, a division of Gateway First Bank. Member FDIC. Equal Housing Lender. NMLS 7233. All loans subject to program guidelines and final underwriting approval. Contact local mortgage center for details. Lorena Sandoval NMLS 200914.",
+    "logo": {
+      "image": {
+        "height": 400,
+        "sourceUrl": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+        "thumbnails": [
           {
-            "end": "17:00",
-            "start": "09:00"
+            "height": 400,
+            "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+            "width": 400
+          },
+          {
+            "height": 196,
+            "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/196x196.png",
+            "width": 196
           }
-        ]
+        ],
+        "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+        "width": 400
       }
     },
     "mainPhone": "+16027530772",
@@ -80,7 +155,16 @@
     "photoGallery": [
       {
         "image": {
-          "url": "http://a.mktgcdn.com/p-sandbox/ByL52_cpGnvPlMxPBm28ZIT9uMML9qk3_JsOJU2Yul8/400x400.png"
+          "height": 600,
+          "thumbnails": [
+            {
+              "height": 600,
+              "url": "https://a.mktgcdn.com/p/E-9rBo7ZOVJMCbNPQ4yGTGtAbSB5WjezqDIZuShbaH8/600x600.jpg",
+              "width": 600
+            }
+          ],
+          "url": "https://a.mktgcdn.com/p/E-9rBo7ZOVJMCbNPQ4yGTGtAbSB5WjezqDIZuShbaH8/600x600.jpg",
+          "width": 600
         }
       }
     ],
@@ -89,6 +173,8 @@
   "entityType": "location",
   "folder": "inactive",
   "labels": [
+    "135766",
+    "gateway132003",
     "139381"
   ]
 }

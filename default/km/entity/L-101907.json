@@ -10,13 +10,20 @@
       "postalCode": "74037",
       "region": "OK"
     },
-    "c_Licensed": true,
+    "c_activeOnAnswers": true,
     "c_answersFirstName": "Chris",
     "c_answersLastName": "Padley",
+    "c_answersName": "Chris Padley",
+    "c_employeeID": "101907",
     "c_googleUTM": "?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
+    "c_licensed": true,
     "c_nMLS": "150661",
+    "c_relatedLocation": [
+      "M-658"
+    ],
     "c_title": "Mortgage Sales Manager",
     "categoryIds": [
+      "1450365",
       "1718"
     ],
     "description": "At Gateway, we weave the knowledge and expertise of our local mortgage professionals together with state-of-the-art technology and the powerful resources of a national company to make your homebuying experience easy, reliable, and fast. Gateway’s focus on strengthening families through homeownership drives our commitment to the communities we serve.",
@@ -26,17 +33,98 @@
     "facebookAbout": "Strengthening families and communities through personalized financial solutions, expert guidance, and award-winning service.",
     "facebookCallToAction": {
       "type": "LEARN_MORE",
-      "value": "[[website.url]]"
+      "value": "https://www.gatewayfirst.com/chris-padley"
     },
+    "facebookCoverPhoto": {
+      "height": 1300,
+      "sourceUrl": "https://a.mktgcdn.com/p/8x3x_7e_Me3M95MYQU_YVQugoZ6wENX10ukUR3QMAGc/3417x1300.png",
+      "thumbnails": [
+        {
+          "height": 1300,
+          "url": "https://a.mktgcdn.com/p/8x3x_7e_Me3M95MYQU_YVQugoZ6wENX10ukUR3QMAGc/3417x1300.png",
+          "width": 3417
+        },
+        {
+          "height": 723,
+          "url": "https://a.mktgcdn.com/p/8x3x_7e_Me3M95MYQU_YVQugoZ6wENX10ukUR3QMAGc/1900x723.png",
+          "width": 1900
+        },
+        {
+          "height": 235,
+          "url": "https://a.mktgcdn.com/p/8x3x_7e_Me3M95MYQU_YVQugoZ6wENX10ukUR3QMAGc/619x235.png",
+          "width": 619
+        },
+        {
+          "height": 228,
+          "url": "https://a.mktgcdn.com/p/8x3x_7e_Me3M95MYQU_YVQugoZ6wENX10ukUR3QMAGc/600x228.png",
+          "width": 600
+        },
+        {
+          "height": 75,
+          "url": "https://a.mktgcdn.com/p/8x3x_7e_Me3M95MYQU_YVQugoZ6wENX10ukUR3QMAGc/196x75.png",
+          "width": 196
+        }
+      ],
+      "url": "https://a.mktgcdn.com/p/8x3x_7e_Me3M95MYQU_YVQugoZ6wENX10ukUR3QMAGc/3417x1300.png",
+      "width": 3417
+    },
+    "facebookDescriptor": "Serving Tulsa, OK",
+    "facebookPageUrl": "https://www.facebook.com/GatewayMortgageChrisPadley",
     "facebookParentPageId": "141088722606932",
+    "facebookProfilePhoto": {
+      "height": 600,
+      "thumbnails": [
+        {
+          "height": 600,
+          "url": "https://a.mktgcdn.com/p/ITtoj0GJm9YH_fAVrU7sbJbfsEnABmsk8JLHqvRLSZ4/600x600.jpg",
+          "width": 600
+        },
+        {
+          "height": 450,
+          "url": "https://a.mktgcdn.com/p/ITtoj0GJm9YH_fAVrU7sbJbfsEnABmsk8JLHqvRLSZ4/450x450.jpg",
+          "width": 450
+        },
+        {
+          "height": 196,
+          "url": "https://a.mktgcdn.com/p/ITtoj0GJm9YH_fAVrU7sbJbfsEnABmsk8JLHqvRLSZ4/196x196.jpg",
+          "width": 196
+        }
+      ],
+      "url": "https://a.mktgcdn.com/p/ITtoj0GJm9YH_fAVrU7sbJbfsEnABmsk8JLHqvRLSZ4/600x600.jpg",
+      "width": 600
+    },
     "facebookVanityUrl": "GatewayMortgage[[c_answersFirstName]][[c_answersLastName]]",
     "fax": "+19182362073",
     "featuredMessage": {
       "description": "Apply Now!",
       "url": "https://www.gatewayfirst.com/mortgage/apply-now"
     },
+    "geomodifier": "Tulsa OK",
     "googleAccountId": "106465598282274804591",
-    "googleWebsiteOverride": "[[website.url]][[c_googleUTM]]",
+    "googlePlaceId": "ChIJiS6rJDGXtocR5DIDjnvbt4g",
+    "googleProfilePhoto": {
+      "height": 600,
+      "thumbnails": [
+        {
+          "height": 600,
+          "url": "https://a.mktgcdn.com/p/ITtoj0GJm9YH_fAVrU7sbJbfsEnABmsk8JLHqvRLSZ4/600x600.jpg",
+          "width": 600
+        },
+        {
+          "height": 450,
+          "url": "https://a.mktgcdn.com/p/ITtoj0GJm9YH_fAVrU7sbJbfsEnABmsk8JLHqvRLSZ4/450x450.jpg",
+          "width": 450
+        },
+        {
+          "height": 196,
+          "url": "https://a.mktgcdn.com/p/ITtoj0GJm9YH_fAVrU7sbJbfsEnABmsk8JLHqvRLSZ4/196x196.jpg",
+          "width": 196
+        }
+      ],
+      "url": "https://a.mktgcdn.com/p/ITtoj0GJm9YH_fAVrU7sbJbfsEnABmsk8JLHqvRLSZ4/600x600.jpg",
+      "width": 600
+    },
+    "googleWebsiteOverride": "https://www.gatewayfirst.com/locations-atms/chris-padley?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
     "hours": {
       "friday": {
         "openIntervals": [
@@ -85,23 +173,66 @@
         ]
       }
     },
-    "impressum": "Gateway Mortgage, a division of Gateway First Bank. Member FDIC. Equal Housing Lender. NMLS 7233. All loans subject to program guidelines and final underwriting approval. Contact local mortgage center for details. [[c_answersFirstName]] [[c_answersLastName]] NMLS [[c_nMLS]]",
+    "impressum": "Gateway Mortgage, a division of Gateway First Bank. Member FDIC. Equal Housing Lender. NMLS 7233. All loans subject to program guidelines and final underwriting approval. Contact local mortgage center for details. Chris Padley NMLS 150661.",
+    "logo": {
+      "image": {
+        "height": 400,
+        "sourceUrl": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+        "thumbnails": [
+          {
+            "height": 400,
+            "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+            "width": 400
+          },
+          {
+            "height": 196,
+            "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/196x196.png",
+            "width": 196
+          }
+        ],
+        "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+        "width": 400
+      }
+    },
     "mainPhone": "+19183928585",
     "mobilePhone": "+19188091660",
     "name": "Chris Padley - Gateway Mortgage",
     "photoGallery": [
       {
         "image": {
-          "url": "http://a.mktgcdn.com/p-sandbox/ByL52_cpGnvPlMxPBm28ZIT9uMML9qk3_JsOJU2Yul8/400x400.png"
+          "height": 600,
+          "thumbnails": [
+            {
+              "height": 600,
+              "url": "https://a.mktgcdn.com/p/GYfdjdL_F_gjkYY6Esjdrmoj-kvmgHnOZ-Kk9jKCmA4/600x600.jpg",
+              "width": 600
+            },
+            {
+              "height": 450,
+              "url": "https://a.mktgcdn.com/p/GYfdjdL_F_gjkYY6Esjdrmoj-kvmgHnOZ-Kk9jKCmA4/450x450.jpg",
+              "width": 450
+            },
+            {
+              "height": 196,
+              "url": "https://a.mktgcdn.com/p/GYfdjdL_F_gjkYY6Esjdrmoj-kvmgHnOZ-Kk9jKCmA4/196x196.jpg",
+              "width": 196
+            }
+          ],
+          "url": "https://a.mktgcdn.com/p/GYfdjdL_F_gjkYY6Esjdrmoj-kvmgHnOZ-Kk9jKCmA4/600x600.jpg",
+          "width": 600
         }
       }
     ],
     "timezone": "America/Chicago",
     "websiteUrl": {
+      "displayUrl": "https://www.gatewayfirst.com/chris-padley",
       "url": "https://www.gatewayfirst.com/locations-atms/chris-padley"
     }
   },
   "entityType": "location",
   "folder": "loanOfficers",
-  "labels": []
+  "labels": [
+    "135766",
+    "gateway132003"
+  ]
 }

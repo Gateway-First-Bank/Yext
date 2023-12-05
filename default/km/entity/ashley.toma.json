@@ -1,0 +1,118 @@
+{
+  "$id": "ashley.toma",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "address": {
+      "city": "Tulsa",
+      "countryCode": "US",
+      "line1": "6120 S. Yale Ave",
+      "line2": "Suite 108",
+      "postalCode": "74136",
+      "region": "OK"
+    },
+    "addressHidden": false,
+    "c_exemptFromETL": true,
+    "c_licensed": true,
+    "c_title": "SVP, Private Banker",
+    "categoryIds": [
+      "1091"
+    ],
+    "description": "At Gateway, we combine the knowledge and expertise of our local banking professionals together with state-of-the-art technology to help you achieve your financial goals. Our goal is to provide you with the tools you need to craft the future you want and that by doing so, we can build a stronger community, together.",
+    "emails": [
+      "Ashley.Toma@GatewayFirst.com"
+    ],
+    "facebookAbout": "Strengthening families and communities through personalized financial solutions, expert guidance, and award-winning service.",
+    "facebookCallToAction": {
+      "type": "LEARN_MORE",
+      "value": "http://www.gatewayfirst.com"
+    },
+    "facebookParentPageId": "884602101931767",
+    "facebookVanityUrl": "GatewayFirstBankAshleyToma",
+    "featuredMessage": {
+      "description": "Contact Us Today!",
+      "url": "http://www.GatewayFirst.com"
+    },
+    "googleAccountId": "106465598282274804591",
+    "googlePlaceId": "ChIJJylzFeyXtocRYpWoktNlTLs",
+    "googleWebsiteOverride": "http://www.gatewayfirst.com?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
+    "hours": {
+      "friday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "monday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "saturday": {
+        "isClosed": true
+      },
+      "sunday": {
+        "isClosed": true
+      },
+      "thursday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "tuesday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "wednesday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      }
+    },
+    "impressum": "Gateway First Bank. Member FDIC.",
+    "mainPhone": "+19183928564",
+    "name": "Ashley Toma - Gateway First Bank",
+    "photoGallery": [
+      {
+        "image": {
+          "height": 1691,
+          "thumbnails": [
+            {
+              "height": 1691,
+              "url": "https://a.mktgcdn.com/p/HqmiyV9RVgIHSoT3Wr8KW7GIhkwFm0vgsBVFOT7MMIQ/1241x1691.jpg",
+              "width": 1241
+            }
+          ],
+          "url": "https://a.mktgcdn.com/p/HqmiyV9RVgIHSoT3Wr8KW7GIhkwFm0vgsBVFOT7MMIQ/1241x1691.jpg",
+          "width": 1241
+        }
+      }
+    ],
+    "timezone": "America/Chicago",
+    "websiteUrl": {
+      "displayUrl": "http://www.gatewayfirst.com",
+      "url": "http://www.gatewayfirst.com"
+    }
+  },
+  "entityType": "location",
+  "folder": "385918",
+  "labels": [
+    "135766",
+    "gateway132003"
+  ]
+}

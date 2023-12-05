@@ -11,25 +11,65 @@
       "postalCode": "78413",
       "region": "TX"
     },
-    "c_Licensed": true,
     "c_answersFirstName": "Elsa",
     "c_answersLastName": "Davila",
+    "c_employeeID": "106399",
     "c_googleUTM": "?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
+    "c_licensed": true,
     "c_nMLS": "302457",
     "c_title": "Mortgage Sales Manager",
     "categoryIds": [
+      "1450365",
       "1718"
     ],
+    "closed": false,
     "description": "At Gateway, we weave the knowledge and expertise of our local mortgage professionals together with state-of-the-art technology and the powerful resources of a national company to make your homebuying experience easy, reliable, and fast. Gateway’s focus on strengthening families through homeownership drives our commitment to the communities we serve.",
     "emails": [
       "Elsa.Davila@gatewayloan.com"
     ],
     "facebookAbout": "Strengthening families and communities through personalized financial solutions, expert guidance, and award-winning service.",
-    "facebookCallToAction": {
-      "type": "LEARN_MORE",
-      "value": "[[website.url]]"
+    "facebookCoverPhoto": {
+      "height": 360,
+      "sourceUrl": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/820x360.png",
+      "thumbnails": [
+        {
+          "height": 360,
+          "url": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/820x360.png",
+          "width": 820
+        },
+        {
+          "height": 272,
+          "url": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/619x272.png",
+          "width": 619
+        },
+        {
+          "height": 263,
+          "url": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/600x263.png",
+          "width": 600
+        },
+        {
+          "height": 86,
+          "url": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/196x86.png",
+          "width": 196
+        }
+      ],
+      "url": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/820x360.png",
+      "width": 820
     },
+    "facebookPageUrl": "https://www.facebook.com/103743435052775",
     "facebookParentPageId": "141088722606932",
+    "facebookProfilePhoto": {
+      "height": 500,
+      "thumbnails": [
+        {
+          "height": 500,
+          "url": "https://a.mktgcdn.com/p/3OvTqpJdEtwZ6ABAE0duXzjhjL2F_m_RhDVjyo469n4/500x500.jpg",
+          "width": 500
+        }
+      ],
+      "url": "https://a.mktgcdn.com/p/3OvTqpJdEtwZ6ABAE0duXzjhjL2F_m_RhDVjyo469n4/500x500.jpg",
+      "width": 500
+    },
     "facebookVanityUrl": "GatewayMortgage[[c_answersFirstName]][[c_answersLastName]]",
     "fax": "+13614002373",
     "featuredMessage": {
@@ -37,6 +77,19 @@
       "url": "https://www.gatewayfirst.com/mortgage/apply-now"
     },
     "googleAccountId": "106465598282274804591",
+    "googlePlaceId": "ChIJ4eIEE3BfaIYRp-8CvayHgO0",
+    "googleProfilePhoto": {
+      "height": 500,
+      "thumbnails": [
+        {
+          "height": 500,
+          "url": "https://a.mktgcdn.com/p/3OvTqpJdEtwZ6ABAE0duXzjhjL2F_m_RhDVjyo469n4/500x500.jpg",
+          "width": 500
+        }
+      ],
+      "url": "https://a.mktgcdn.com/p/3OvTqpJdEtwZ6ABAE0duXzjhjL2F_m_RhDVjyo469n4/500x500.jpg",
+      "width": 500
+    },
     "googleWebsiteOverride": "[[website.url]][[c_googleUTM]]",
     "hours": {
       "friday": {
@@ -86,14 +139,54 @@
         ]
       }
     },
-    "impressum": "Gateway Mortgage, a division of Gateway First Bank. Member FDIC. Equal Housing Lender. NMLS 7233. All loans subject to program guidelines and final underwriting approval. Contact local mortgage center for details. [[c_answersFirstName]] [[c_answersLastName]] NMLS [[c_nMLS]]",
+    "impressum": "Gateway Mortgage, a division of Gateway First Bank. Member FDIC. Equal Housing Lender. NMLS 7233. All loans subject to program guidelines and final underwriting approval. Contact local mortgage center for details. Elsa Davila 302457.",
+    "logo": {
+      "image": {
+        "height": 400,
+        "sourceUrl": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+        "thumbnails": [
+          {
+            "height": 400,
+            "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+            "width": 400
+          },
+          {
+            "height": 196,
+            "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/196x196.png",
+            "width": 196
+          }
+        ],
+        "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+        "width": 400
+      }
+    },
     "mainPhone": "+13614002372",
     "mobilePhone": "+13619464115",
     "name": "Elsa Davila - Gateway Mortgage",
     "photoGallery": [
       {
         "image": {
-          "url": "http://a.mktgcdn.com/p-sandbox/ByL52_cpGnvPlMxPBm28ZIT9uMML9qk3_JsOJU2Yul8/400x400.png"
+          "height": 500,
+          "sourceUrl": "https://a.mktgcdn.com/p/9Jg21AtKSPgvK938X_oShHICDU9GHpyTQ0NaNZ1ecsg/500x500.jpg",
+          "thumbnails": [
+            {
+              "height": 500,
+              "url": "https://a.mktgcdn.com/p/9Jg21AtKSPgvK938X_oShHICDU9GHpyTQ0NaNZ1ecsg/500x500.jpg",
+              "width": 500
+            },
+            {
+              "height": 450,
+              "url": "https://a.mktgcdn.com/p/9Jg21AtKSPgvK938X_oShHICDU9GHpyTQ0NaNZ1ecsg/450x450.jpg",
+              "width": 450
+            },
+            {
+              "height": 196,
+              "url": "https://a.mktgcdn.com/p/9Jg21AtKSPgvK938X_oShHICDU9GHpyTQ0NaNZ1ecsg/196x196.jpg",
+              "width": 196
+            }
+          ],
+          "url": "https://a.mktgcdn.com/p/9Jg21AtKSPgvK938X_oShHICDU9GHpyTQ0NaNZ1ecsg/500x500.jpg",
+          "width": 500
         }
       }
     ],
@@ -104,5 +197,8 @@
   },
   "entityType": "location",
   "folder": "loanOfficers",
-  "labels": []
+  "labels": [
+    "139380",
+    "gateway132003"
+  ]
 }

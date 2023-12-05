@@ -1,0 +1,20 @@
+{
+  "$id": "FAQ-001",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "answer": "To help serve our customers, Gateway now has an automated forbearance process on our website. Please log in to your account to see what options may be available to you based on the federal agency guidelines that are specific to your type of loan. Once you log in, a questionnaire will pop-up with a few questions. If allowed by the federal agency overseeing your loan, you will automatically be placed on a forbearance. Regardless of the outcome, our loss mitigation team will begin a monthly contact to review your situation and discuss options. If you prefer to speak directly with a Customer Service Representative, please understand that our call volume is extremely high, so there will be unavoidable hold times. Our customer service line is 1-877-764-9319. We appreciate your patience.",
+    "c_activeOnAnswers": true,
+    "c_answersKeywords": [
+      "Forbearance",
+      "Relief"
+    ],
+    "keywords": [
+      "Relief"
+    ],
+    "name": "Online Forbearance Enrollment",
+    "question": "Online Forbearance Enrollment"
+  },
+  "entityType": "faq",
+  "labels": []
+}

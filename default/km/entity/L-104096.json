@@ -11,13 +11,20 @@
       "postalCode": "72703",
       "region": "AR"
     },
-    "c_Licensed": true,
+    "c_activeOnAnswers": true,
     "c_answersFirstName": "Leisa",
     "c_answersLastName": "Gebhart",
+    "c_answersName": "Leisa Gebhart",
+    "c_employeeID": "104096",
     "c_googleUTM": "?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
+    "c_licensed": true,
     "c_nMLS": "638411",
+    "c_relatedLocation": [
+      "M-424"
+    ],
     "c_title": "Mortgage Sales Manager 2",
     "categoryIds": [
+      "1450365",
       "1718"
     ],
     "description": "At Gateway, we weave the knowledge and expertise of our local mortgage professionals together with state-of-the-art technology and the powerful resources of a national company to make your homebuying experience easy, reliable, and fast. Gateway’s focus on strengthening families through homeownership drives our commitment to the communities we serve.",
@@ -27,9 +34,51 @@
     "facebookAbout": "Strengthening families and communities through personalized financial solutions, expert guidance, and award-winning service.",
     "facebookCallToAction": {
       "type": "LEARN_MORE",
-      "value": "[[website.url]]"
+      "value": "https://www.gatewayfirst.com/leisa-gebhart"
     },
+    "facebookCoverPhoto": {
+      "height": 360,
+      "sourceUrl": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/820x360.png",
+      "thumbnails": [
+        {
+          "height": 360,
+          "url": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/820x360.png",
+          "width": 820
+        },
+        {
+          "height": 272,
+          "url": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/619x272.png",
+          "width": 619
+        },
+        {
+          "height": 263,
+          "url": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/600x263.png",
+          "width": 600
+        },
+        {
+          "height": 86,
+          "url": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/196x86.png",
+          "width": 196
+        }
+      ],
+      "url": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/820x360.png",
+      "width": 820
+    },
+    "facebookPageUrl": "https://www.facebook.com/103194494387818",
     "facebookParentPageId": "141088722606932",
+    "facebookProfilePhoto": {
+      "height": 500,
+      "sourceUrl": "https://scontent.xx.fbcdn.net/v/t1.0-1/p200x200/76932020_156939762346624_2954996821736292352_n.jpg?_nc_cat\u003d104\u0026_nc_ohc\u003dnVayiYv45hkAX9os23j\u0026_nc_ht\u003dscontent.xx\u0026_nc_tp\u003d6\u0026oh\u003d6dbaf698871fa4d5474d80e019d394c7\u0026oe\u003d5EFBF8F7",
+      "thumbnails": [
+        {
+          "height": 500,
+          "url": "https://a.mktgcdn.com/p/NDINWJ6BJxzu2lUrNCG_3bE_W7Cr1N34ulI1QU_0ntU/500x500.jpg",
+          "width": 500
+        }
+      ],
+      "url": "https://a.mktgcdn.com/p/NDINWJ6BJxzu2lUrNCG_3bE_W7Cr1N34ulI1QU_0ntU/500x500.jpg",
+      "width": 500
+    },
     "facebookVanityUrl": "GatewayMortgage[[c_answersFirstName]][[c_answersLastName]]",
     "fax": "+14794398820",
     "featuredMessage": {
@@ -37,7 +86,52 @@
       "url": "https://www.gatewayfirst.com/mortgage/apply-now"
     },
     "googleAccountId": "106465598282274804591",
-    "googleWebsiteOverride": "[[website.url]][[c_googleUTM]]",
+    "googleCoverPhoto": {
+      "height": 7230,
+      "thumbnails": [
+        {
+          "height": 7230,
+          "url": "https://a.mktgcdn.com/p/oFNf8cvPCRhsbKWf_sQelaBcDWbk-msWyx_j0cV_iVc/5163x7230.jpg",
+          "width": 5163
+        },
+        {
+          "height": 1900,
+          "url": "https://a.mktgcdn.com/p/oFNf8cvPCRhsbKWf_sQelaBcDWbk-msWyx_j0cV_iVc/1357x1900.jpg",
+          "width": 1357
+        },
+        {
+          "height": 867,
+          "url": "https://a.mktgcdn.com/p/oFNf8cvPCRhsbKWf_sQelaBcDWbk-msWyx_j0cV_iVc/619x867.jpg",
+          "width": 619
+        },
+        {
+          "height": 450,
+          "url": "https://a.mktgcdn.com/p/oFNf8cvPCRhsbKWf_sQelaBcDWbk-msWyx_j0cV_iVc/321x450.jpg",
+          "width": 321
+        },
+        {
+          "height": 274,
+          "url": "https://a.mktgcdn.com/p/oFNf8cvPCRhsbKWf_sQelaBcDWbk-msWyx_j0cV_iVc/196x274.jpg",
+          "width": 196
+        }
+      ],
+      "url": "https://a.mktgcdn.com/p/oFNf8cvPCRhsbKWf_sQelaBcDWbk-msWyx_j0cV_iVc/5163x7230.jpg",
+      "width": 5163
+    },
+    "googlePlaceId": "ChIJaT3mVvFryYcRShfSTd3mmO0",
+    "googleProfilePhoto": {
+      "height": 500,
+      "thumbnails": [
+        {
+          "height": 500,
+          "url": "https://a.mktgcdn.com/p/NDINWJ6BJxzu2lUrNCG_3bE_W7Cr1N34ulI1QU_0ntU/500x500.jpg",
+          "width": 500
+        }
+      ],
+      "url": "https://a.mktgcdn.com/p/NDINWJ6BJxzu2lUrNCG_3bE_W7Cr1N34ulI1QU_0ntU/500x500.jpg",
+      "width": 500
+    },
+    "googleWebsiteOverride": "https://www.gatewayfirst.com/locations-atms/leisa-gebhart?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
     "hours": {
       "friday": {
         "openIntervals": [
@@ -86,23 +180,68 @@
         ]
       }
     },
-    "impressum": "Gateway Mortgage, a division of Gateway First Bank. Member FDIC. Equal Housing Lender. NMLS 7233. All loans subject to program guidelines and final underwriting approval. Contact local mortgage center for details. [[c_answersFirstName]] [[c_answersLastName]] NMLS [[c_nMLS]]",
+    "impressum": "Gateway Mortgage, a division of Gateway First Bank. Member FDIC. Equal Housing Lender. NMLS 7233. All loans subject to program guidelines and final underwriting approval. Contact local mortgage center for details. Leisa Gebhart NMLS 638411.",
+    "logo": {
+      "image": {
+        "height": 400,
+        "sourceUrl": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+        "thumbnails": [
+          {
+            "height": 400,
+            "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+            "width": 400
+          },
+          {
+            "height": 196,
+            "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/196x196.png",
+            "width": 196
+          }
+        ],
+        "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+        "width": 400
+      }
+    },
     "mainPhone": "+14794398823",
     "mobilePhone": "+14799577021",
     "name": "Leisa Gebhart - Gateway Mortgage",
     "photoGallery": [
       {
         "image": {
-          "url": "http://a.mktgcdn.com/p-sandbox/ByL52_cpGnvPlMxPBm28ZIT9uMML9qk3_JsOJU2Yul8/400x400.png"
+          "height": 500,
+          "sourceUrl": "https://a.mktgcdn.com/p/GPb0ge0ZzilhQLBe2KvQLksticNTP7HYE7EJVJowtKI/500x500.jpg",
+          "thumbnails": [
+            {
+              "height": 500,
+              "url": "https://a.mktgcdn.com/p/GPb0ge0ZzilhQLBe2KvQLksticNTP7HYE7EJVJowtKI/500x500.jpg",
+              "width": 500
+            },
+            {
+              "height": 450,
+              "url": "https://a.mktgcdn.com/p/GPb0ge0ZzilhQLBe2KvQLksticNTP7HYE7EJVJowtKI/450x450.jpg",
+              "width": 450
+            },
+            {
+              "height": 196,
+              "url": "https://a.mktgcdn.com/p/GPb0ge0ZzilhQLBe2KvQLksticNTP7HYE7EJVJowtKI/196x196.jpg",
+              "width": 196
+            }
+          ],
+          "url": "https://a.mktgcdn.com/p/GPb0ge0ZzilhQLBe2KvQLksticNTP7HYE7EJVJowtKI/500x500.jpg",
+          "width": 500
         }
       }
     ],
     "timezone": "America/Chicago",
     "websiteUrl": {
+      "displayUrl": "https://www.gatewayfirst.com/leisa-gebhart",
       "url": "https://www.gatewayfirst.com/locations-atms/leisa-gebhart"
     }
   },
   "entityType": "location",
   "folder": "loanOfficers",
-  "labels": []
+  "labels": [
+    "135766",
+    "gateway132003",
+    "102299"
+  ]
 }

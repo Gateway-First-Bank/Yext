@@ -11,13 +11,21 @@
       "postalCode": "72762",
       "region": "AR"
     },
-    "c_Licensed": true,
+    "addressHidden": false,
+    "c_activeOnAnswers": true,
     "c_answersFirstName": "Shana",
     "c_answersLastName": "Hughes",
+    "c_answersName": "Shana Hughes",
+    "c_employeeID": "102766",
     "c_googleUTM": "?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
+    "c_licensed": true,
     "c_nMLS": "637721",
+    "c_relatedLocation": [
+      "M-246"
+    ],
     "c_title": "Loan Originator",
     "categoryIds": [
+      "1450365",
       "1718"
     ],
     "description": "At Gateway, we weave the knowledge and expertise of our local mortgage professionals together with state-of-the-art technology and the powerful resources of a national company to make your homebuying experience easy, reliable, and fast. Gateway’s focus on strengthening families through homeownership drives our commitment to the communities we serve.",
@@ -27,9 +35,50 @@
     "facebookAbout": "Strengthening families and communities through personalized financial solutions, expert guidance, and award-winning service.",
     "facebookCallToAction": {
       "type": "LEARN_MORE",
-      "value": "[[website.url]]"
+      "value": "https://www.gatewayfirst.com/shana-hughes"
     },
+    "facebookCoverPhoto": {
+      "height": 360,
+      "sourceUrl": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/820x360.png",
+      "thumbnails": [
+        {
+          "height": 360,
+          "url": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/820x360.png",
+          "width": 820
+        },
+        {
+          "height": 272,
+          "url": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/619x272.png",
+          "width": 619
+        },
+        {
+          "height": 263,
+          "url": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/600x263.png",
+          "width": 600
+        },
+        {
+          "height": 86,
+          "url": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/196x86.png",
+          "width": 196
+        }
+      ],
+      "url": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/820x360.png",
+      "width": 820
+    },
+    "facebookPageUrl": "https://www.facebook.com/GatewayMortgageShanaHughes",
     "facebookParentPageId": "141088722606932",
+    "facebookProfilePhoto": {
+      "height": 600,
+      "thumbnails": [
+        {
+          "height": 600,
+          "url": "https://a.mktgcdn.com/p/ttzEpvWOCb_x3MPxWW3Di8772eNmxwSw0hwnfH1KIB4/600x600.jpg",
+          "width": 600
+        }
+      ],
+      "url": "https://a.mktgcdn.com/p/ttzEpvWOCb_x3MPxWW3Di8772eNmxwSw0hwnfH1KIB4/600x600.jpg",
+      "width": 600
+    },
     "facebookVanityUrl": "GatewayMortgage[[c_answersFirstName]][[c_answersLastName]]",
     "fax": "+14797630726",
     "featuredMessage": {
@@ -37,7 +86,20 @@
       "url": "https://www.gatewayfirst.com/mortgage/apply-now"
     },
     "googleAccountId": "106465598282274804591",
-    "googleWebsiteOverride": "[[website.url]][[c_googleUTM]]",
+    "googleCoverPhoto": {
+      "height": 600,
+      "thumbnails": [
+        {
+          "height": 600,
+          "url": "https://a.mktgcdn.com/p/M3Fvs8TUarGRkRCkGKWe9eopydDFWRsyHrSeL5ZVfOQ/600x600.jpg",
+          "width": 600
+        }
+      ],
+      "url": "https://a.mktgcdn.com/p/M3Fvs8TUarGRkRCkGKWe9eopydDFWRsyHrSeL5ZVfOQ/600x600.jpg",
+      "width": 600
+    },
+    "googlePlaceId": "ChIJle2Xufuzy4cRxBwX2RoPbto",
+    "googleWebsiteOverride": "https://www.gatewayfirst.com/locations-atms/shana-hughes?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
     "hours": {
       "friday": {
         "openIntervals": [
@@ -86,23 +148,56 @@
         ]
       }
     },
-    "impressum": "Gateway Mortgage, a division of Gateway First Bank. Member FDIC. Equal Housing Lender. NMLS 7233. All loans subject to program guidelines and final underwriting approval. Contact local mortgage center for details. [[c_answersFirstName]] [[c_answersLastName]] NMLS [[c_nMLS]]",
+    "impressum": "Gateway Mortgage, a division of Gateway First Bank. Member FDIC. Equal Housing Lender. NMLS 7233. All loans subject to program guidelines and final underwriting approval. Contact local mortgage center for details. Shana Hughes NMLS 637721.",
+    "logo": {
+      "image": {
+        "height": 400,
+        "sourceUrl": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+        "thumbnails": [
+          {
+            "height": 400,
+            "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+            "width": 400
+          },
+          {
+            "height": 196,
+            "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/196x196.png",
+            "width": 196
+          }
+        ],
+        "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+        "width": 400
+      }
+    },
     "mainPhone": "+14797630725",
     "mobilePhone": "+14796501222",
     "name": "Shana Hughes - Gateway Mortgage",
     "photoGallery": [
       {
         "image": {
-          "url": "http://a.mktgcdn.com/p-sandbox/ByL52_cpGnvPlMxPBm28ZIT9uMML9qk3_JsOJU2Yul8/400x400.png"
+          "height": 600,
+          "thumbnails": [
+            {
+              "height": 600,
+              "url": "https://a.mktgcdn.com/p/M3Fvs8TUarGRkRCkGKWe9eopydDFWRsyHrSeL5ZVfOQ/600x600.jpg",
+              "width": 600
+            }
+          ],
+          "url": "https://a.mktgcdn.com/p/M3Fvs8TUarGRkRCkGKWe9eopydDFWRsyHrSeL5ZVfOQ/600x600.jpg",
+          "width": 600
         }
       }
     ],
     "timezone": "America/Chicago",
     "websiteUrl": {
+      "displayUrl": "https://www.gatewayfirst.com/shana-hughes",
       "url": "https://www.gatewayfirst.com/locations-atms/shana-hughes"
     }
   },
   "entityType": "location",
   "folder": "loanOfficers",
-  "labels": []
+  "labels": [
+    "135766",
+    "gateway132003"
+  ]
 }

@@ -608,3 +608,6 @@ function isUSAddress2FlagException(token: string, address: string) {
   }
   return false;
 }
+
+const output = splitAndCleanUSAddress('1620 N Carpenter Rd Bldg D Ste 57B');
+console.log(output);

@@ -1,0 +1,13 @@
+{
+  "$id": "FAQ-002",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "answer": "For the safety of our customers and employees, we are temporarily closing our mortgage sales offices and will be working remotely. We remain committed to offering you the same excellent service you have come to expect from Gateway. Please feel free to contact your Gateway Loan officer with questions. You can also contact our Customer Service Department at 877.764.9319. We appreciate your understanding and patience.",
+    "c_activeOnAnswers": true,
+    "name": "Are your locations open during COVID-19 pandemic?",
+    "question": "Are your locations open during COVID-19 pandemic?"
+  },
+  "entityType": "faq",
+  "labels": []
+}

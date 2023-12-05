@@ -1,0 +1,129 @@
+{
+  "$id": "14",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "address": {
+      "city": "Bartlesville",
+      "countryCode": "US",
+      "line1": "422 South Dewey Ave",
+      "postalCode": "74003",
+      "region": "OK"
+    },
+    "c_exemptFromETL": true,
+    "c_licensed": true,
+    "categoryIds": [
+      "1091"
+    ],
+    "closed": false,
+    "description": "At Gateway, we combine the knowledge and expertise of our local banking professionals together with state-of-the-art technology to help you achieve your financial goals. Our goal is to provide you with the tools you need to craft the future you want and that by doing so, we can build a stronger community, together.",
+    "emails": [
+      "DigitalSupport@GatewayFirst.com"
+    ],
+    "facebookAbout": "Strengthening families and communities through personalized financial solutions, expert guidance, and award-winning service.",
+    "facebookCallToAction": {
+      "type": "LEARN_MORE",
+      "value": "https://www.gatewayfirst.com/locations-atms/bartlesville-ok"
+    },
+    "facebookCoverPhoto": {
+      "height": 1356,
+      "sourceUrl": "http://a.mktgcdn.com/p/evvC7ZEaBcCF7kBrpy4tqbeOGmTVMZwOonMOlb5oVdY/3091x1356.jpg",
+      "thumbnails": [
+        {
+          "height": 1356,
+          "url": "//a.mktgcdn.com/p/evvC7ZEaBcCF7kBrpy4tqbeOGmTVMZwOonMOlb5oVdY/3091x1356.jpg",
+          "width": 3091
+        }
+      ],
+      "url": "http://a.mktgcdn.com/p/evvC7ZEaBcCF7kBrpy4tqbeOGmTVMZwOonMOlb5oVdY/3091x1356.jpg",
+      "width": 3091
+    },
+    "facebookDescriptor": "Bartlesville, OK",
+    "facebookPageUrl": "https://www.facebook.com/132202363308248",
+    "facebookParentPageId": "884602101931767",
+    "facebookProfilePhoto": {
+      "height": 200,
+      "sourceUrl": "http://a.mktgcdn.com/p/Yyfnr0fmpLRb1QOk6dGHgnklWIip6SeAcWeEH50SkaY/200x200.png",
+      "thumbnails": [
+        {
+          "height": 200,
+          "url": "//a.mktgcdn.com/p/Yyfnr0fmpLRb1QOk6dGHgnklWIip6SeAcWeEH50SkaY/200x200.png",
+          "width": 200
+        }
+      ],
+      "url": "http://a.mktgcdn.com/p/Yyfnr0fmpLRb1QOk6dGHgnklWIip6SeAcWeEH50SkaY/200x200.png",
+      "width": 200
+    },
+    "facebookVanityUrl": "GatewayFirstBankBartlesvilleOK",
+    "featuredMessage": {
+      "description": "Contact Us Today!",
+      "url": "https://www.gatewayfirst.com/locations-atms/bartlesville-ok"
+    },
+    "googleAccountId": "106465598282274804591",
+    "googlePlaceId": "ChIJc1WP0pkTt4cR6yYGAWd6EJs",
+    "googleWebsiteOverride": "https://www.gatewayfirst.com/locations-atms/bartlesville-ok?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
+    "hours": {
+      "friday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "08:30"
+          }
+        ]
+      },
+      "monday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "08:30"
+          }
+        ]
+      },
+      "saturday": {
+        "isClosed": true
+      },
+      "sunday": {
+        "isClosed": true
+      },
+      "thursday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "08:30"
+          }
+        ]
+      },
+      "tuesday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "08:30"
+          }
+        ]
+      },
+      "wednesday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "08:30"
+          }
+        ]
+      }
+    },
+    "impressum": "Gateway First Bank. Member FDIC.",
+    "mainPhone": "+19189073580",
+    "name": "Gateway First Bank",
+    "timezone": "America/Chicago",
+    "websiteUrl": {
+      "displayUrl": "https://www.gatewayfirst.com/locations-atms/bartlesville-ok",
+      "preferDisplayUrl": false,
+      "url": "https://www.gatewayfirst.com/locations-atms/bartlesville-ok"
+    }
+  },
+  "entityType": "location",
+  "folder": "385917",
+  "labels": [
+    "manexp9",
+    "139380"
+  ]
+}

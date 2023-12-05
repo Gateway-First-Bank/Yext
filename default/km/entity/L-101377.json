@@ -11,13 +11,20 @@
       "postalCode": "76049",
       "region": "TX"
     },
-    "c_Licensed": true,
+    "c_activeOnAnswers": true,
     "c_answersFirstName": "Jo",
     "c_answersLastName": "Crozier",
+    "c_answersName": "Jo Crozier",
+    "c_employeeID": "101377",
     "c_googleUTM": "?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
+    "c_licensed": true,
     "c_nMLS": "215976",
+    "c_relatedLocation": [
+      "M-695"
+    ],
     "c_title": "Mortgage Sales Manager",
     "categoryIds": [
+      "1450365",
       "1718"
     ],
     "description": "At Gateway, we weave the knowledge and expertise of our local mortgage professionals together with state-of-the-art technology and the powerful resources of a national company to make your homebuying experience easy, reliable, and fast. Gateway’s focus on strengthening families through homeownership drives our commitment to the communities we serve.",
@@ -27,9 +34,44 @@
     "facebookAbout": "Strengthening families and communities through personalized financial solutions, expert guidance, and award-winning service.",
     "facebookCallToAction": {
       "type": "LEARN_MORE",
-      "value": "[[website.url]]"
+      "value": "https://www.gatewayfirst.com/jo-crozier"
     },
+    "facebookCoverPhoto": {
+      "height": 360,
+      "sourceUrl": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/820x360.png",
+      "thumbnails": [
+        {
+          "height": 360,
+          "url": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/820x360.png",
+          "width": 820
+        },
+        {
+          "height": 272,
+          "url": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/619x272.png",
+          "width": 619
+        },
+        {
+          "height": 263,
+          "url": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/600x263.png",
+          "width": 600
+        },
+        {
+          "height": 86,
+          "url": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/196x86.png",
+          "width": 196
+        }
+      ],
+      "url": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/820x360.png",
+      "width": 820
+    },
+    "facebookPageUrl": "https://www.facebook.com/102527207788388",
     "facebookParentPageId": "141088722606932",
+    "facebookProfilePhoto": {
+      "alternateText": "Jo Crozier Gateway Mortgage Granbury, TX",
+      "height": 500,
+      "url": "https://a.mktgcdn.com/p/GLP1dzjQ3rrlKVNbkILvE0a_gHTQxpYuZPOo_Cwl8zk/500x500.jpg",
+      "width": 500
+    },
     "facebookVanityUrl": "GatewayMortgage[[c_answersFirstName]][[c_answersLastName]]",
     "fax": "+18172951396",
     "featuredMessage": {
@@ -37,7 +79,14 @@
       "url": "https://www.gatewayfirst.com/mortgage/apply-now"
     },
     "googleAccountId": "106465598282274804591",
-    "googleWebsiteOverride": "[[website.url]][[c_googleUTM]]",
+    "googlePlaceId": "ChIJATAiYKfvToYRUB1wAGikWY4",
+    "googleProfilePhoto": {
+      "alternateText": "Jo Crozier Gateway Mortgage Granbury, TX",
+      "height": 500,
+      "url": "https://a.mktgcdn.com/p/GLP1dzjQ3rrlKVNbkILvE0a_gHTQxpYuZPOo_Cwl8zk/500x500.jpg",
+      "width": 500
+    },
+    "googleWebsiteOverride": "https://www.gatewayfirst.com/locations-atms/jo-crozier?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
     "hours": {
       "friday": {
         "openIntervals": [
@@ -86,22 +135,66 @@
         ]
       }
     },
-    "impressum": "Gateway Mortgage, a division of Gateway First Bank. Member FDIC. Equal Housing Lender. NMLS 7233. All loans subject to program guidelines and final underwriting approval. Contact local mortgage center for details. [[c_answersFirstName]] [[c_answersLastName]] NMLS [[c_nMLS]]",
+    "impressum": "Gateway Mortgage, a division of Gateway First Bank. Member FDIC. Equal Housing Lender. NMLS 7233. All loans subject to program guidelines and final underwriting approval. Contact local mortgage center for details. Jo Crozier NMLS 215976.",
+    "logo": {
+      "image": {
+        "height": 400,
+        "sourceUrl": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+        "thumbnails": [
+          {
+            "height": 400,
+            "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+            "width": 400
+          },
+          {
+            "height": 196,
+            "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/196x196.png",
+            "width": 196
+          }
+        ],
+        "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+        "width": 400
+      }
+    },
     "mainPhone": "+18172959100",
     "name": "Jo Crozier - Gateway Mortgage",
     "photoGallery": [
       {
         "image": {
-          "url": "http://a.mktgcdn.com/p-sandbox/ByL52_cpGnvPlMxPBm28ZIT9uMML9qk3_JsOJU2Yul8/400x400.png"
+          "height": 600,
+          "sourceUrl": "https://a.mktgcdn.com/p/CBhhBPRlCge_120Vb8nwQ-rw_lcGzlgnUm0KMEVjmb0/600x600.png",
+          "thumbnails": [
+            {
+              "height": 600,
+              "url": "https://a.mktgcdn.com/p/CBhhBPRlCge_120Vb8nwQ-rw_lcGzlgnUm0KMEVjmb0/600x600.png",
+              "width": 600
+            },
+            {
+              "height": 450,
+              "url": "https://a.mktgcdn.com/p/CBhhBPRlCge_120Vb8nwQ-rw_lcGzlgnUm0KMEVjmb0/450x450.png",
+              "width": 450
+            },
+            {
+              "height": 196,
+              "url": "https://a.mktgcdn.com/p/CBhhBPRlCge_120Vb8nwQ-rw_lcGzlgnUm0KMEVjmb0/196x196.png",
+              "width": 196
+            }
+          ],
+          "url": "https://a.mktgcdn.com/p/CBhhBPRlCge_120Vb8nwQ-rw_lcGzlgnUm0KMEVjmb0/600x600.png",
+          "width": 600
         }
       }
     ],
     "timezone": "America/Chicago",
     "websiteUrl": {
+      "displayUrl": "https://www.gatewayfirst.com/jo-crozier",
       "url": "https://www.gatewayfirst.com/locations-atms/jo-crozier"
     }
   },
   "entityType": "location",
   "folder": "loanOfficers",
-  "labels": []
+  "labels": [
+    "135766",
+    "gateway132003"
+  ]
 }

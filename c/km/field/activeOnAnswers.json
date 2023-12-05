@@ -1,7 +1,6 @@
 {
   "$id": "c_activeOnAnswers",
   "$schema": "https://schema.yext.com/config/km/field/v1",
-  "description": "",
   "displayName": "Active on Answers",
   "group": "GROUP1",
   "localization": "PRIMARY_ONLY",

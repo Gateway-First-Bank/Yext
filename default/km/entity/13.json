@@ -1,0 +1,128 @@
+{
+  "$id": "13",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "address": {
+      "city": "Tulsa",
+      "countryCode": "US",
+      "line1": "6120 S. Yale Ave",
+      "postalCode": "74136",
+      "region": "OK",
+      "sublocality": "Suite. 108"
+    },
+    "c_exemptFromETL": true,
+    "c_licensed": true,
+    "categoryIds": [
+      "1091"
+    ],
+    "description": "At Gateway, we combine the knowledge and expertise of our local banking professionals together with state-of-the-art technology to help you achieve your financial goals. Our goal is to provide you with the tools you need to craft the future you want and that by doing so, we can build a stronger community, together.",
+    "emails": [
+      "DigitalSupport@GatewayFirst.com"
+    ],
+    "facebookAbout": "Strengthening families and communities through personalized financial solutions, expert guidance, and award-winning service.",
+    "facebookCallToAction": {
+      "type": "LEARN_MORE",
+      "value": "https://www.gatewayfirst.com/locations-atms/tulsa-ok"
+    },
+    "facebookCoverPhoto": {
+      "height": 1356,
+      "sourceUrl": "http://a.mktgcdn.com/p/evvC7ZEaBcCF7kBrpy4tqbeOGmTVMZwOonMOlb5oVdY/3091x1356.jpg",
+      "thumbnails": [
+        {
+          "height": 1356,
+          "url": "//a.mktgcdn.com/p/evvC7ZEaBcCF7kBrpy4tqbeOGmTVMZwOonMOlb5oVdY/3091x1356.jpg",
+          "width": 3091
+        }
+      ],
+      "url": "http://a.mktgcdn.com/p/evvC7ZEaBcCF7kBrpy4tqbeOGmTVMZwOonMOlb5oVdY/3091x1356.jpg",
+      "width": 3091
+    },
+    "facebookDescriptor": "Tulsa, OK",
+    "facebookPageUrl": "https://www.facebook.com/133472713183585",
+    "facebookParentPageId": "141088722606932",
+    "facebookProfilePhoto": {
+      "height": 200,
+      "sourceUrl": "http://a.mktgcdn.com/p/Yyfnr0fmpLRb1QOk6dGHgnklWIip6SeAcWeEH50SkaY/200x200.png",
+      "thumbnails": [
+        {
+          "height": 200,
+          "url": "//a.mktgcdn.com/p/Yyfnr0fmpLRb1QOk6dGHgnklWIip6SeAcWeEH50SkaY/200x200.png",
+          "width": 200
+        }
+      ],
+      "url": "http://a.mktgcdn.com/p/Yyfnr0fmpLRb1QOk6dGHgnklWIip6SeAcWeEH50SkaY/200x200.png",
+      "width": 200
+    },
+    "facebookVanityUrl": "GateawayFirstBankTulsaOK",
+    "featuredMessage": {
+      "description": "Contact Us Today!",
+      "url": "https://www.gatewayfirst.com/locations-atms/tulsa-ok"
+    },
+    "googleAccountId": "106465598282274804591",
+    "googlePlaceId": "ChIJ4aLr2LCTtocRlzcsdLTJ_m0",
+    "googleWebsiteOverride": "https://www.gatewayfirst.com/locations-atms/tulsa-ok?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
+    "hours": {
+      "friday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "monday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "saturday": {
+        "isClosed": true
+      },
+      "sunday": {
+        "isClosed": true
+      },
+      "thursday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "tuesday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "wednesday": {
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      }
+    },
+    "impressum": "Gateway First Bank. Member FDIC.",
+    "mainPhone": "+19183928527",
+    "name": "Gateway First Bank",
+    "timezone": "America/Chicago",
+    "websiteUrl": {
+      "displayUrl": "https://www.gatewayfirst.com/locations-atms/tulsa-ok",
+      "preferDisplayUrl": false,
+      "url": "https://www.gatewayfirst.com/locations-atms/tulsa-ok"
+    }
+  },
+  "entityType": "location",
+  "folder": "385917",
+  "labels": [
+    "139380"
+  ]
+}

@@ -10,25 +10,83 @@
       "postalCode": "67206",
       "region": "KS"
     },
-    "c_Licensed": true,
     "c_answersFirstName": "Sally",
     "c_answersLastName": "Conger",
+    "c_employeeID": "106935",
     "c_googleUTM": "?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
+    "c_licensed": true,
     "c_nMLS": "246106",
     "c_title": "Loan Originator",
     "categoryIds": [
+      "1450365",
       "1718"
     ],
+    "closed": false,
     "description": "At Gateway, we weave the knowledge and expertise of our local mortgage professionals together with state-of-the-art technology and the powerful resources of a national company to make your homebuying experience easy, reliable, and fast. Gateway’s focus on strengthening families through homeownership drives our commitment to the communities we serve.",
     "emails": [
       "Sally.Conger@gatewayloan.com"
     ],
-    "facebookAbout": "Strengthening families and communities through personalized financial solutions, expert guidance, and award-winning service.",
+    "facebookAbout": "Strengthening families and communities through personalized financial solutions, expert guidance, and award-winning service. NMLS 246106. 12009 E. 13th St. N. | Wichita, KS 67206. Equal Housing Lender.",
     "facebookCallToAction": {
       "type": "LEARN_MORE",
       "value": "[[website.url]]"
     },
+    "facebookCoverPhoto": {
+      "height": 1300,
+      "thumbnails": [
+        {
+          "height": 1300,
+          "url": "https://a.mktgcdn.com/p/FMcP43YffraIRm4tgQVJEJLQJfLEBOaCAx-L3KzJH7Y/3417x1300.png",
+          "width": 3417
+        },
+        {
+          "height": 723,
+          "url": "https://a.mktgcdn.com/p/FMcP43YffraIRm4tgQVJEJLQJfLEBOaCAx-L3KzJH7Y/1900x723.png",
+          "width": 1900
+        },
+        {
+          "height": 235,
+          "url": "https://a.mktgcdn.com/p/FMcP43YffraIRm4tgQVJEJLQJfLEBOaCAx-L3KzJH7Y/619x235.png",
+          "width": 619
+        },
+        {
+          "height": 228,
+          "url": "https://a.mktgcdn.com/p/FMcP43YffraIRm4tgQVJEJLQJfLEBOaCAx-L3KzJH7Y/600x228.png",
+          "width": 600
+        },
+        {
+          "height": 75,
+          "url": "https://a.mktgcdn.com/p/FMcP43YffraIRm4tgQVJEJLQJfLEBOaCAx-L3KzJH7Y/196x75.png",
+          "width": 196
+        }
+      ],
+      "url": "https://a.mktgcdn.com/p/FMcP43YffraIRm4tgQVJEJLQJfLEBOaCAx-L3KzJH7Y/3417x1300.png",
+      "width": 3417
+    },
+    "facebookPageUrl": "https://www.facebook.com/103818425526886",
     "facebookParentPageId": "141088722606932",
+    "facebookProfilePhoto": {
+      "height": 600,
+      "thumbnails": [
+        {
+          "height": 600,
+          "url": "https://a.mktgcdn.com/p/aGfDapVeiY7mp8TlfsKAsTbh71VznEoxHdjZwoebJco/600x600.jpg",
+          "width": 600
+        },
+        {
+          "height": 450,
+          "url": "https://a.mktgcdn.com/p/aGfDapVeiY7mp8TlfsKAsTbh71VznEoxHdjZwoebJco/450x450.jpg",
+          "width": 450
+        },
+        {
+          "height": 196,
+          "url": "https://a.mktgcdn.com/p/aGfDapVeiY7mp8TlfsKAsTbh71VznEoxHdjZwoebJco/196x196.jpg",
+          "width": 196
+        }
+      ],
+      "url": "https://a.mktgcdn.com/p/aGfDapVeiY7mp8TlfsKAsTbh71VznEoxHdjZwoebJco/600x600.jpg",
+      "width": 600
+    },
     "facebookVanityUrl": "GatewayMortgage[[c_answersFirstName]][[c_answersLastName]]",
     "fax": "+13165002004",
     "featuredMessage": {
@@ -36,7 +94,29 @@
       "url": "https://www.gatewayfirst.com/mortgage/apply-now"
     },
     "googleAccountId": "106465598282274804591",
-    "googleWebsiteOverride": "[[website.url]][[c_googleUTM]]",
+    "googleCoverPhoto": {
+      "height": 600,
+      "thumbnails": [
+        {
+          "height": 600,
+          "url": "https://a.mktgcdn.com/p/W-e8j12k6FAH2OJto_nquAvH4MUq52nZpmgR8b1YulI/600x600.jpg",
+          "width": 600
+        },
+        {
+          "height": 450,
+          "url": "https://a.mktgcdn.com/p/W-e8j12k6FAH2OJto_nquAvH4MUq52nZpmgR8b1YulI/450x450.jpg",
+          "width": 450
+        },
+        {
+          "height": 196,
+          "url": "https://a.mktgcdn.com/p/W-e8j12k6FAH2OJto_nquAvH4MUq52nZpmgR8b1YulI/196x196.jpg",
+          "width": 196
+        }
+      ],
+      "url": "https://a.mktgcdn.com/p/W-e8j12k6FAH2OJto_nquAvH4MUq52nZpmgR8b1YulI/600x600.jpg",
+      "width": 600
+    },
+    "googlePlaceId": "ChIJccCoEm39uocR5PT-f2HMvmU",
     "hours": {
       "friday": {
         "openIntervals": [
@@ -86,22 +166,90 @@
       }
     },
     "impressum": "Gateway Mortgage, a division of Gateway First Bank. Member FDIC. Equal Housing Lender. NMLS 7233. All loans subject to program guidelines and final underwriting approval. Contact local mortgage center for details. [[c_answersFirstName]] [[c_answersLastName]] NMLS [[c_nMLS]]",
+    "logo": {
+      "image": {
+        "height": 400,
+        "sourceUrl": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+        "thumbnails": [
+          {
+            "height": 400,
+            "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+            "width": 400
+          },
+          {
+            "height": 196,
+            "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/196x196.png",
+            "width": 196
+          }
+        ],
+        "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+        "width": 400
+      }
+    },
     "mainPhone": "+13162521458",
     "mobilePhone": "+13162508080",
     "name": "Sally Conger - Gateway Mortgage",
     "photoGallery": [
       {
         "image": {
-          "url": "http://a.mktgcdn.com/p-sandbox/ByL52_cpGnvPlMxPBm28ZIT9uMML9qk3_JsOJU2Yul8/400x400.png"
+          "height": 400,
+          "sourceUrl": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+          "thumbnails": [
+            {
+              "height": 400,
+              "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+              "width": 400
+            },
+            {
+              "height": 196,
+              "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/196x196.png",
+              "width": 196
+            }
+          ],
+          "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+          "width": 400
+        }
+      },
+      {
+        "image": {
+          "height": 600,
+          "thumbnails": [
+            {
+              "height": 600,
+              "url": "https://a.mktgcdn.com/p/k5OceypELHSIaYozFv233bC8Xsvo2Em3c9U-mxOkg_w/600x600.jpg",
+              "width": 600
+            }
+          ],
+          "url": "https://a.mktgcdn.com/p/k5OceypELHSIaYozFv233bC8Xsvo2Em3c9U-mxOkg_w/600x600.jpg",
+          "width": 600
+        }
+      },
+      {
+        "image": {
+          "height": 600,
+          "thumbnails": [
+            {
+              "height": 600,
+              "url": "https://a.mktgcdn.com/p/W-e8j12k6FAH2OJto_nquAvH4MUq52nZpmgR8b1YulI/600x600.jpg",
+              "width": 600
+            }
+          ],
+          "url": "https://a.mktgcdn.com/p/W-e8j12k6FAH2OJto_nquAvH4MUq52nZpmgR8b1YulI/600x600.jpg",
+          "width": 600
         }
       }
     ],
     "timezone": "America/Chicago",
     "websiteUrl": {
+      "displayUrl": "http://www.sallyhomeloan.com",
+      "preferDisplayUrl": false,
       "url": "https://www.gatewayfirst.com/locations-atms/sally-conger"
     }
   },
   "entityType": "location",
   "folder": "loanOfficers",
-  "labels": []
+  "labels": [
+    "139380",
+    "gateway132003"
+  ]
 }

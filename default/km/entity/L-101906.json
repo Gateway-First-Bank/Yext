@@ -10,13 +10,20 @@
       "postalCode": "74037",
       "region": "OK"
     },
-    "c_Licensed": true,
+    "c_activeOnAnswers": true,
     "c_answersFirstName": "Mark",
     "c_answersLastName": "Revard",
+    "c_answersName": "Mark Revard",
+    "c_employeeID": "101906",
     "c_googleUTM": "?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
+    "c_licensed": true,
     "c_nMLS": "488175",
+    "c_relatedLocation": [
+      "M-658"
+    ],
     "c_title": "National Production Manager",
     "categoryIds": [
+      "1450365",
       "1718"
     ],
     "description": "At Gateway, we weave the knowledge and expertise of our local mortgage professionals together with state-of-the-art technology and the powerful resources of a national company to make your homebuying experience easy, reliable, and fast. Gateway’s focus on strengthening families through homeownership drives our commitment to the communities we serve.",
@@ -26,16 +33,53 @@
     "facebookAbout": "Strengthening families and communities through personalized financial solutions, expert guidance, and award-winning service.",
     "facebookCallToAction": {
       "type": "LEARN_MORE",
-      "value": "[[website.url]]"
+      "value": "https://www.gatewayfirst.com/mark-revard"
     },
+    "facebookCoverPhoto": {
+      "height": 361,
+      "sourceUrl": "https://a.mktgcdn.com/p/ofbdWequr7VFA_qk77A3Mya7TuxaLjHV0O1sKq6gtwY/819x361.jpg",
+      "thumbnails": [
+        {
+          "height": 361,
+          "url": "https://a.mktgcdn.com/p/ofbdWequr7VFA_qk77A3Mya7TuxaLjHV0O1sKq6gtwY/819x361.jpg",
+          "width": 819
+        },
+        {
+          "height": 273,
+          "url": "https://a.mktgcdn.com/p/ofbdWequr7VFA_qk77A3Mya7TuxaLjHV0O1sKq6gtwY/619x273.jpg",
+          "width": 619
+        },
+        {
+          "height": 264,
+          "url": "https://a.mktgcdn.com/p/ofbdWequr7VFA_qk77A3Mya7TuxaLjHV0O1sKq6gtwY/600x264.jpg",
+          "width": 600
+        },
+        {
+          "height": 86,
+          "url": "https://a.mktgcdn.com/p/ofbdWequr7VFA_qk77A3Mya7TuxaLjHV0O1sKq6gtwY/196x86.jpg",
+          "width": 196
+        }
+      ],
+      "url": "https://a.mktgcdn.com/p/ofbdWequr7VFA_qk77A3Mya7TuxaLjHV0O1sKq6gtwY/819x361.jpg",
+      "width": 819
+    },
+    "facebookDescriptor": "Serving Tulsa, OK",
+    "facebookPageUrl": "https://www.facebook.com/113405930024367",
     "facebookParentPageId": "141088722606932",
-    "facebookVanityUrl": "GatewayMortgage[[c_answersFirstName]][[c_answersLastName]]",
+    "facebookProfilePhoto": {
+      "height": 1080,
+      "url": "https://a.mktgcdn.com/p/HH5lykycQ1ljumyiRVoqQA6muhqkIR8Sw3An0IXDl9I/1080x1080.png",
+      "width": 1080
+    },
+    "facebookVanityUrl": "GatewayMortgageTheRevardGroup",
     "featuredMessage": {
       "description": "Apply Now!",
       "url": "https://www.gatewayfirst.com/mortgage/apply-now"
     },
+    "geomodifier": "Tulsa OK",
     "googleAccountId": "106465598282274804591",
-    "googleWebsiteOverride": "[[website.url]][[c_googleUTM]]",
+    "googlePlaceId": "ChIJ8yMVvfuXtocRRZSOo1soyL0",
+    "googleWebsiteOverride": "https://www.gatewayfirst.com/locations-atms/mark-revard?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
     "hours": {
       "friday": {
         "openIntervals": [
@@ -84,22 +128,61 @@
         ]
       }
     },
-    "impressum": "Gateway Mortgage, a division of Gateway First Bank. Member FDIC. Equal Housing Lender. NMLS 7233. All loans subject to program guidelines and final underwriting approval. Contact local mortgage center for details. [[c_answersFirstName]] [[c_answersLastName]] NMLS [[c_nMLS]]",
+    "impressum": "Gateway Mortgage, a division of Gateway First Bank. Member FDIC. Equal Housing Lender. NMLS 7233. All loans subject to program guidelines and final underwriting approval. Contact local mortgage center for details. Mark Revard NMLS 488175.",
+    "logo": {
+      "image": {
+        "height": 400,
+        "sourceUrl": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+        "thumbnails": [
+          {
+            "height": 400,
+            "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+            "width": 400
+          },
+          {
+            "height": 196,
+            "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/196x196.png",
+            "width": 196
+          }
+        ],
+        "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+        "width": 400
+      }
+    },
     "mainPhone": "+19183928580",
     "name": "Mark Revard - Gateway Mortgage",
     "photoGallery": [
       {
         "image": {
-          "url": "http://a.mktgcdn.com/p-sandbox/ByL52_cpGnvPlMxPBm28ZIT9uMML9qk3_JsOJU2Yul8/400x400.png"
+          "height": 400,
+          "sourceUrl": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+          "thumbnails": [
+            {
+              "height": 400,
+              "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+              "width": 400
+            },
+            {
+              "height": 196,
+              "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/196x196.png",
+              "width": 196
+            }
+          ],
+          "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+          "width": 400
         }
       }
     ],
     "timezone": "America/Chicago",
     "websiteUrl": {
+      "preferDisplayUrl": false,
       "url": "https://www.gatewayfirst.com/locations-atms/mark-revard"
     }
   },
   "entityType": "location",
   "folder": "loanOfficers",
-  "labels": []
+  "labels": [
+    "135766",
+    "gateway132003"
+  ]
 }

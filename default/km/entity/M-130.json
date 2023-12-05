@@ -7,21 +7,69 @@
       "city": "Omaha",
       "countryCode": "US",
       "line1": "11235 Davenport Street",
+      "line2": "Suite 105",
       "postalCode": "68154",
       "region": "NE"
     },
-    "c_Licensed": true,
+    "c_activeOnAnswers": true,
     "c_googleUTM": "?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
+    "c_licensed": true,
     "c_nMLS": "7233",
+    "c_relatedLoanOfficers": [
+      "L-102715",
+      "L-101690",
+      "L-101706",
+      "L-101717",
+      "L-101697"
+    ],
     "categoryIds": [
+      "1450365",
       "1718"
     ],
-    "description": "At Gateway, we weave the knowledge and expertise of our local mortgage professionals together with state-of-the-art technology and the powerful resources of a national company to make your homebuying experience easy, reliable, and fast. Gateway’s focus on strengthening families through homeownership drives our commitment to the communities we serve. Visit www.GatewayLoan.com to learn more.",
+    "description": "At Gateway, we weave the knowledge and expertise of our local mortgage professionals together with state-of-the-art technology and the powerful resources of a national company to make your homebuying experience easy, reliable, and fast. Gateway’s focus on strengthening families through homeownership drives our commitment to the communities we serve.",
+    "facebookAbout": "Strengthening families and communities through personalized financial solutions, expert guidance, and award-winning service.",
     "facebookCallToAction": {
       "type": "LEARN_MORE",
-      "value": "[[website.url]]"
+      "value": "https://www.gatewayfirst.com/omaha-ne"
     },
+    "facebookCoverPhoto": {
+      "height": 360,
+      "sourceUrl": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/820x360.png",
+      "thumbnails": [
+        {
+          "height": 360,
+          "url": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/820x360.png",
+          "width": 820
+        },
+        {
+          "height": 272,
+          "url": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/619x272.png",
+          "width": 619
+        },
+        {
+          "height": 263,
+          "url": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/600x263.png",
+          "width": 600
+        },
+        {
+          "height": 86,
+          "url": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/196x86.png",
+          "width": 196
+        }
+      ],
+      "url": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/820x360.png",
+      "width": 820
+    },
+    "facebookDescriptor": "Omaha, NE",
+    "facebookName": "Gateway Mortgage",
+    "facebookPageUrl": "https://www.facebook.com/577029145785794",
     "facebookParentPageId": "141088722606932",
+    "facebookProfilePhoto": {
+      "height": 1080,
+      "url": "https://a.mktgcdn.com/p/HH5lykycQ1ljumyiRVoqQA6muhqkIR8Sw3An0IXDl9I/1080x1080.png",
+      "width": 1080
+    },
+    "facebookVanityUrl": "GatewayMortgageOmahaNE",
     "fax": "+19188588409",
     "featuredMessage": {
       "description": "Apply Now!",
@@ -29,21 +77,24 @@
     },
     "geomodifier": "Omaha",
     "googleAccountId": "106465598282274804591",
-    "googleWebsiteOverride": "[[website.url]][[c_googleUTM]]",
+    "googlePlaceId": "ChIJ5xtJovryk4cRA9UJ8dMSUHo",
+    "googleWebsiteOverride": "https://www.gatewayfirst.com/locations-atms/omaha-ne?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
     "hours": {
       "friday": {
+        "isClosed": false,
         "openIntervals": [
           {
             "end": "17:00",
-            "start": "09:00"
+            "start": "08:00"
           }
         ]
       },
       "monday": {
+        "isClosed": false,
         "openIntervals": [
           {
             "end": "17:00",
-            "start": "09:00"
+            "start": "08:00"
           }
         ]
       },
@@ -54,48 +105,88 @@
         "isClosed": true
       },
       "thursday": {
+        "isClosed": false,
         "openIntervals": [
           {
             "end": "17:00",
-            "start": "09:00"
+            "start": "08:00"
           }
         ]
       },
       "tuesday": {
+        "isClosed": false,
         "openIntervals": [
           {
             "end": "17:00",
-            "start": "09:00"
+            "start": "08:00"
           }
         ]
       },
       "wednesday": {
+        "isClosed": false,
         "openIntervals": [
           {
             "end": "17:00",
-            "start": "09:00"
+            "start": "08:00"
           }
         ]
       }
     },
     "impressum": "Gateway Mortgage, a division of Gateway First Bank. Member FDIC. Equal Housing Lender. NMLS 7233. All loans subject to program guidelines and final underwriting approval. Contact local mortgage center for details.",
+    "logo": {
+      "image": {
+        "height": 400,
+        "sourceUrl": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+        "thumbnails": [
+          {
+            "height": 400,
+            "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+            "width": 400
+          },
+          {
+            "height": 196,
+            "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/196x196.png",
+            "width": 196
+          }
+        ],
+        "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+        "width": 400
+      }
+    },
     "mainPhone": "+14023334920",
     "name": "Gateway Mortgage",
     "photoGallery": [
       {
         "image": {
-          "url": "http://a.mktgcdn.com/p-sandbox/ByL52_cpGnvPlMxPBm28ZIT9uMML9qk3_JsOJU2Yul8/400x400.png"
+          "height": 400,
+          "sourceUrl": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+          "thumbnails": [
+            {
+              "height": 400,
+              "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+              "width": 400
+            },
+            {
+              "height": 196,
+              "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/196x196.png",
+              "width": 196
+            }
+          ],
+          "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+          "width": 400
         }
       }
     ],
     "timezone": "America/Chicago",
     "websiteUrl": {
+      "displayUrl": "https://www.gatewayfirst.com/omaha-ne",
       "url": "https://www.gatewayfirst.com/locations-atms/omaha-ne"
     }
   },
   "entityType": "location",
   "folder": "281735",
   "labels": [
-    "139380"
+    "135766",
+    "gateway132003"
   ]
 }

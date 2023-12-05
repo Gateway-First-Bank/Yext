@@ -7,18 +7,22 @@
       "city": "Hurst",
       "countryCode": "US",
       "line1": "669 Airport Frwy",
+      "line2": "Ste. 306",
       "postalCode": "76053",
       "region": "TX"
     },
-    "c_Licensed": true,
     "c_answersFirstName": "Racheal",
     "c_answersLastName": "Layhee",
+    "c_employeeID": "106569",
     "c_googleUTM": "?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
+    "c_licensed": true,
     "c_nMLS": "2000523",
     "c_title": "Loan Partner",
     "categoryIds": [
+      "1450365",
       "1718"
     ],
+    "closed": false,
     "description": "At Gateway, we weave the knowledge and expertise of our local mortgage professionals together with state-of-the-art technology and the powerful resources of a national company to make your homebuying experience easy, reliable, and fast. Gateway’s focus on strengthening families through homeownership drives our commitment to the communities we serve.",
     "emails": [
       "Racheal.Layhee@gatewayloan.com"
@@ -28,7 +32,57 @@
       "type": "LEARN_MORE",
       "value": "[[website.url]]"
     },
+    "facebookCoverPhoto": {
+      "height": 360,
+      "thumbnails": [
+        {
+          "height": 360,
+          "url": "http://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/820x360.png",
+          "width": 820
+        },
+        {
+          "height": 272,
+          "url": "http://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/619x272.png",
+          "width": 619
+        },
+        {
+          "height": 263,
+          "url": "http://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/600x263.png",
+          "width": 600
+        },
+        {
+          "height": 86,
+          "url": "http://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/196x86.png",
+          "width": 196
+        }
+      ],
+      "url": "http://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/820x360.png",
+      "width": 820
+    },
+    "facebookPageUrl": "https://www.facebook.com/101222262869510",
     "facebookParentPageId": "141088722606932",
+    "facebookProfilePhoto": {
+      "height": 1080,
+      "thumbnails": [
+        {
+          "height": 619,
+          "url": "http://a.mktgcdn.com/p/REVdgEFvtTDRndMvX6Kv_TE7Uv_TRnXuaF9C31PRU_Y/619x619.png",
+          "width": 619
+        },
+        {
+          "height": 450,
+          "url": "http://a.mktgcdn.com/p/REVdgEFvtTDRndMvX6Kv_TE7Uv_TRnXuaF9C31PRU_Y/450x450.png",
+          "width": 450
+        },
+        {
+          "height": 196,
+          "url": "http://a.mktgcdn.com/p/REVdgEFvtTDRndMvX6Kv_TE7Uv_TRnXuaF9C31PRU_Y/196x196.png",
+          "width": 196
+        }
+      ],
+      "url": "http://a.mktgcdn.com/p/REVdgEFvtTDRndMvX6Kv_TE7Uv_TRnXuaF9C31PRU_Y/1080x1080.png",
+      "width": 1080
+    },
     "facebookVanityUrl": "GatewayMortgage[[c_answersFirstName]][[c_answersLastName]]",
     "fax": "+14692653419",
     "featuredMessage": {
@@ -36,6 +90,7 @@
       "url": "https://www.gatewayfirst.com/mortgage/apply-now"
     },
     "googleAccountId": "106465598282274804591",
+    "googlePlaceId": "ChIJBzCS58c9TIYR-nKHOMCJgYU",
     "googleWebsiteOverride": "[[website.url]][[c_googleUTM]]",
     "hours": {
       "friday": {
@@ -86,18 +141,58 @@
       }
     },
     "impressum": "Gateway Mortgage, a division of Gateway First Bank. Member FDIC. Equal Housing Lender. NMLS 7233. All loans subject to program guidelines and final underwriting approval. Contact local mortgage center for details. [[c_answersFirstName]] [[c_answersLastName]] NMLS [[c_nMLS]]",
+    "logo": {
+      "image": {
+        "height": 400,
+        "thumbnails": [
+          {
+            "height": 400,
+            "url": "http://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+            "width": 400
+          },
+          {
+            "height": 150,
+            "url": "http://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/150x150.png",
+            "width": 150
+          },
+          {
+            "height": 94,
+            "url": "http://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/94x94.png",
+            "width": 94
+          }
+        ],
+        "url": "http://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+        "width": 400
+      }
+    },
     "mainPhone": "+14692653417",
     "mobilePhone": "+14692472472",
     "name": "Racheal Layhee - Gateway Mortgage",
     "photoGallery": [
       {
         "image": {
-          "url": "http://a.mktgcdn.com/p-sandbox/ByL52_cpGnvPlMxPBm28ZIT9uMML9qk3_JsOJU2Yul8/400x400.png"
+          "height": 400,
+          "thumbnails": [
+            {
+              "height": 400,
+              "url": "http://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+              "width": 400
+            },
+            {
+              "height": 196,
+              "url": "http://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/196x196.png",
+              "width": 196
+            }
+          ],
+          "url": "http://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+          "width": 400
         }
       }
     ],
     "timezone": "America/Chicago",
     "websiteUrl": {
+      "displayUrl": "https://www.gatewayfirst.com/locations-atms/racheal-layhee",
+      "preferDisplayUrl": false,
       "url": "https://www.gatewayfirst.com/locations-atms/racheal-layhee"
     }
   },

@@ -1016,7 +1016,7 @@
     {
       "addColumn": {
         "newColumnHeader": "Licensed",
-        "columnValue": "true"
+        "columnValue": "True"
       }
     }
   ],
@@ -1170,7 +1170,7 @@
     },
     {
       "header": "Licensed",
-      "field": "c_Licensed",
+      "field": "c_licensed",
       "subfieldPath": [],
       "clearValueIfBlank": false
     },
@@ -1203,6 +1203,19 @@
       "subfieldPath": [
         {
           "name": "region"
+        }
+      ],
+      "clearValueIfBlank": false
+    },
+    {
+      "header": "Business Logo \u003e image \u003e url",
+      "field": "logo",
+      "subfieldPath": [
+        {
+          "name": "image"
+        },
+        {
+          "name": "url"
         }
       ],
       "clearValueIfBlank": false
@@ -1650,6 +1663,16 @@
       "clearValueIfBlank": false
     },
     {
+      "header": "Facebook Cover Photo \u003e url",
+      "field": "facebookCoverPhoto",
+      "subfieldPath": [
+        {
+          "name": "url"
+        }
+      ],
+      "clearValueIfBlank": false
+    },
+    {
       "header": "Facebook Call-to-Action \u003e Type",
       "field": "facebookCallToAction",
       "subfieldPath": [
@@ -1740,41 +1763,8 @@
       "field": "c_googleUTM",
       "subfieldPath": [],
       "clearValueIfBlank": false
-    },
-    {
-      "header": "Facebook Cover Photo \u003e url",
-      "field": "facebookCoverPhoto",
-      "subfieldPath": [
-        {
-          "name": "url"
-        }
-      ],
-      "clearValueIfBlank": false
-    },
-    {
-      "header": "Business Logo \u003e image \u003e url",
-      "field": "logo",
-      "subfieldPath": [
-        {
-          "name": "image"
-        },
-        {
-          "name": "url"
-        }
-      ],
-      "clearValueIfBlank": false
     }
   ],
-  "scheduleConfig": {
-    "customSchedule": {
-      "timeZone": "America/Chicago",
-      "startDate": "2023-11-01",
-      "startTime": "23:00",
-      "frequencyType": "DAILY"
-    },
-    "runMode": "COMPREHENSIVE",
-    "dryRun": false
-  },
   "comprehensiveModeConfig": {
     "comprehensiveSet": "ENTITIES_IN_SAVED_FILTER",
     "savedFilter": "1337575255",
@@ -2499,7 +2489,7 @@
         {
           "addColumn": {
             "newColumnHeader": "closedDate",
-            "columnValue": "\u0027\u0027"
+            "columnValue": "2023-01-01"
           }
         },
         {
@@ -2862,5 +2852,12 @@
         }
       ]
     }
-  }
+  },
+  "linkedConnectorConfigs": [
+    {
+      "connector": "MortgageCenterUpdate",
+      "runMode": "COMPREHENSIVE",
+      "dryRun": true
+    }
+  ]
 }

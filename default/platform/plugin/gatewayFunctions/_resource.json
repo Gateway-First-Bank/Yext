@@ -2,7 +2,7 @@
   "$id": "gatewayFunctions",
   "$schema": "https://schema.yext.com/config/platform/plugin/v1",
   "globals": {
-    "API_KEY": "5e066fa169f80a3cf5d4058fb618c625",
-    "YEXT_HOST": "https://sbx-api.yextapis.com/v2/accounts/me/entities/"
+    "API_KEY": "02fa44ddf742fd3144f61bf372cae813",
+    "YEXT_HOST": "https://api.yextapis.com/v2/accounts/me/entities/"
   }
 }

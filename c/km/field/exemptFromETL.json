@@ -1,7 +1,6 @@
 {
   "$id": "c_exemptFromETL",
   "$schema": "https://schema.yext.com/config/km/field/v1",
-  "description": "",
   "displayName": "Exempt from ETL",
   "group": "NONE",
   "localization": "PRIMARY_ONLY",

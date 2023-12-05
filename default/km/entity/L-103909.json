@@ -11,13 +11,20 @@
       "postalCode": "72227",
       "region": "AR"
     },
-    "c_Licensed": true,
+    "c_activeOnAnswers": true,
     "c_answersFirstName": "Greg",
     "c_answersLastName": "Ramer",
+    "c_answersName": "Greg Ramer",
+    "c_employeeID": "103909",
     "c_googleUTM": "?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
+    "c_licensed": true,
     "c_nMLS": "419364",
+    "c_relatedLocation": [
+      "M-244"
+    ],
     "c_title": "Area Manager",
     "categoryIds": [
+      "1450365",
       "1718"
     ],
     "description": "At Gateway, we weave the knowledge and expertise of our local mortgage professionals together with state-of-the-art technology and the powerful resources of a national company to make your homebuying experience easy, reliable, and fast. Gateway’s focus on strengthening families through homeownership drives our commitment to the communities we serve.",
@@ -27,9 +34,60 @@
     "facebookAbout": "Strengthening families and communities through personalized financial solutions, expert guidance, and award-winning service.",
     "facebookCallToAction": {
       "type": "LEARN_MORE",
-      "value": "[[website.url]]"
+      "value": "https://www.gatewayfirst.com/greg-ramer"
     },
+    "facebookCoverPhoto": {
+      "height": 312,
+      "sourceUrl": "https://a.mktgcdn.com/p/VBDiU2gfSYFXMbrAcLoymDZ8q3PrhBTEFjwI9wTczRs/820x312.png",
+      "thumbnails": [
+        {
+          "height": 312,
+          "url": "https://a.mktgcdn.com/p/VBDiU2gfSYFXMbrAcLoymDZ8q3PrhBTEFjwI9wTczRs/820x312.png",
+          "width": 820
+        },
+        {
+          "height": 236,
+          "url": "https://a.mktgcdn.com/p/VBDiU2gfSYFXMbrAcLoymDZ8q3PrhBTEFjwI9wTczRs/619x236.png",
+          "width": 619
+        },
+        {
+          "height": 228,
+          "url": "https://a.mktgcdn.com/p/VBDiU2gfSYFXMbrAcLoymDZ8q3PrhBTEFjwI9wTczRs/600x228.png",
+          "width": 600
+        },
+        {
+          "height": 75,
+          "url": "https://a.mktgcdn.com/p/VBDiU2gfSYFXMbrAcLoymDZ8q3PrhBTEFjwI9wTczRs/196x75.png",
+          "width": 196
+        }
+      ],
+      "url": "https://a.mktgcdn.com/p/VBDiU2gfSYFXMbrAcLoymDZ8q3PrhBTEFjwI9wTczRs/820x312.png",
+      "width": 820
+    },
+    "facebookPageUrl": "https://www.facebook.com/GatewayMortgageGregRamer",
     "facebookParentPageId": "141088722606932",
+    "facebookProfilePhoto": {
+      "height": 600,
+      "thumbnails": [
+        {
+          "height": 600,
+          "url": "https://a.mktgcdn.com/p/SlLoEkcZHjz9mCn-uHwfqTEur41vkWD2gpUmXNLrKA4/600x600.jpg",
+          "width": 600
+        },
+        {
+          "height": 450,
+          "url": "https://a.mktgcdn.com/p/SlLoEkcZHjz9mCn-uHwfqTEur41vkWD2gpUmXNLrKA4/450x450.jpg",
+          "width": 450
+        },
+        {
+          "height": 196,
+          "url": "https://a.mktgcdn.com/p/SlLoEkcZHjz9mCn-uHwfqTEur41vkWD2gpUmXNLrKA4/196x196.jpg",
+          "width": 196
+        }
+      ],
+      "url": "https://a.mktgcdn.com/p/SlLoEkcZHjz9mCn-uHwfqTEur41vkWD2gpUmXNLrKA4/600x600.jpg",
+      "width": 600
+    },
     "facebookVanityUrl": "GatewayMortgage[[c_answersFirstName]][[c_answersLastName]]",
     "fax": "+15017773572",
     "featuredMessage": {
@@ -37,7 +95,30 @@
       "url": "https://www.gatewayfirst.com/mortgage/apply-now"
     },
     "googleAccountId": "106465598282274804591",
-    "googleWebsiteOverride": "[[website.url]][[c_googleUTM]]",
+    "googleCoverPhoto": {
+      "height": 600,
+      "thumbnails": [
+        {
+          "height": 600,
+          "url": "https://a.mktgcdn.com/p/DCuIiWgL8ztHtAWFF6U4__ptbbGS5KGRyNjI4DEPSkk/600x600.jpg",
+          "width": 600
+        },
+        {
+          "height": 450,
+          "url": "https://a.mktgcdn.com/p/DCuIiWgL8ztHtAWFF6U4__ptbbGS5KGRyNjI4DEPSkk/450x450.jpg",
+          "width": 450
+        },
+        {
+          "height": 196,
+          "url": "https://a.mktgcdn.com/p/DCuIiWgL8ztHtAWFF6U4__ptbbGS5KGRyNjI4DEPSkk/196x196.jpg",
+          "width": 196
+        }
+      ],
+      "url": "https://a.mktgcdn.com/p/DCuIiWgL8ztHtAWFF6U4__ptbbGS5KGRyNjI4DEPSkk/600x600.jpg",
+      "width": 600
+    },
+    "googlePlaceId": "ChIJg_3i13aj0ocRoieWpiAH5PE",
+    "googleWebsiteOverride": "https://www.gatewayfirst.com/locations-atms/greg-ramer?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
     "hours": {
       "friday": {
         "openIntervals": [
@@ -86,23 +167,87 @@
         ]
       }
     },
-    "impressum": "Gateway Mortgage, a division of Gateway First Bank. Member FDIC. Equal Housing Lender. NMLS 7233. All loans subject to program guidelines and final underwriting approval. Contact local mortgage center for details. [[c_answersFirstName]] [[c_answersLastName]] NMLS [[c_nMLS]]",
+    "impressum": "Gateway Mortgage, a division of Gateway First Bank. Member FDIC. Equal Housing Lender. NMLS 7233. All loans subject to program guidelines and final underwriting approval. Contact local mortgage center for details. Greg Ramer NMLS 419364.",
+    "logo": {
+      "image": {
+        "height": 400,
+        "sourceUrl": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+        "thumbnails": [
+          {
+            "height": 400,
+            "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+            "width": 400
+          },
+          {
+            "height": 196,
+            "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/196x196.png",
+            "width": 196
+          }
+        ],
+        "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+        "width": 400
+      }
+    },
     "mainPhone": "+15017773571",
     "mobilePhone": "+15017667871",
     "name": "Greg Ramer - Gateway Mortgage",
     "photoGallery": [
       {
         "image": {
-          "url": "http://a.mktgcdn.com/p-sandbox/ByL52_cpGnvPlMxPBm28ZIT9uMML9qk3_JsOJU2Yul8/400x400.png"
+          "height": 400,
+          "sourceUrl": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+          "thumbnails": [
+            {
+              "height": 400,
+              "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+              "width": 400
+            },
+            {
+              "height": 196,
+              "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/196x196.png",
+              "width": 196
+            }
+          ],
+          "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+          "width": 400
+        }
+      },
+      {
+        "image": {
+          "height": 600,
+          "sourceUrl": "https://a.mktgcdn.com/p/DCuIiWgL8ztHtAWFF6U4__ptbbGS5KGRyNjI4DEPSkk/600x600.jpg",
+          "thumbnails": [
+            {
+              "height": 600,
+              "url": "https://a.mktgcdn.com/p/DCuIiWgL8ztHtAWFF6U4__ptbbGS5KGRyNjI4DEPSkk/600x600.jpg",
+              "width": 600
+            },
+            {
+              "height": 450,
+              "url": "https://a.mktgcdn.com/p/DCuIiWgL8ztHtAWFF6U4__ptbbGS5KGRyNjI4DEPSkk/450x450.jpg",
+              "width": 450
+            },
+            {
+              "height": 196,
+              "url": "https://a.mktgcdn.com/p/DCuIiWgL8ztHtAWFF6U4__ptbbGS5KGRyNjI4DEPSkk/196x196.jpg",
+              "width": 196
+            }
+          ],
+          "url": "https://a.mktgcdn.com/p/DCuIiWgL8ztHtAWFF6U4__ptbbGS5KGRyNjI4DEPSkk/600x600.jpg",
+          "width": 600
         }
       }
     ],
     "timezone": "America/Chicago",
     "websiteUrl": {
+      "displayUrl": "https://www.gatewayfirst.com/greg-ramer",
       "url": "https://www.gatewayfirst.com/locations-atms/greg-ramer"
     }
   },
   "entityType": "location",
   "folder": "loanOfficers",
-  "labels": []
+  "labels": [
+    "135766",
+    "gateway132003"
+  ]
 }

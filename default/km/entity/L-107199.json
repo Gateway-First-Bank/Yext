@@ -11,36 +11,82 @@
       "postalCode": "80234",
       "region": "CO"
     },
-    "c_Licensed": true,
     "c_answersFirstName": "Michael",
     "c_answersLastName": "Bass",
-    "c_eTLClosedDate": "2023-11-04",
+    "c_eTLClosedDate": "2023-12-04",
+    "c_employeeID": "107199",
     "c_googleUTM": "?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
+    "c_licensed": true,
     "c_nMLS": "1153504",
     "c_title": "Loan Originator",
     "categoryIds": [
+      "1450365",
       "1718"
     ],
     "closed": true,
+    "facebookAbout": "Strengthening families and communities through personalized financial solutions, expert guidance, and award-winning service.",
+    "facebookCoverPhoto": {
+      "height": 360,
+      "thumbnails": [
+        {
+          "height": 360,
+          "url": "http://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/820x360.png",
+          "width": 820
+        },
+        {
+          "height": 272,
+          "url": "http://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/619x272.png",
+          "width": 619
+        },
+        {
+          "height": 263,
+          "url": "http://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/600x263.png",
+          "width": 600
+        },
+        {
+          "height": 86,
+          "url": "http://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/196x86.png",
+          "width": 196
+        }
+      ],
+      "url": "http://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/820x360.png",
+      "width": 820
+    },
+    "facebookPageUrl": "https://www.facebook.com/103898849433876",
     "facebookParentPageId": "141088722606932",
+    "facebookProfilePhoto": {
+      "height": 900,
+      "thumbnails": [
+        {
+          "height": 900,
+          "url": "https://a.mktgcdn.com/p/ZZ6LgivlVUunUryLDrpJSDCVnJncj9_JdrfZ6Y2GL24/900x900.jpg",
+          "width": 900
+        }
+      ],
+      "url": "https://a.mktgcdn.com/p/ZZ6LgivlVUunUryLDrpJSDCVnJncj9_JdrfZ6Y2GL24/900x900.jpg",
+      "width": 900
+    },
     "facebookVanityUrl": "GatewayMortgage[[c_answersFirstName]][[c_answersLastName]]",
     "googleAccountId": "106465598282274804591",
+    "googleCoverPhoto": {
+      "height": 900,
+      "thumbnails": [
+        {
+          "height": 900,
+          "url": "https://a.mktgcdn.com/p/0JmO489b2c1uy4dcoD9of-Gg6-kmUOkhMn7ysmx9ls0/900x900.jpg",
+          "width": 900
+        }
+      ],
+      "url": "https://a.mktgcdn.com/p/0JmO489b2c1uy4dcoD9of-Gg6-kmUOkhMn7ysmx9ls0/900x900.jpg",
+      "width": 900
+    },
+    "googlePlaceId": "ChIJKd0M6Vl1bIcR0QpNrUzpCm4",
     "hours": {
       "friday": {
-        "openIntervals": [
-          {
-            "end": "17:00",
-            "start": "09:00"
-          }
-        ]
+        "isClosed": true
       },
       "monday": {
-        "openIntervals": [
-          {
-            "end": "17:00",
-            "start": "09:00"
-          }
-        ]
+        "isClosed": true
       },
       "saturday": {
         "isClosed": true
@@ -49,28 +95,38 @@
         "isClosed": true
       },
       "thursday": {
-        "openIntervals": [
-          {
-            "end": "17:00",
-            "start": "09:00"
-          }
-        ]
+        "isClosed": true
       },
       "tuesday": {
-        "openIntervals": [
-          {
-            "end": "17:00",
-            "start": "09:00"
-          }
-        ]
+        "isClosed": true
       },
       "wednesday": {
-        "openIntervals": [
+        "isClosed": true
+      }
+    },
+    "impressum": "Gateway Mortgage, a division of Gateway First Bank. Member FDIC. Equal Housing Lender. NMLS 7233. All loans subject to program guidelines and final underwriting approval. Contact local mortgage center for details. [[c_answersFirstName]] [[c_answersLastName]] NMLS [[c_nMLS]]",
+    "logo": {
+      "image": {
+        "height": 400,
+        "thumbnails": [
           {
-            "end": "17:00",
-            "start": "09:00"
+            "height": 400,
+            "url": "http://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+            "width": 400
+          },
+          {
+            "height": 150,
+            "url": "http://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/150x150.png",
+            "width": 150
+          },
+          {
+            "height": 94,
+            "url": "http://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/94x94.png",
+            "width": 94
           }
-        ]
+        ],
+        "url": "http://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+        "width": 400
       }
     },
     "mainPhone": "+17202597549",
@@ -79,7 +135,16 @@
     "photoGallery": [
       {
         "image": {
-          "url": "http://a.mktgcdn.com/p-sandbox/ByL52_cpGnvPlMxPBm28ZIT9uMML9qk3_JsOJU2Yul8/400x400.png"
+          "height": 900,
+          "thumbnails": [
+            {
+              "height": 900,
+              "url": "https://a.mktgcdn.com/p/0JmO489b2c1uy4dcoD9of-Gg6-kmUOkhMn7ysmx9ls0/900x900.jpg",
+              "width": 900
+            }
+          ],
+          "url": "https://a.mktgcdn.com/p/0JmO489b2c1uy4dcoD9of-Gg6-kmUOkhMn7ysmx9ls0/900x900.jpg",
+          "width": 900
         }
       }
     ],
