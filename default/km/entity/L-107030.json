@@ -224,8 +224,5 @@
   },
   "entityType": "location",
   "folder": "loanOfficers",
-  "labels": [
-    "gateway132003",
-    "472022Add"
-  ]
+  "labels": []
 }

@@ -167,8 +167,5 @@
   },
   "entityType": "location",
   "folder": "inactive",
-  "labels": [
-    "gateway132003",
-    "139381"
-  ]
+  "labels": []
 }

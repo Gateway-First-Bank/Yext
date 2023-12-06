@@ -6,8 +6,8 @@
     "address": {
       "city": "Lake Jackson",
       "countryCode": "US",
-      "line1": "207 That Way",
-      "line2": "Ste. C",
+      "line1": "105 This Way St.",
+      "line2": "Ste 105",
       "postalCode": "77566",
       "region": "TX"
     },
@@ -23,10 +23,6 @@
       "1718"
     ],
     "description": "At Gateway, we weave the knowledge and expertise of our local mortgage professionals together with state-of-the-art technology and the powerful resources of a national company to make your homebuying experience easy, reliable, and fast. Gateway’s focus on strengthening families through homeownership drives our commitment to the communities we serve.",
-    "displayCoordinate": {
-      "latitude": 29.0620369,
-      "longitude": -95.4882679
-    },
     "facebookAbout": "Strengthening families and communities through personalized financial solutions, expert guidance, and award-winning service.",
     "facebookCallToAction": {
       "type": "LEARN_MORE",
@@ -179,8 +175,5 @@
   },
   "entityType": "location",
   "folder": "281735",
-  "labels": [
-    "135766",
-    "gateway132003"
-  ]
+  "labels": []
 }

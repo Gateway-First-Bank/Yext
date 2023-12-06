@@ -16,6 +16,7 @@
     "c_answersFirstName": "Lorre",
     "c_answersLastName": "Buhler",
     "c_answersName": "Lorre Buhler",
+    "c_eTLClosedDate": "2023-12-06",
     "c_employeeID": "103046",
     "c_googleUTM": "?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
     "c_licensed": true,
@@ -28,15 +29,7 @@
       "1450365",
       "1718"
     ],
-    "description": "At Gateway, we weave the knowledge and expertise of our local mortgage professionals together with state-of-the-art technology and the powerful resources of a national company to make your homebuying experience easy, reliable, and fast. Gateway’s focus on strengthening families through homeownership drives our commitment to the communities we serve.",
-    "emails": [
-      "Lorre.Buhler@gatewayloan.com"
-    ],
-    "facebookAbout": "Strengthening families and communities through personalized financial solutions, expert guidance, and award-winning service.",
-    "facebookCallToAction": {
-      "type": "LEARN_MORE",
-      "value": "https://www.gatewayfirst.com/lorre-buhler"
-    },
+    "closed": true,
     "facebookCoverPhoto": {
       "height": 360,
       "sourceUrl": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/820x360.png",
@@ -81,10 +74,6 @@
     },
     "facebookVanityUrl": "GatewayMortgage[[c_answersFirstName]][[c_answersLastName]]",
     "fax": "+16056462269",
-    "featuredMessage": {
-      "description": "Apply Now!",
-      "url": "https://www.gatewayfirst.com/mortgage/apply-now"
-    },
     "googleAccountId": "106465598282274804591",
     "googlePlaceId": "ChIJz9DQSUOZMlMRljstJRqT3bE",
     "googleProfilePhoto": {
@@ -99,7 +88,6 @@
       "url": "https://a.mktgcdn.com/p/sgx_eyMCofCqsLWdQEJWoNfZPqIJOlW1tyARLUsGSuA/500x500.jpg",
       "width": 500
     },
-    "googleWebsiteOverride": "https://www.gatewayfirst.com/locations-atms/lorre-buhler?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
     "hours": {
       "friday": {
         "openIntervals": [
@@ -148,7 +136,6 @@
         ]
       }
     },
-    "impressum": "Gateway Mortgage, a division of Gateway First Bank. Member FDIC. Equal Housing Lender. NMLS 7233. All loans subject to program guidelines and final underwriting approval. Contact local mortgage center for details. Lorre Buhler NMLS 194064.",
     "logo": {
       "image": {
         "height": 400,
@@ -171,7 +158,7 @@
     },
     "mainPhone": "+16056462268",
     "mobilePhone": "+16054157394",
-    "name": "Lorre Buhler - Gateway Mortgage",
+    "name": "Lorre Buhler",
     "photoGallery": [
       {
         "image": {
@@ -180,35 +167,33 @@
           "thumbnails": [
             {
               "height": 500,
-              "url": "https://a.mktgcdn.com/p/S4J3E-3n2SHuTSWCaAdgCUHB2kjw1Q14492jsff4xDU/500x500.jpg",
+              "url": "http://a.mktgcdn.com/p/S4J3E-3n2SHuTSWCaAdgCUHB2kjw1Q14492jsff4xDU/500x500.jpg",
               "width": 500
             },
             {
               "height": 450,
-              "url": "https://a.mktgcdn.com/p/S4J3E-3n2SHuTSWCaAdgCUHB2kjw1Q14492jsff4xDU/450x450.jpg",
+              "url": "http://a.mktgcdn.com/p/S4J3E-3n2SHuTSWCaAdgCUHB2kjw1Q14492jsff4xDU/450x450.jpg",
               "width": 450
             },
             {
               "height": 196,
-              "url": "https://a.mktgcdn.com/p/S4J3E-3n2SHuTSWCaAdgCUHB2kjw1Q14492jsff4xDU/196x196.jpg",
+              "url": "http://a.mktgcdn.com/p/S4J3E-3n2SHuTSWCaAdgCUHB2kjw1Q14492jsff4xDU/196x196.jpg",
               "width": 196
             }
           ],
-          "url": "https://a.mktgcdn.com/p/S4J3E-3n2SHuTSWCaAdgCUHB2kjw1Q14492jsff4xDU/500x500.jpg",
+          "url": "http://a.mktgcdn.com/p/S4J3E-3n2SHuTSWCaAdgCUHB2kjw1Q14492jsff4xDU/500x500.jpg",
           "width": 500
         }
       }
     ],
     "timezone": "America/Denver",
     "websiteUrl": {
-      "displayUrl": "https://www.gatewayfirst.com/lorre-buhler",
-      "url": "https://www.gatewayfirst.com/locations-atms/lorre-buhler"
+      "displayUrl": "https://www.gatewayfirst.com/lorre-buhler"
     }
   },
   "entityType": "location",
-  "folder": "loanOfficers",
+  "folder": "inactive",
   "labels": [
-    "135766",
-    "gateway132003"
+    "139381"
   ]
 }

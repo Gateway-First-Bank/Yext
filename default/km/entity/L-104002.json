@@ -194,8 +194,5 @@
   },
   "entityType": "location",
   "folder": "loanOfficers",
-  "labels": [
-    "espexp2",
-    "139380"
-  ]
+  "labels": []
 }

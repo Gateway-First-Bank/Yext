@@ -13,6 +13,7 @@
     },
     "addressHidden": false,
     "c_activeOnAnswers": true,
+    "c_eTLClosedDate": "2023-12-06",
     "c_googleUTM": "?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
     "c_licensed": true,
     "c_nMLS": "7233",
@@ -25,12 +26,8 @@
       "1450365",
       "1718"
     ],
-    "description": "At Gateway, we weave the knowledge and expertise of our local mortgage professionals together with state-of-the-art technology and the powerful resources of a national company to make your homebuying experience easy, reliable, and fast. Gateway’s focus on strengthening families through homeownership drives our commitment to the communities we serve.",
+    "closed": true,
     "facebookAbout": "Strengthening families and communities through personalized financial solutions, expert guidance, and award-winning service.",
-    "facebookCallToAction": {
-      "type": "LEARN_MORE",
-      "value": "https://www.gatewayfirst.com/rapid-city-sd"
-    },
     "facebookCoverPhoto": {
       "height": 360,
       "sourceUrl": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/820x360.png",
@@ -70,13 +67,11 @@
     },
     "facebookVanityUrl": "GatewayMortgageRapidCitySD",
     "featuredMessage": {
-      "description": "Apply Now!",
-      "url": "https://www.gatewayfirst.com/mortgage/apply-now"
+      "description": "Apply Now!"
     },
     "geomodifier": "Rapid City",
     "googleAccountId": "106465598282274804591",
     "googlePlaceId": "ChIJo-mA2MtcfYcRVx7f-IM2GmE",
-    "googleWebsiteOverride": "https://www.gatewayfirst.com/locations-atms/rapid-city-sd?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
     "hours": {
       "friday": {
         "openIntervals": [
@@ -125,7 +120,6 @@
         ]
       }
     },
-    "impressum": "Gateway Mortgage, a division of Gateway First Bank. Member FDIC. Equal Housing Lender. NMLS 7233. All loans subject to program guidelines and final underwriting approval. Contact local mortgage center for details.",
     "logo": {
       "image": {
         "height": 400,
@@ -172,14 +166,12 @@
     ],
     "timezone": "America/Denver",
     "websiteUrl": {
-      "displayUrl": "https://www.gatewayfirst.com/rapid-city-sd",
-      "url": "https://www.gatewayfirst.com/locations-atms/rapid-city-sd"
+      "displayUrl": "https://www.gatewayfirst.com/rapid-city-sd"
     }
   },
   "entityType": "location",
-  "folder": "281735",
+  "folder": "inactive",
   "labels": [
-    "135766",
-    "gateway132003"
+    "139381"
   ]
 }

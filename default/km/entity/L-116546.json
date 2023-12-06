@@ -6,8 +6,8 @@
     "address": {
       "city": "Lake Jackson",
       "countryCode": "US",
-      "line1": "207 That Way",
-      "line2": "Ste. C",
+      "line1": "105 This Way St.",
+      "line2": "Ste 105",
       "postalCode": "77566",
       "region": "TX"
     },
@@ -193,8 +193,5 @@
   },
   "entityType": "location",
   "folder": "loanOfficers",
-  "labels": [
-    "139380",
-    "manexp8"
-  ]
+  "labels": []
 }

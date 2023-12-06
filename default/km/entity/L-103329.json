@@ -193,8 +193,5 @@
   },
   "entityType": "location",
   "folder": "loanOfficers",
-  "labels": [
-    "139380",
-    "manexp7"
-  ]
+  "labels": []
 }

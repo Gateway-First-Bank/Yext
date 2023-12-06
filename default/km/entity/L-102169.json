@@ -212,7 +212,5 @@
   },
   "entityType": "location",
   "folder": "inactive",
-  "labels": [
-    "139381"
-  ]
+  "labels": []
 }

@@ -185,9 +185,5 @@
   },
   "entityType": "location",
   "folder": "loanOfficers",
-  "labels": [
-    "135766",
-    "92386",
-    "gateway132003"
-  ]
+  "labels": []
 }
