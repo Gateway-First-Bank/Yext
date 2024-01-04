@@ -113,6 +113,11 @@
         "type": "JSON",
         "header": "c_licensed",
         "path": "c_licensed"
+      },
+      {
+        "type": "JSON",
+        "header": "closed",
+        "path": "closed"
       }
     ]
   },
@@ -125,6 +130,11 @@
           {
             "columnHeader": "c_eTLClosedDate",
             "conditional": "IS_NOT_BLANK"
+          },
+          {
+            "columnHeader": "closed",
+            "conditional": "EQUALS",
+            "conditionalInput": "true"
           }
         ]
       }
@@ -197,7 +207,7 @@
     {
       "connector": "LoanOfficerUpdate",
       "runMode": "DEFAULT",
-      "dryRun": true
+      "dryRun": false
     }
   ]
 }

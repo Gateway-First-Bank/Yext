@@ -37,5 +37,6 @@
       "filter": "yext/date",
       "in": "WEEKS_12"
     }
-  ]
+  ],
+  "shareWithSubAccounts": false
 }

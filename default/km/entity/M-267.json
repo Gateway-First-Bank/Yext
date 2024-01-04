@@ -13,7 +13,6 @@
     },
     "addressHidden": false,
     "c_activeOnAnswers": true,
-    "c_eTLClosedDate": "2023-12-06",
     "c_googleUTM": "?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
     "c_licensed": true,
     "c_nMLS": "7233",
@@ -26,7 +25,7 @@
       "1450365",
       "1718"
     ],
-    "closed": true,
+    "closed": false,
     "facebookAbout": "Strengthening families and communities through personalized financial solutions, expert guidance, and award-winning service.",
     "facebookCoverPhoto": {
       "height": 360,
@@ -166,11 +165,12 @@
     ],
     "timezone": "America/Denver",
     "websiteUrl": {
-      "displayUrl": "https://www.gatewayfirst.com/rapid-city-sd"
+      "displayUrl": "https://www.gatewayfirst.com/rapid-city-sd",
+      "url": "https://www.gatewayfirst.com/locations-atms/rapid-city-sd"
     }
   },
   "entityType": "location",
-  "folder": "inactive",
+  "folder": "281735",
   "labels": [
     "139381"
   ]

@@ -11,6 +11,7 @@
       "postalCode": "71105",
       "region": "LA"
     },
+    "c_eTLClosedDate": "2024-01-03",
     "c_googleUTM": "?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
     "c_licensed": true,
     "c_nMLS": "7233",
@@ -21,12 +22,7 @@
       "1450365",
       "1718"
     ],
-    "closed": false,
-    "description": "At Gateway, we weave the knowledge and expertise of our local mortgage professionals together with state-of-the-art technology and the powerful resources of a national company to make your homebuying experience easy, reliable, and fast. Gateway’s focus on strengthening families through homeownership drives our commitment to the communities we serve. Visit www.GatewayLoan.com to learn more.",
-    "facebookCallToAction": {
-      "type": "LEARN_MORE",
-      "value": "[[website.url]]"
-    },
+    "closed": true,
     "facebookCoverPhoto": {
       "height": 360,
       "thumbnails": [
@@ -83,13 +79,11 @@
     "facebookVanityUrl": "GatewayMortgageShreveportLA462",
     "fax": "+13182323139",
     "featuredMessage": {
-      "description": "Apply Now!",
-      "url": "https://www.gatewayfirst.com/mortgage/apply-now"
+      "description": "Apply Now!"
     },
     "geomodifier": "Shreveport",
     "googleAccountId": "106465598282274804591",
     "googlePlaceId": "ChIJCVPhIuctMYYRrDWY_1YHNJg",
-    "googleWebsiteOverride": "[[website.url]][[c_googleUTM]]",
     "hours": {
       "friday": {
         "openIntervals": [
@@ -138,7 +132,6 @@
         ]
       }
     },
-    "impressum": "Gateway Mortgage, a division of Gateway First Bank. Member FDIC. Equal Housing Lender. NMLS 7233. All loans subject to program guidelines and final underwriting approval. Contact local mortgage center for details.",
     "logo": {
       "image": {
         "height": 400,
@@ -186,12 +179,11 @@
         }
       }
     ],
-    "timezone": "America/Chicago",
-    "websiteUrl": {
-      "url": "https://www.gatewayfirst.com/locations-atms/shreveport-la"
-    }
+    "timezone": "America/Chicago"
   },
   "entityType": "location",
-  "folder": "281735",
-  "labels": []
+  "folder": "inactive",
+  "labels": [
+    "139381"
+  ]
 }

@@ -15,6 +15,7 @@
     "c_answersFirstName": "Isatu",
     "c_answersLastName": "Bah",
     "c_answersName": "Isatu Bah",
+    "c_eTLClosedDate": "2023-12-11",
     "c_employeeID": "103950",
     "c_googleUTM": "?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
     "c_licensed": true,
@@ -27,15 +28,7 @@
       "1450365",
       "1718"
     ],
-    "description": "At Gateway, we weave the knowledge and expertise of our local mortgage professionals together with state-of-the-art technology and the powerful resources of a national company to make your homebuying experience easy, reliable, and fast. Gateway’s focus on strengthening families through homeownership drives our commitment to the communities we serve.",
-    "emails": [
-      "Isatu.Bah@gatewayloan.com"
-    ],
-    "facebookAbout": "Strengthening families and communities through personalized financial solutions, expert guidance, and award-winning service.",
-    "facebookCallToAction": {
-      "type": "LEARN_MORE",
-      "value": "https://www.gatewayfirst.com/isatu-bah"
-    },
+    "closed": true,
     "facebookCoverPhoto": {
       "height": 360,
       "sourceUrl": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/820x360.png",
@@ -73,13 +66,8 @@
     },
     "facebookVanityUrl": "GatewayMortgage[[c_answersFirstName]][[c_answersLastName]]",
     "fax": "+18562465787",
-    "featuredMessage": {
-      "description": "Apply Now!",
-      "url": "https://www.gatewayfirst.com/mortgage/apply-now"
-    },
     "googleAccountId": "106465598282274804591",
     "googlePlaceId": "ChIJQT9Q2ZuVw4kRfIdQxJCl3ZA",
-    "googleWebsiteOverride": "https://www.gatewayfirst.com/locations-atms/isatu-bah?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
     "hours": {
       "friday": {
         "openIntervals": [
@@ -128,7 +116,6 @@
         ]
       }
     },
-    "impressum": "Gateway Mortgage, a division of Gateway First Bank. NMLS 7233. HQ: 244 South Gateway Place, Jenks, OK 74037. Tel: 877.406.8109. Maryland Mortgage Lender License 19468. Isatu Bah NMLS 1223443",
     "logo": {
       "image": {
         "height": 400,
@@ -151,7 +138,7 @@
     },
     "mainPhone": "+18562465785",
     "mobilePhone": "+16095773870",
-    "name": "Isatu Bah - Gateway Mortgage",
+    "name": "Isatu Bah",
     "photoGallery": [
       {
         "image": {
@@ -160,27 +147,25 @@
           "thumbnails": [
             {
               "height": 400,
-              "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+              "url": "http://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
               "width": 400
             },
             {
               "height": 196,
-              "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/196x196.png",
+              "url": "http://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/196x196.png",
               "width": 196
             }
           ],
-          "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+          "url": "http://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
           "width": 400
         }
       }
     ],
-    "timezone": "America/New_York",
-    "websiteUrl": {
-      "displayUrl": "https://www.gatewayfirst.com/isatu-bah",
-      "url": "https://www.gatewayfirst.com/locations-atms/isatu-bah"
-    }
+    "timezone": "America/New_York"
   },
   "entityType": "location",
-  "folder": "loanOfficers",
-  "labels": []
+  "folder": "inactive",
+  "labels": [
+    "139381"
+  ]
 }

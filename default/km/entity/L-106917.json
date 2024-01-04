@@ -13,6 +13,7 @@
     },
     "c_answersFirstName": "Lakisha",
     "c_answersLastName": "Russell",
+    "c_eTLClosedDate": "2024-01-03",
     "c_employeeID": "106917",
     "c_googleUTM": "?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
     "c_licensed": true,
@@ -22,16 +23,7 @@
       "1450365",
       "1718"
     ],
-    "closed": false,
-    "description": "At Gateway, we weave the knowledge and expertise of our local mortgage professionals together with state-of-the-art technology and the powerful resources of a national company to make your homebuying experience easy, reliable, and fast. Gateway’s focus on strengthening families through homeownership drives our commitment to the communities we serve.",
-    "emails": [
-      "Lakisha.Russell@gatewayloan.com"
-    ],
-    "facebookAbout": "Strengthening families and communities through personalized financial solutions, expert guidance, and award-winning service.",
-    "facebookCallToAction": {
-      "type": "LEARN_MORE",
-      "value": "[[website.url]]"
-    },
+    "closed": true,
     "facebookCoverPhoto": {
       "height": 360,
       "sourceUrl": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/820x360.png",
@@ -91,10 +83,6 @@
     },
     "facebookVanityUrl": "GatewayMortgage[[c_answersFirstName]][[c_answersLastName]]",
     "fax": "+13182323138",
-    "featuredMessage": {
-      "description": "Apply Now!",
-      "url": "https://www.gatewayfirst.com/mortgage/apply-now"
-    },
     "googleAccountId": "106465598282274804591",
     "googleCoverPhoto": {
       "height": 1200,
@@ -124,7 +112,6 @@
       "width": 960
     },
     "googlePlaceId": "ChIJ6RNh82K7JoYRg9kH7rv9qHQ",
-    "googleWebsiteOverride": "[[website.url]][[c_googleUTM]]",
     "hours": {
       "friday": {
         "openIntervals": [
@@ -173,7 +160,6 @@
         ]
       }
     },
-    "impressum": "Gateway Mortgage, a division of Gateway First Bank. Member FDIC. Equal Housing Lender. NMLS 7233. All loans subject to program guidelines and final underwriting approval. Contact local mortgage center for details. [[c_answersFirstName]] [[c_answersLastName]] NMLS [[c_nMLS]]",
     "logo": {
       "image": {
         "height": 400,
@@ -196,7 +182,7 @@
     },
     "mainPhone": "+13182323138",
     "mobilePhone": "+13185501187",
-    "name": "Lakisha Russell - Gateway Mortgage",
+    "name": "Lakisha Russell",
     "photoGallery": [
       {
         "image": {
@@ -205,36 +191,35 @@
           "thumbnails": [
             {
               "height": 1200,
-              "url": "https://a.mktgcdn.com/p/V8iMye4WME7_-5IBXPXlD4zmDXb_NsaYGaL9n2_vcdY/960x1200.jpg",
+              "url": "http://a.mktgcdn.com/p/V8iMye4WME7_-5IBXPXlD4zmDXb_NsaYGaL9n2_vcdY/960x1200.jpg",
               "width": 960
             },
             {
               "height": 774,
-              "url": "https://a.mktgcdn.com/p/V8iMye4WME7_-5IBXPXlD4zmDXb_NsaYGaL9n2_vcdY/619x774.jpg",
+              "url": "http://a.mktgcdn.com/p/V8iMye4WME7_-5IBXPXlD4zmDXb_NsaYGaL9n2_vcdY/619x774.jpg",
               "width": 619
             },
             {
               "height": 450,
-              "url": "https://a.mktgcdn.com/p/V8iMye4WME7_-5IBXPXlD4zmDXb_NsaYGaL9n2_vcdY/360x450.jpg",
+              "url": "http://a.mktgcdn.com/p/V8iMye4WME7_-5IBXPXlD4zmDXb_NsaYGaL9n2_vcdY/360x450.jpg",
               "width": 360
             },
             {
               "height": 245,
-              "url": "https://a.mktgcdn.com/p/V8iMye4WME7_-5IBXPXlD4zmDXb_NsaYGaL9n2_vcdY/196x245.jpg",
+              "url": "http://a.mktgcdn.com/p/V8iMye4WME7_-5IBXPXlD4zmDXb_NsaYGaL9n2_vcdY/196x245.jpg",
               "width": 196
             }
           ],
-          "url": "https://a.mktgcdn.com/p/V8iMye4WME7_-5IBXPXlD4zmDXb_NsaYGaL9n2_vcdY/960x1200.jpg",
+          "url": "http://a.mktgcdn.com/p/V8iMye4WME7_-5IBXPXlD4zmDXb_NsaYGaL9n2_vcdY/960x1200.jpg",
           "width": 960
         }
       }
     ],
-    "timezone": "America/Chicago",
-    "websiteUrl": {
-      "url": "https://www.gatewayfirst.com/locations-atms/lakisha-russell"
-    }
+    "timezone": "America/Chicago"
   },
   "entityType": "location",
-  "folder": "loanOfficers",
-  "labels": []
+  "folder": "inactive",
+  "labels": [
+    "139381"
+  ]
 }

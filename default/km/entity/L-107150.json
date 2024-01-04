@@ -23,15 +23,9 @@
       "1718"
     ],
     "closed": false,
-    "description": "At Gateway, we weave the knowledge and expertise of our local mortgage professionals together with state-of-the-art technology and the powerful resources of a national company to make your homebuying experience easy, reliable, and fast. Gateway’s focus on strengthening families through homeownership drives our commitment to the communities we serve.",
     "emails": [
       "Jose.Hernandez@gatewayloan.com"
     ],
-    "facebookAbout": "Strengthening families and communities through personalized financial solutions, expert guidance, and award-winning service.",
-    "facebookCallToAction": {
-      "type": "LEARN_MORE",
-      "value": "[[website.url]]"
-    },
     "facebookCoverPhoto": {
       "height": 360,
       "thumbnails": [
@@ -85,13 +79,8 @@
     },
     "facebookVanityUrl": "GatewayMortgageJoseHernandez",
     "fax": "+14799351050",
-    "featuredMessage": {
-      "description": "Apply Now!",
-      "url": "https://www.gatewayfirst.com/mortgage/apply-now"
-    },
     "googleAccountId": "106465598282274804591",
     "googlePlaceId": "ChIJuzNLURlryYcRM3bez4a25vo",
-    "googleWebsiteOverride": "[[website.url]][[c_googleUTM]]",
     "hours": {
       "friday": {
         "openIntervals": [
@@ -140,7 +129,6 @@
         ]
       }
     },
-    "impressum": "Gateway Mortgage, a division of Gateway First Bank. Member FDIC. Equal Housing Lender. NMLS 7233. All loans subject to program guidelines and final underwriting approval. Contact local mortgage center for details. [[c_answersFirstName]] [[c_answersLastName]] NMLS [[c_nMLS]]",
     "logo": {
       "image": {
         "height": 400,
@@ -172,6 +160,7 @@
       {
         "image": {
           "height": 400,
+          "sourceUrl": "http://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
           "thumbnails": [
             {
               "height": 400,

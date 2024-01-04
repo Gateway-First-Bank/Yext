@@ -1018,6 +1018,12 @@
         "newColumnHeader": "Licensed",
         "columnValue": "True"
       }
+    },
+    {
+      "addColumn": {
+        "newColumnHeader": "Closed",
+        "columnValue": "False"
+      }
     }
   ],
   "mappings": [
@@ -1759,6 +1765,12 @@
       "clearValueIfBlank": false
     },
     {
+      "header": "Closed",
+      "field": "closed",
+      "subfieldPath": [],
+      "clearValueIfBlank": false
+    },
+    {
       "header": "Google UTM",
       "field": "c_googleUTM",
       "subfieldPath": [],
@@ -2394,6 +2406,21 @@
           "type": "FIELD",
           "header": "Google UTM",
           "fieldId": "c_googleUTM"
+        },
+        {
+          "type": "FIELD",
+          "header": "Exempt from ETL",
+          "fieldId": "c_exemptFromETL"
+        },
+        {
+          "type": "FIELD",
+          "header": "Website URL \u003e Display URL",
+          "fieldId": "websiteUrl",
+          "subfieldPath": [
+            {
+              "name": "displayUrl"
+            }
+          ]
         }
       ],
       "transforms": [
@@ -2460,7 +2487,8 @@
                 "Hours \u003e Sunday \u003e Open Intervals \u003e Start",
                 "Facebook Call-to-Action \u003e Type",
                 "Google Website Override",
-                "Hours \u003e Saturday \u003e Open Intervals \u003e Start"
+                "Hours \u003e Saturday \u003e Open Intervals \u003e Start",
+                "Website URL \u003e Display URL"
               ]
             },
             "valueToFind": {
@@ -2815,6 +2843,16 @@
           "clearValueIfBlank": true
         },
         {
+          "header": "Website URL \u003e Display URL",
+          "field": "websiteUrl",
+          "subfieldPath": [
+            {
+              "name": "displayUrl"
+            }
+          ],
+          "clearValueIfBlank": true
+        },
+        {
           "header": "closedDate",
           "field": "c_eTLClosedDate",
           "subfieldPath": [],
@@ -2857,7 +2895,7 @@
     {
       "connector": "MortgageCenterUpdate",
       "runMode": "COMPREHENSIVE",
-      "dryRun": true
+      "dryRun": false
     }
   ]
 }

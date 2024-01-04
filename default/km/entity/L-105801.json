@@ -13,6 +13,7 @@
     },
     "c_answersFirstName": "Kirk",
     "c_answersLastName": "Kephart",
+    "c_eTLClosedDate": "2023-12-08",
     "c_employeeID": "105801",
     "c_googleUTM": "?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
     "c_licensed": true,
@@ -22,16 +23,7 @@
       "1450365",
       "1718"
     ],
-    "closed": false,
-    "description": "At Gateway, we weave the knowledge and expertise of our local mortgage professionals together with state-of-the-art technology and the powerful resources of a national company to make your homebuying experience easy, reliable, and fast. Gateway’s focus on strengthening families through homeownership drives our commitment to the communities we serve.",
-    "emails": [
-      "Kirk.Kephart@gatewayloan.com"
-    ],
-    "facebookAbout": "Strengthening families and communities through personalized financial solutions, expert guidance, and award-winning service.",
-    "facebookCallToAction": {
-      "type": "LEARN_MORE",
-      "value": "[[website.url]]"
-    },
+    "closed": true,
     "facebookCoverPhoto": {
       "height": 360,
       "sourceUrl": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/820x360.png",
@@ -86,10 +78,6 @@
     },
     "facebookVanityUrl": "GatewayMortgage[[c_answersFirstName]][[c_answersLastName]]",
     "fax": "+19727776124",
-    "featuredMessage": {
-      "description": "Apply Now!",
-      "url": "https://www.gatewayfirst.com/mortgage/apply-now"
-    },
     "googleAccountId": "106465598282274804591",
     "googlePlaceId": "ChIJqy9JOfwjTIYRb82RKueMtAQ",
     "hours": {
@@ -140,7 +128,6 @@
         ]
       }
     },
-    "impressum": "Gateway Mortgage, a division of Gateway First Bank. Member FDIC. Equal Housing Lender. NMLS 7233. All loans subject to program guidelines and final underwriting approval. Contact local mortgage center for details. [[c_answersFirstName]] [[c_answersLastName]] NMLS [[c_nMLS]]",
     "logo": {
       "image": {
         "height": 400,
@@ -163,7 +150,7 @@
     },
     "mainPhone": "+19727776123",
     "mobilePhone": "+12146750694",
-    "name": "Kirk Kephart - Gateway Mortgage",
+    "name": "Kirk Kephart",
     "photoGallery": [
       {
         "image": {
@@ -172,26 +159,25 @@
           "thumbnails": [
             {
               "height": 400,
-              "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+              "url": "http://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
               "width": 400
             },
             {
               "height": 196,
-              "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/196x196.png",
+              "url": "http://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/196x196.png",
               "width": 196
             }
           ],
-          "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+          "url": "http://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
           "width": 400
         }
       }
     ],
-    "timezone": "America/Chicago",
-    "websiteUrl": {
-      "url": "https://www.gatewayfirst.com/locations-atms/kirk-kephart"
-    }
+    "timezone": "America/Chicago"
   },
   "entityType": "location",
-  "folder": "loanOfficers",
-  "labels": []
+  "folder": "inactive",
+  "labels": [
+    "139381"
+  ]
 }

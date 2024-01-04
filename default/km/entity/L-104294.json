@@ -15,6 +15,7 @@
     "c_answersFirstName": "Jackie",
     "c_answersLastName": "Arledge",
     "c_answersName": "Jackie Arledge",
+    "c_eTLClosedDate": "2024-01-03",
     "c_employeeID": "104294",
     "c_googleUTM": "?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
     "c_licensed": true,
@@ -27,15 +28,7 @@
       "1450365",
       "1718"
     ],
-    "description": "At Gateway, we weave the knowledge and expertise of our local mortgage professionals together with state-of-the-art technology and the powerful resources of a national company to make your homebuying experience easy, reliable, and fast. Gateway’s focus on strengthening families through homeownership drives our commitment to the communities we serve.",
-    "emails": [
-      "Jackie.Arledge@gatewayloan.com"
-    ],
-    "facebookAbout": "Strengthening families and communities through personalized financial solutions, expert guidance, and award-winning service.",
-    "facebookCallToAction": {
-      "type": "LEARN_MORE",
-      "value": "https://www.gatewayfirst.com/jackie-arledge"
-    },
+    "closed": true,
     "facebookCoverPhoto": {
       "height": 360,
       "sourceUrl": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/820x360.png",
@@ -80,10 +73,6 @@
     },
     "facebookVanityUrl": "GatewayMortgage[[c_answersFirstName]][[c_answersLastName]]",
     "fax": "+14794396656",
-    "featuredMessage": {
-      "description": "Apply Now!",
-      "url": "https://www.gatewayfirst.com/mortgage/apply-now"
-    },
     "googleAccountId": "106465598282274804591",
     "googleCoverPhoto": {
       "height": 600,
@@ -98,7 +87,6 @@
       "width": 600
     },
     "googlePlaceId": "ChIJrdr7T_obyYcR9oKUnBwsmPY",
-    "googleWebsiteOverride": "https://www.gatewayfirst.com/locations-atms/jackie-arledge?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
     "hours": {
       "friday": {
         "openIntervals": [
@@ -147,7 +135,6 @@
         ]
       }
     },
-    "impressum": "Gateway Mortgage, a division of Gateway First Bank. Member FDIC. Equal Housing Lender. NMLS 7233. All loans subject to program guidelines and final underwriting approval. Contact local mortgage center for details. Jackie Arledge NMLS 492414.",
     "logo": {
       "image": {
         "height": 400,
@@ -170,7 +157,7 @@
     },
     "mainPhone": "+14794396655",
     "mobilePhone": "+14795303096",
-    "name": "Jackie Arledge - Gateway Mortgage",
+    "name": "Jackie Arledge",
     "photoGallery": [
       {
         "image": {
@@ -179,16 +166,16 @@
           "thumbnails": [
             {
               "height": 400,
-              "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+              "url": "http://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
               "width": 400
             },
             {
               "height": 196,
-              "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/196x196.png",
+              "url": "http://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/196x196.png",
               "width": 196
             }
           ],
-          "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+          "url": "http://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
           "width": 400
         }
       },
@@ -199,32 +186,30 @@
           "thumbnails": [
             {
               "height": 600,
-              "url": "https://a.mktgcdn.com/p/8DM83C1eW50UhQ9O5pubRQYhCY7M5gLwSp386cTSYKY/600x600.jpg",
+              "url": "http://a.mktgcdn.com/p/8DM83C1eW50UhQ9O5pubRQYhCY7M5gLwSp386cTSYKY/600x600.jpg",
               "width": 600
             },
             {
               "height": 450,
-              "url": "https://a.mktgcdn.com/p/8DM83C1eW50UhQ9O5pubRQYhCY7M5gLwSp386cTSYKY/450x450.jpg",
+              "url": "http://a.mktgcdn.com/p/8DM83C1eW50UhQ9O5pubRQYhCY7M5gLwSp386cTSYKY/450x450.jpg",
               "width": 450
             },
             {
               "height": 196,
-              "url": "https://a.mktgcdn.com/p/8DM83C1eW50UhQ9O5pubRQYhCY7M5gLwSp386cTSYKY/196x196.jpg",
+              "url": "http://a.mktgcdn.com/p/8DM83C1eW50UhQ9O5pubRQYhCY7M5gLwSp386cTSYKY/196x196.jpg",
               "width": 196
             }
           ],
-          "url": "https://a.mktgcdn.com/p/8DM83C1eW50UhQ9O5pubRQYhCY7M5gLwSp386cTSYKY/600x600.jpg",
+          "url": "http://a.mktgcdn.com/p/8DM83C1eW50UhQ9O5pubRQYhCY7M5gLwSp386cTSYKY/600x600.jpg",
           "width": 600
         }
       }
     ],
-    "timezone": "America/Chicago",
-    "websiteUrl": {
-      "displayUrl": "https://www.gatewayfirst.com/jackie-arledge",
-      "url": "https://www.gatewayfirst.com/locations-atms/jackie-arledge"
-    }
+    "timezone": "America/Chicago"
   },
   "entityType": "location",
-  "folder": "loanOfficers",
-  "labels": []
+  "folder": "inactive",
+  "labels": [
+    "139381"
+  ]
 }

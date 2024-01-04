@@ -955,6 +955,12 @@
         "newColumnHeader": "Licensed",
         "columnValue": "True"
       }
+    },
+    {
+      "addColumn": {
+        "newColumnHeader": "Closed",
+        "columnValue": "False"
+      }
     }
   ],
   "mappings": [
@@ -1670,6 +1676,12 @@
       "field": "c_googleUTM",
       "subfieldPath": [],
       "clearValueIfBlank": false
+    },
+    {
+      "header": "Closed",
+      "field": "closed",
+      "subfieldPath": [],
+      "clearValueIfBlank": false
     }
   ],
   "scheduleConfig": {
@@ -1680,7 +1692,7 @@
       "frequencyType": "DAILY"
     },
     "runMode": "COMPREHENSIVE",
-    "dryRun": true
+    "dryRun": false
   },
   "comprehensiveModeConfig": {
     "comprehensiveSet": "ENTITIES_IN_SAVED_FILTER",
@@ -2281,6 +2293,11 @@
           "type": "FIELD",
           "header": "Google UTM",
           "fieldId": "c_googleUTM"
+        },
+        {
+          "type": "FIELD",
+          "header": "Exempt from ETL",
+          "fieldId": "c_exemptFromETL"
         }
       ],
       "transforms": [

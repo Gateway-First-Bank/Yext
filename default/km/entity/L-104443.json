@@ -13,6 +13,7 @@
     },
     "c_answersFirstName": "Deidra",
     "c_answersLastName": "Weant",
+    "c_eTLClosedDate": "2023-12-08",
     "c_employeeID": "104443",
     "c_googleUTM": "?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
     "c_licensed": true,
@@ -22,16 +23,7 @@
       "1450365",
       "1718"
     ],
-    "closed": false,
-    "description": "At Gateway, we weave the knowledge and expertise of our local mortgage professionals together with state-of-the-art technology and the powerful resources of a national company to make your homebuying experience easy, reliable, and fast. Gateway’s focus on strengthening families through homeownership drives our commitment to the communities we serve.",
-    "emails": [
-      "Deidra.Weant@gatewayloan.com"
-    ],
-    "facebookAbout": "Strengthening families and communities through personalized financial solutions, expert guidance, and award-winning service.",
-    "facebookCallToAction": {
-      "type": "LEARN_MORE",
-      "value": "[[website.url]]"
-    },
+    "closed": true,
     "facebookCoverPhoto": {
       "height": 360,
       "thumbnails": [
@@ -84,10 +76,6 @@
       "width": 600
     },
     "facebookVanityUrl": "GatewayMortgageDeidraMireles",
-    "featuredMessage": {
-      "description": "Apply Now!",
-      "url": "https://www.gatewayfirst.com/mortgage/apply-now"
-    },
     "googleAccountId": "106465598282274804591",
     "googleCoverPhoto": {
       "height": 600,
@@ -112,7 +100,6 @@
       "width": 600
     },
     "googlePlaceId": "ChIJnWuobPqjXIYRbJ2mtY8uThE",
-    "googleWebsiteOverride": "[[website.url]][[c_googleUTM]]",
     "hours": {
       "friday": {
         "openIntervals": [
@@ -161,7 +148,6 @@
         ]
       }
     },
-    "impressum": "Gateway Mortgage, a division of Gateway First Bank. Member FDIC. Equal Housing Lender. NMLS 7233. All loans subject to program guidelines and final underwriting approval. Contact local mortgage center for details. [[c_answersFirstName]] [[c_answersLastName]] NMLS [[c_nMLS]]",
     "logo": {
       "image": {
         "height": 400,
@@ -188,11 +174,12 @@
     },
     "mainPhone": "+18305154633",
     "mobilePhone": "+15127482153",
-    "name": "Deidra Weant - Gateway Mortgage",
+    "name": "Deidra Weant",
     "photoGallery": [
       {
         "image": {
           "height": 400,
+          "sourceUrl": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
           "thumbnails": [
             {
               "height": 400,
@@ -205,31 +192,41 @@
               "width": 196
             }
           ],
-          "url": "https://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
+          "url": "http://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
           "width": 400
         }
       },
       {
         "image": {
           "height": 600,
+          "sourceUrl": "https://a.mktgcdn.com/p/yjeL-tI19eAm3hOl4mmoCmDO1ep2N6c4D4D1T3mjLM0/600x600.jpg",
           "thumbnails": [
             {
               "height": 600,
-              "url": "https://a.mktgcdn.com/p/yjeL-tI19eAm3hOl4mmoCmDO1ep2N6c4D4D1T3mjLM0/600x600.jpg",
+              "url": "http://a.mktgcdn.com/p/yjeL-tI19eAm3hOl4mmoCmDO1ep2N6c4D4D1T3mjLM0/600x600.jpg",
               "width": 600
+            },
+            {
+              "height": 450,
+              "url": "http://a.mktgcdn.com/p/yjeL-tI19eAm3hOl4mmoCmDO1ep2N6c4D4D1T3mjLM0/450x450.jpg",
+              "width": 450
+            },
+            {
+              "height": 196,
+              "url": "http://a.mktgcdn.com/p/yjeL-tI19eAm3hOl4mmoCmDO1ep2N6c4D4D1T3mjLM0/196x196.jpg",
+              "width": 196
             }
           ],
-          "url": "https://a.mktgcdn.com/p/yjeL-tI19eAm3hOl4mmoCmDO1ep2N6c4D4D1T3mjLM0/600x600.jpg",
+          "url": "http://a.mktgcdn.com/p/yjeL-tI19eAm3hOl4mmoCmDO1ep2N6c4D4D1T3mjLM0/600x600.jpg",
           "width": 600
         }
       }
     ],
-    "timezone": "America/Chicago",
-    "websiteUrl": {
-      "url": "https://www.gatewayfirst.com/locations-atms/deidra-weant"
-    }
+    "timezone": "America/Chicago"
   },
   "entityType": "location",
-  "folder": "loanOfficers",
-  "labels": []
+  "folder": "inactive",
+  "labels": [
+    "139381"
+  ]
 }

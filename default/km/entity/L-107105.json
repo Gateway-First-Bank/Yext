@@ -12,6 +12,7 @@
     },
     "c_answersFirstName": "Jeffrey",
     "c_answersLastName": "Katz",
+    "c_eTLClosedDate": "2024-01-03",
     "c_employeeID": "107105",
     "c_googleUTM": "?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
     "c_licensed": true,
@@ -21,16 +22,7 @@
       "1450365",
       "1718"
     ],
-    "closed": false,
-    "description": "At Gateway, we weave the knowledge and expertise of our local mortgage professionals together with state-of-the-art technology and the powerful resources of a national company to make your homebuying experience easy, reliable, and fast. Gateway’s focus on strengthening families through homeownership drives our commitment to the communities we serve.",
-    "emails": [
-      "Jeffrey.Katz@gatewayloan.com"
-    ],
-    "facebookAbout": "Strengthening families and communities through personalized financial solutions, expert guidance, and award-winning service.",
-    "facebookCallToAction": {
-      "type": "LEARN_MORE",
-      "value": "[[website.url]]"
-    },
+    "closed": true,
     "facebookCoverPhoto": {
       "height": 360,
       "thumbnails": [
@@ -84,13 +76,8 @@
     },
     "facebookVanityUrl": "GatewayMortgage[[c_answersFirstName]][[c_answersLastName]]",
     "fax": "+19083003606",
-    "featuredMessage": {
-      "description": "Apply Now!",
-      "url": "https://www.gatewayfirst.com/mortgage/apply-now"
-    },
     "googleAccountId": "106465598282274804591",
     "googlePlaceId": "ChIJofjqRaOVw4kRPRxCWx3SFTk",
-    "googleWebsiteOverride": "[[website.url]][[c_googleUTM]]",
     "hours": {
       "friday": {
         "openIntervals": [
@@ -139,7 +126,6 @@
         ]
       }
     },
-    "impressum": "Gateway Mortgage, a division of Gateway First Bank. Member FDIC. Equal Housing Lender. NMLS 7233. All loans subject to program guidelines and final underwriting approval. Contact local mortgage center for details. [[c_answersFirstName]] [[c_answersLastName]] NMLS [[c_nMLS]]",
     "logo": {
       "image": {
         "height": 400,
@@ -166,11 +152,12 @@
     },
     "mainPhone": "+19083003605",
     "mobilePhone": "+19144621693",
-    "name": "Jeffrey Katz - Gateway Mortgage",
+    "name": "Jeffrey Katz",
     "photoGallery": [
       {
         "image": {
           "height": 400,
+          "sourceUrl": "http://a.mktgcdn.com/p/IsWF_KhG209OlcrReN5rJwkdXjfp1jEsk1PB1ea4aGA/400x400.png",
           "thumbnails": [
             {
               "height": 400,
@@ -188,12 +175,11 @@
         }
       }
     ],
-    "timezone": "America/New_York",
-    "websiteUrl": {
-      "url": "https://www.gatewayfirst.com/locations-atms/jeffrey-katz"
-    }
+    "timezone": "America/New_York"
   },
   "entityType": "location",
-  "folder": "loanOfficers",
-  "labels": []
+  "folder": "inactive",
+  "labels": [
+    "139381"
+  ]
 }

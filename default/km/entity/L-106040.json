@@ -13,6 +13,7 @@
     },
     "c_answersFirstName": "Dee",
     "c_answersLastName": "Anderson",
+    "c_eTLClosedDate": "2024-01-03",
     "c_employeeID": "106040",
     "c_googleUTM": "?utm_source\u003dgoogle\u0026utm_medium\u003dyext\u0026utm_campaign\u003dyext_referral",
     "c_licensed": true,
@@ -22,11 +23,7 @@
       "1450365",
       "1718"
     ],
-    "closed": false,
-    "emails": [
-      "dee.anderson@gatewayloan.com"
-    ],
-    "facebookAbout": "Strengthening families and communities through personalized financial solutions, expert guidance, and award-winning service.",
+    "closed": true,
     "facebookCoverPhoto": {
       "height": 360,
       "sourceUrl": "https://a.mktgcdn.com/p/FxE0HIzlg88FAR1nzjuCis3OtyUrmpUBTv8yBKqm_9o/820x360.png",
@@ -127,7 +124,6 @@
         "isClosed": true
       }
     },
-    "impressum": "Gateway Mortgage, a division of Gateway First Bank. Member FDIC. Equal Housing Lender. NMLS 7233. All loans subject to program guidelines and final underwriting approval. Contact local mortgage center for details. MLO Dee Anderson 845885.",
     "logo": {
       "image": {
         "height": 400,
@@ -150,29 +146,39 @@
     },
     "mainPhone": "+18307439783",
     "mobilePhone": "+12103827789",
-    "name": "Dee Anderson - Gateway Mortgage",
+    "name": "Dee Anderson",
     "photoGallery": [
       {
         "image": {
           "height": 600,
+          "sourceUrl": "https://a.mktgcdn.com/p/Jo0KAomuF7JHWL8hkbBx9_gDaUJHAcv6bzEJiwGbc0A/600x600.jpg",
           "thumbnails": [
             {
               "height": 600,
-              "url": "https://a.mktgcdn.com/p/Jo0KAomuF7JHWL8hkbBx9_gDaUJHAcv6bzEJiwGbc0A/600x600.jpg",
+              "url": "http://a.mktgcdn.com/p/Jo0KAomuF7JHWL8hkbBx9_gDaUJHAcv6bzEJiwGbc0A/600x600.jpg",
               "width": 600
+            },
+            {
+              "height": 450,
+              "url": "http://a.mktgcdn.com/p/Jo0KAomuF7JHWL8hkbBx9_gDaUJHAcv6bzEJiwGbc0A/450x450.jpg",
+              "width": 450
+            },
+            {
+              "height": 196,
+              "url": "http://a.mktgcdn.com/p/Jo0KAomuF7JHWL8hkbBx9_gDaUJHAcv6bzEJiwGbc0A/196x196.jpg",
+              "width": 196
             }
           ],
-          "url": "https://a.mktgcdn.com/p/Jo0KAomuF7JHWL8hkbBx9_gDaUJHAcv6bzEJiwGbc0A/600x600.jpg",
+          "url": "http://a.mktgcdn.com/p/Jo0KAomuF7JHWL8hkbBx9_gDaUJHAcv6bzEJiwGbc0A/600x600.jpg",
           "width": 600
         }
       }
     ],
-    "timezone": "America/Chicago",
-    "websiteUrl": {
-      "url": "https://www.gatewayfirst.com/locations-atms/dee-anderson"
-    }
+    "timezone": "America/Chicago"
   },
   "entityType": "location",
-  "folder": "loanOfficers",
-  "labels": []
+  "folder": "inactive",
+  "labels": [
+    "139381"
+  ]
 }
